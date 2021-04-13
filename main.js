@@ -1,13 +1,14 @@
 function main(){
 
 	const fs = 44100;	// [Hz]
-	const n = 1;
+	const n = 10;
 
 	// generating n seconds of random real input signal for STFT
 	//var inputReal = randomReals(n*fs);
 
-	// 29 seconds of sound signal for STFT
-	var inputReal = sample();
+	// generate n seconds of sound signal for STFT
+	// important! to call sample() keep 1 < n < 23
+	var inputReal = sample(n);
 
 	// plotting input signal for STFT
 	input = document.getElementById('input');
