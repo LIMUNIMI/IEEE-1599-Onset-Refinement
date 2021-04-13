@@ -1,7 +1,7 @@
 function main(){
 
 	const fs = 44100;	// [Hz]
-	const n = 0.1;
+	const n = 60;
 
 	// generating n seconds of random real input signal for STFT
 	var inputReal = randomReals(n*fs);
@@ -13,8 +13,8 @@ function main(){
 	res = STFT(inputReal, windowSize, hopSize);
 	console.log(res);
 
-	//createDetectionFunction(res, windowSize);
-
+	detectionFunction = createDetectionFunction(res, windowSize);
+	console.log(detectionFunction);
 }
 
 function randomReals(size) {
@@ -61,9 +61,6 @@ function STFT(inputReal, windowSize, hopSize){
 	return res;
 }
 
-// ... in progress ... 
-// - devo fare princarg sui valori target della fase
-// - la distanza euclidea non si fa con modulo e fase ma con Re e Im
 function createDetectionFunction(s, windowSize){ 
 
 	// target amplitude for a frame corresponds to the magnitude of the previous frame
@@ -75,7 +72,7 @@ function createDetectionFunction(s, windowSize){
 	// target amplitude for the 1st frame is set to 0
 	targetAmplitude.push(new Array(windowSize).fill(0));
 
-	// target amplitude for the 2nd frame (here only to avoid pushing amplitude and phase values in two separate loops)
+	// target amplitude for the 2nd frame (it's here only to avoid pushing amplitude and phase values in two separate loops)
 	targetAmplitude.push(s[0][0]);
 
 	// target phase for the 1st and the 2nd frame is set to 0
@@ -84,7 +81,9 @@ function createDetectionFunction(s, windowSize){
 
 	for (var i = 2; i < s.length; i++){
 		targetAmplitude.push(s[i-1][0]);
-		targetPhase.push(math.subtract(math.multiply(2, s[i-1][1]), s[i-2][1]));
+		targetPhaseValues = math.subtract(math.multiply(2, s[i-1][1]), s[i-2][1]);
+		// given a vector x, computing math.atan2(math.sin(x), math.cos(x)) maps the values to the [-pi, pi] range
+		targetPhase.push(math.atan2(math.sin(targetPhaseValues), math.cos(targetPhaseValues)));
 	}
 
 	//console.log(targetAmplitude);
@@ -92,15 +91,22 @@ function createDetectionFunction(s, windowSize){
 
 	// constructing the detection function
 	var detectionFunction = [];
+	
 	for (var i = 0; i < s.length; i++){
 
 		var stationarityMeasures = [];
 		for (var k = 0; k < windowSize; k++){
-			// measuring Euclidean distance for the kth bin between target and current vector in the complex space
-			stationarityMeasures.push(math.distance([targetAmplitude[i][k], s[i][0][k]], [targetPhase[i][k], s[i][1][k]]));
+
+			var targetRealImag = math.Complex.fromPolar({r: targetAmplitude[i][k], phi: targetPhase[i][k]});
+			var measuredRealImag = math.Complex.fromPolar({r: s[i][0][k], phi: s[i][1][k]});
+
+			// measuring Euclidean distance for the kth bin between target and measured vector in the complex space
+			stationarityMeasures.push(math.distance([targetRealImag.re, measuredRealImag.re], [targetRealImag.im, measuredRealImag.im]));
 		}
 		detectionFunction.push(math.sum(stationarityMeasures));
 	}
+
+	return detectionFunction;
 }
 
 main();
