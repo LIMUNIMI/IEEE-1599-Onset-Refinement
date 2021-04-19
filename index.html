@@ -4,17 +4,35 @@
     <meta charset="utf-8">
     <meta name="author" content="Alessandro Minoli">
     <title>Musical Onset Detection in the Complex Domain</title>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.1/math.js" integrity="sha512-Fd1dBD9iAiA2a6/hW6aJBbPCFr8ANUt9AS99aeK9vKh1LLRs1N7daoYLZ7qQ76ruhTEuA6wt6nFnHqV+QR1kQw==" crossorigin="anonymous"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="nayuki/fft.js"></script>
     <script src="window-function/apply.js"></script>
     <script src="window-function/hamming.js"></script>
+
+    <!--<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/addons/p5.sound.min.js"></script>-->
 </head>
 <body>
+    <!--<audio id="audiofile" controls>
+        <source src="sample.mp3">
+    </audio>-->
+
+    <h1 id="tempo"></h1> <!-- Parto da 23113, 22519, 22582 e arrivo a 22891, 22861 11754 12080-->
 	<h1>Input signal:</h1>
 	<div id="input"></div>
 	<h1>Detection function:</h1>
 	<div id="output"></div>
 	<script src="sample.js"></script>
+    <script src="plots.js"></script>
     <script src="main.js"></script>
+
+    
+
+    <!--<div class="wrapper">
+        <canvas class="visualizer" width="640" height="100"></canvas>
+    </div>-->
+     
+    <!--<script src="test2.js"></script>-->
 </body>
