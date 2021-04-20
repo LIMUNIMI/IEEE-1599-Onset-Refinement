@@ -1,7 +1,7 @@
 function main(){
 
 	const fs = 44100;	// [Hz]
-	const n = 20;
+	const n = 10;
 
 	// generating n seconds of random real input signal for STFT
 	//var inputReal = randomReals(n*fs);
@@ -20,13 +20,15 @@ function main(){
 	var t0 = performance.now()
 
 	res = STFT(inputReal, windowSize, hopSize);
-	//console.log(res);
 
 	df = createDetectionFunction(res, windowSize);
-	//console.log(df);
+	//df = createDetectionFunction2(res, windowSize);
 
 	var t1 = performance.now()
 	document.getElementById("tempo").innerHTML = "Execution time: " + (t1 - t0) + " ms";
+
+	// normalizing detection function in range [0,1]
+	df = math.divide(df, math.max(df));
 
 	// plotting detection function
 	plotDF(df);
@@ -108,9 +110,6 @@ function createDetectionFunction(s, windowSize){
 		targetPhases.push(math.atan2(math.sin(targetPhaseValue), math.cos(targetPhaseValue)));
 	}
 
-	//console.log(targetAmplitudes);
-	//console.log(targetPhases);
-
 	// constructing the detection function
 	var detectionFunction = [];
 	for (var i = 0; i < len; i++){
@@ -125,6 +124,36 @@ function createDetectionFunction(s, windowSize){
 			stationarityMeasures.push(math.distance([targetReIm.re, measuredReIm.re], [targetReIm.im, measuredReIm.im]));
 		}
 		detectionFunction.push(math.sum(stationarityMeasures));
+	}
+
+	return detectionFunction;
+}
+
+// ... in progress ...
+function createDetectionFunction2(s, windowSize){ 
+
+	var targetAmplitudes = [];
+	var zerosArray = new Array(windowSize/2).fill(0);
+	
+	targetAmplitudes.push(zerosArray.slice());	// target amplitude for the 1st frame is set to 0	
+	targetAmplitudes.push(s[0][0]); 			// target amplitude for the 2nd frame
+
+	var len = s.length;
+	for (var i = 2; i < len; i++){
+		targetAmplitudes.push(s[i-1][0]);
+		var phaseDeviation = math.add(s[i][1], math.multiply(-2, s[i-1][1]), s[i-2][1]);
+		s[i][1] = math.atan2(math.sin(phaseDeviation), math.cos(phaseDeviation)); 			// maps the values of phaseDeviation to the range [-pi, pi]
+	}
+
+	// ? non so se va bene metterle a 0, penso di sì
+	s[0][1] = zerosArray.slice();
+	s[1][1] = zerosArray.slice();
+
+	// ? il problema è che la detectionFunction viene complessa perchè estraggo la radice di stationarity measures negative
+	var detectionFunction = [];
+	for (var i = 0; i < len; i++){
+		frameStationarityMeasures = math.sqrt(math.add(math.dotPow(targetAmplitudes[i], 2), math.dotPow(s[i][0], 2), math.multiply(-2, targetAmplitudes[i], s[i][0], math.cos(s[i][1]))));
+		detectionFunction.push(math.sum(frameStationarityMeasures));
 	}
 
 	return detectionFunction;
