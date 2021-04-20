@@ -10,9 +10,6 @@ function main(){
 	// !important - to call sample() keep 1 < n < 23
 	var inputReal = sample(n);
 
-	// plotting input signal for STFT
-	plotInput(inputReal);
-
 	// setting parameters for STFT (parameters used in 'Onset detection revisited', Simon Dixon)
 	const windowSize = 2048; 	// [#samples] (46ms)
 	const hopSize = 441; 		// [#samples] (10ms, 78.5% overlap)
@@ -30,8 +27,8 @@ function main(){
 	// normalizing detection function in range [0,1]
 	df = math.divide(df, math.max(df));
 
-	// plotting detection function
-	plotDF(df);
+	// plotting results
+	plotData(inputReal, df);
 }
 
 function randomReals(size) {
