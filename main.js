@@ -1,43 +1,83 @@
 function main(){
 
-	const fs = 44100;	// [Hz]
-	const n = 10;
+	// list of audio files in 'audio' folder
+	// np_p.mp3	--> non-pitched percussive, length 14s
+	// p_np.mp3 --> pitched non-percussive, length 60s
+	// p_p.mp3 	--> pitched percussive, length 60s
+	// cm.mp3 	--> complex mixture, length 60s
 
-	// generating n seconds of random real input signal for STFT
-	//var inputReal = randomReals(n*fs);
+	const audiofile = 'audio/p_p.mp3';	// audiofile to analyze
+	const fs = 44100;					// sampling rate [Hz]
+	const n = 20;						// seconds of audiofile to analyze
+	document.getElementById("time").innerHTML = "... analyzing leading " + n + " seconds of " + audiofile + " ...";
 
-	// generate n seconds of sound signal for STFT
-	// !important - to call sample() keep 1 < n < 23
-	var inputReal = sample(n);
+	var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+	var offlineCtx = new OfflineAudioContext(1, fs*n, fs);	// numberOfChannels = 1, length = fs*n, sampleRate = fs
 
+	source = offlineCtx.createBufferSource();
+
+	request = new XMLHttpRequest();
+    request.open('GET', audiofile, true);
+    request.responseType = 'arraybuffer';
+
+    request.onload = function() {
+        var audioData = request.response;
+
+        audioCtx.decodeAudioData(audioData, function(buffer) {
+            myBuffer = buffer;
+            source.buffer = myBuffer;
+            source.connect(offlineCtx.destination);
+            source.start();
+            offlineCtx.startRendering().then(function(renderedBuffer) {
+                console.log('Rendering completed successfully');
+                var song = audioCtx.createBufferSource();
+                song.buffer = renderedBuffer;
+
+                var inputReal = song.buffer.getChannelData(0);
+                complexDomainOnsetDetection(inputReal);
+
+                // playback controls
+                // *** score follower needed
+                song.connect(audioCtx.destination);
+                controls = document.getElementById("controls");
+                stop = document.getElementById("stop");
+                play.style.display = "inline-block";
+                stop.style.display = "inline-block";
+                play.onclick = function() {
+                  song.start();
+                }
+                stop.onclick = function() {
+                  song.stop();
+                }
+            }).catch(function(err) {
+                console.log('Rendering failed: ' + err);
+                // Note: The promise should reject when startRendering is called a second time on an OfflineAudioContext
+            });
+        });
+    }
+    
+    request.send();
+
+}
+
+function complexDomainOnsetDetection(inputReal){
+	
 	// setting parameters for STFT (parameters used in 'Onset detection revisited', Simon Dixon)
 	const windowSize = 2048; 	// [#samples] (46ms)
 	const hopSize = 441; 		// [#samples] (10ms, 78.5% overlap)
 
 	var t0 = performance.now()
 
-	res = STFT(inputReal, windowSize, hopSize);
-
-	df = createDetectionFunction(res, windowSize);
-	//df = createDetectionFunction2(res, windowSize);
+	var res = STFT(inputReal, windowSize, hopSize);
+	var df = createDetectionFunction(res, windowSize);
+	//var df = createDetectionFunction2(res, windowSize);	// ... in progress ...
 
 	var t1 = performance.now()
-	document.getElementById("tempo").innerHTML = "Execution time: " + (t1 - t0) + " ms";
-
-	// normalizing detection function in range [0,1]
-	df = math.divide(df, math.max(df));
-
-	// plotting results
-	plotData(inputReal, df);
-}
-
-function randomReals(size) {
-
-	var result = new Array(size);
-	for (var i = 0; i < result.length; i++){
-		result[i] = Math.random() * 2 - 1;
-	}
-	return result;
+	document.getElementById("time").innerHTML += "<br>Execution time: " + (t1 - t0) + " ms";
+	
+	df = math.divide(df, math.max(df));	// normalizing detection function in range [0,1]
+	
+	plotData(inputReal, df);			// plotting results
 }
 
 function STFT(inputReal, windowSize, hopSize){
@@ -154,6 +194,27 @@ function createDetectionFunction2(s, windowSize){
 	}
 
 	return detectionFunction;
+}
+
+function plotData(inputReal, df){
+	var trace1 = {
+	  x: Array.from({length: inputReal.length}, (_, i) => i + 1),
+	  y: inputReal,
+	  type: 'scatter',
+	  name: 'input signal'
+	};
+	var trace2 = {
+	  x: Array.from({length: inputReal.length}, (_, i) => (i + 1) * 441),
+	  y: df,
+	  type: 'scatter',
+	  name: 'detection function'
+	};
+	var data = [trace1, trace2];
+	var layout = {
+	  title:'Results',
+	  yaxis: {range: [-1, 1]}
+	};
+	Plotly.newPlot('result', data, layout);
 }
 
 main();
