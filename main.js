@@ -6,9 +6,9 @@ function main(){
 	// p_p.mp3 	--> pitched percussive, length 60s
 	// cm.mp3 	--> complex mixture, length 60s
 
-	const audiofile = 'audio/p_p.mp3';	// audiofile to analyze
+	const audiofile = 'audio/np_p.mp3';	// audiofile to analyze
 	const fs = 44100;					// sampling rate [Hz]
-	const n = 20;						// seconds of audiofile to analyze
+	const n = 10;						// seconds of audiofile to analyze
 	document.getElementById("time").innerHTML = "... analyzing leading " + n + " seconds of " + audiofile + " ...";
 
 	var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -75,9 +75,9 @@ function complexDomainOnsetDetection(inputReal){
 	var t1 = performance.now()
 	document.getElementById("time").innerHTML += "<br>Execution time: " + (t1 - t0) + " ms";
 	
-	df = math.divide(df, math.max(df));	// normalizing detection function in range [0,1]
+	plotData1(inputReal, math.divide(df, math.max(df)));		// plotting results with detection function normalized in range [0,1]
 	
-	plotData(inputReal, df);			// plotting results
+	peakPicking(df);
 }
 
 function STFT(inputReal, windowSize, hopSize){
@@ -196,25 +196,88 @@ function createDetectionFunction2(s, windowSize){
 	return detectionFunction;
 }
 
-function plotData(inputReal, df){
+function peakPicking(df){
+
+	// subtracting the mean and dividing by the maximum absolute deviation the detection function
+	var mean = math.mean(df);
+	var maxAbsoluteDeviation = 0;
+	var len = df.length;
+	for (var i = 0; i < len; i++){
+		if (math.abs(df[i] - mean) > maxAbsoluteDeviation){
+			maxAbsoluteDeviation = math.abs(df[i] - mean);
+		}
+	}
+	df = math.divide(math.subtract(df, mean), maxAbsoluteDeviation);
+
+	// low-pass filtering (to do)
+
+	// thresholding df with moving median 
+	// values of delta in 'On the Use of Phase and Energy for Musical Onset Detection in the Complex Domain':
+	// delta = 0.34 for np_p, = 4.58 for p_np, = 5.95 for p_p, = 5.79 for cm	
+	var delta = 0.1;
+	var lambda = 1;		// is set to 1 as it is not critical for the detection
+	var m = 10;			// is set to the longest time interval on which the global dinamics are not expected to evolve (around 100ms)
+	var threshold = [];
+	var i = 0;
+	while (i < m){
+		threshold.push(delta + lambda * math.median(df.slice(0, i+m+1)));
+		i++;
+	}
+	while (i < len-m){
+		threshold.push(delta + lambda * math.median(df.slice(i-m, i+m+1)));
+		i++;
+	}
+	while (i < len){
+		threshold.push(delta + lambda * math.median(df.slice(i-m, df.length)));
+		i++;
+	}
+
+	plotData2(df, threshold);	// plot df with threshold
+}
+
+function plotData1(inputReal, df){
 	var trace1 = {
 	  x: Array.from({length: inputReal.length}, (_, i) => i + 1),
 	  y: inputReal,
 	  type: 'scatter',
-	  name: 'input signal'
+	  name: 'input signal',
+	  line: {color: 'rgb(200, 200, 200)'}
 	};
 	var trace2 = {
 	  x: Array.from({length: inputReal.length}, (_, i) => (i + 1) * 441),
 	  y: df,
 	  type: 'scatter',
-	  name: 'detection function'
+	  name: 'detection function',
+	  line: {color: 'rgb(55, 128, 191)'}
 	};
 	var data = [trace1, trace2];
 	var layout = {
-	  title:'Results',
+	  title:'Detection function with input signal',
 	  yaxis: {range: [-1, 1]}
 	};
 	Plotly.newPlot('result', data, layout);
+}
+
+function plotData2(df, threshold){
+	var trace1 = {
+	  x: Array.from({length: df.length}, (_, i) => i + 1),
+	  y: df,
+	  type: 'scatter',
+	  name: 'detection function',
+	  line: {color: 'rgb(55, 128, 191)'}
+	};
+	var trace2 = {
+	  x: Array.from({length: threshold.length}, (_, i) => i + 1),
+	  y: threshold,
+	  type: 'scatter',
+	  name: 'threshold',
+	  line: {dash: 'dot', color: 'rgb(255, 0, 0)'}
+	};
+	var data = [trace1, trace2];
+	var layout = {
+	  title:'Detection function with threshold'
+	};
+	Plotly.newPlot('df', data, layout);
 }
 
 main();
