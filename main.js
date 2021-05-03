@@ -36,8 +36,7 @@ function main(){
                 var inputReal = song.buffer.getChannelData(0);
                 complexDomainOnsetDetection(inputReal);
 
-                // playback controls
-                // *** score follower needed
+                // playback controls (score follower needed)
                 song.connect(audioCtx.destination);
                 controls = document.getElementById("controls");
                 stop = document.getElementById("stop");
@@ -70,13 +69,12 @@ function complexDomainOnsetDetection(inputReal){
 
 	var res = STFT(inputReal, windowSize, hopSize);
 	var df = createDetectionFunction(res, windowSize);
-	//var df = createDetectionFunction2(res, windowSize);	// ... in progress ...
+	//var df = createDetectionFunction2(res, windowSize);
 
 	var t1 = performance.now()
 	document.getElementById("time").innerHTML += "<br>Execution time: " + (t1 - t0) + " ms";
 	
-	plotData1(inputReal, math.divide(df, math.max(df)));		// plotting results with detection function normalized in range [0,1]
-	
+	plotData1(inputReal, math.divide(df, math.max(df)));	// plotting results with detection function normalized in range [0,1]
 	peakPicking(df);
 }
 
@@ -122,16 +120,15 @@ function STFT(inputReal, windowSize, hopSize){
 
 function createDetectionFunction(s, windowSize){ 
 
-	// target amplitude for a frame corresponds to the magnitude of the previous frame
-	// target phase for a frame corresponds to the sum of the previous phase and the phase difference between preceding frames
-
 	var targetAmplitudes = [];
 	var targetPhases = [];
 	var zerosArray = new Array(windowSize/2).fill(0);
 
+	// target amplitude for a frame corresponds to the magnitude of the previous frame
+	// target phase for a frame corresponds to the sum of the previous phase and the phase difference between preceding frames
+
 	// target amplitude for the 1st frame is set to 0
 	targetAmplitudes.push(zerosArray.slice());
-
 	// target amplitude for the 2nd frame (it's here only to avoid pushing amplitude and phase values in two separate loops)
 	targetAmplitudes.push(s[0][0]);
 
@@ -141,6 +138,7 @@ function createDetectionFunction(s, windowSize){
 
 	var len = s.length;
 	for (var i = 2; i < len; i++){
+
 		targetAmplitudes.push(s[i-1][0]);
 		targetPhaseValue = math.subtract(math.multiply(2, s[i-1][1]), s[i-2][1]);
 		// given a vector x, computing math.atan2(math.sin(x), math.cos(x)) maps the values of x to the range [-pi, pi]
@@ -166,30 +164,29 @@ function createDetectionFunction(s, windowSize){
 	return detectionFunction;
 }
 
-// ... in progress ...
+// ! il problema qui è che la detectionFunction viene complessa perchè estraggo la radice di stationarity measures negative
 function createDetectionFunction2(s, windowSize){ 
 
 	var targetAmplitudes = [];
+	var newPhases = [];
 	var zerosArray = new Array(windowSize/2).fill(0);
 	
 	targetAmplitudes.push(zerosArray.slice());	// target amplitude for the 1st frame is set to 0	
 	targetAmplitudes.push(s[0][0]); 			// target amplitude for the 2nd frame
 
+	newPhases.push(zerosArray.slice());		// new phase for the 1st frame is set to 0	
+	newPhases.push(zerosArray.slice());		// new phase for the 2nd frame is set to 0	
+
 	var len = s.length;
 	for (var i = 2; i < len; i++){
 		targetAmplitudes.push(s[i-1][0]);
 		var phaseDeviation = math.add(s[i][1], math.multiply(-2, s[i-1][1]), s[i-2][1]);
-		s[i][1] = math.atan2(math.sin(phaseDeviation), math.cos(phaseDeviation)); 			// maps the values of phaseDeviation to the range [-pi, pi]
+		newPhases.push(math.atan2(math.sin(phaseDeviation), math.cos(phaseDeviation)));	// maps the values of phaseDeviation to the range [-pi, pi]
 	}
 
-	// ? non so se va bene metterle a 0, penso di sì
-	s[0][1] = zerosArray.slice();
-	s[1][1] = zerosArray.slice();
-
-	// ? il problema è che la detectionFunction viene complessa perchè estraggo la radice di stationarity measures negative
 	var detectionFunction = [];
 	for (var i = 0; i < len; i++){
-		frameStationarityMeasures = math.sqrt(math.add(math.dotPow(targetAmplitudes[i], 2), math.dotPow(s[i][0], 2), math.multiply(-2, targetAmplitudes[i], s[i][0], math.cos(s[i][1]))));
+		frameStationarityMeasures = math.sqrt(math.add(math.dotPow(targetAmplitudes[i], 2), math.dotPow(s[i][0], 2), math.multiply(-2, targetAmplitudes[i], s[i][0], math.cos(newPhases[i]))));
 		detectionFunction.push(math.sum(frameStationarityMeasures));
 	}
 
@@ -211,7 +208,7 @@ function peakPicking(df){
 
 	// low-pass filtering (to do)
 
-	// thresholding df with moving median 
+	// thresholding df with moving-median 
 	// values of delta in 'On the Use of Phase and Energy for Musical Onset Detection in the Complex Domain':
 	// delta = 0.34 for np_p, = 4.58 for p_np, = 5.95 for p_p, = 5.79 for cm	
 	var delta = 0.1;
@@ -233,51 +230,21 @@ function peakPicking(df){
 	}
 
 	plotData2(df, threshold);	// plot df with threshold
-}
 
-function plotData1(inputReal, df){
-	var trace1 = {
-	  x: Array.from({length: inputReal.length}, (_, i) => i + 1),
-	  y: inputReal,
-	  type: 'scatter',
-	  name: 'input signal',
-	  line: {color: 'rgb(200, 200, 200)'}
-	};
-	var trace2 = {
-	  x: Array.from({length: inputReal.length}, (_, i) => (i + 1) * 441),
-	  y: df,
-	  type: 'scatter',
-	  name: 'detection function',
-	  line: {color: 'rgb(55, 128, 191)'}
-	};
-	var data = [trace1, trace2];
-	var layout = {
-	  title:'Detection function with input signal',
-	  yaxis: {range: [-1, 1]}
-	};
-	Plotly.newPlot('result', data, layout);
-}
+	// subtracting threshold from the normalized detection function
+	for (var i = 0; i < len; i++)
+		df[i] = df[i] - threshold[i];
 
-function plotData2(df, threshold){
-	var trace1 = {
-	  x: Array.from({length: df.length}, (_, i) => i + 1),
-	  y: df,
-	  type: 'scatter',
-	  name: 'detection function',
-	  line: {color: 'rgb(55, 128, 191)'}
-	};
-	var trace2 = {
-	  x: Array.from({length: threshold.length}, (_, i) => i + 1),
-	  y: threshold,
-	  type: 'scatter',
-	  name: 'threshold',
-	  line: {dash: 'dot', color: 'rgb(255, 0, 0)'}
-	};
-	var data = [trace1, trace2];
-	var layout = {
-	  title:'Detection function with threshold'
-	};
-	Plotly.newPlot('df', data, layout);
+	// finding local maximums
+	var localMaximums = [[],[]];
+	for (var i = 1; i < len-1; i++){
+		if (df[i] >= 0 && df[i-1] < df[i] && df[i] > df[i+1]){
+			localMaximums[0].push(i);		// local maximum index
+			localMaximums[1].push(df[i]);	// local maximum value
+		}
+	}
+
+	plotData3(df, localMaximums);	// plot df minus threshold with local maximums > 0
 }
 
 main();
