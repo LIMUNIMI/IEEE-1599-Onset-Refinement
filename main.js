@@ -70,11 +70,13 @@ function complexDomainOnsetDetection(inputReal){
 	var res = STFT(inputReal, windowSize, hopSize);
 	var df = createDetectionFunction(res, windowSize);
 	//var df = createDetectionFunction2(res, windowSize);
+	var percussiveFeature = percussiveFeatureDetection(res);
 
 	var t1 = performance.now()
+	
 	document.getElementById("time").innerHTML += "<br>Execution time: " + (t1 - t0) + " ms";
 	
-	plotData1(inputReal, math.divide(df, math.max(df)));	// plotting results with detection function normalized in range [0,1]
+	plotData1(inputReal, math.dotDivide(df, math.max(df)), math.divide(percussiveFeature, math.max(percussiveFeature)));	// plotting results with detection functions normalized in range [0,1]
 	peakPicking(df);
 }
 
@@ -140,7 +142,7 @@ function createDetectionFunction(s, windowSize){
 	for (var i = 2; i < len; i++){
 
 		targetAmplitudes.push(s[i-1][0]);
-		targetPhaseValue = math.subtract(math.multiply(2, s[i-1][1]), s[i-2][1]);
+		targetPhaseValue = math.subtract(math.dotMultiply(2, s[i-1][1]), s[i-2][1]);
 		// given a vector x, computing math.atan2(math.sin(x), math.cos(x)) maps the values of x to the range [-pi, pi]
 		targetPhases.push(math.atan2(math.sin(targetPhaseValue), math.cos(targetPhaseValue)));
 	}
@@ -164,7 +166,6 @@ function createDetectionFunction(s, windowSize){
 	return detectionFunction;
 }
 
-// ! il problema qui è che la detectionFunction viene complessa perchè estraggo la radice di stationarity measures negative
 function createDetectionFunction2(s, windowSize){ 
 
 	var targetAmplitudes = [];
@@ -180,17 +181,29 @@ function createDetectionFunction2(s, windowSize){
 	var len = s.length;
 	for (var i = 2; i < len; i++){
 		targetAmplitudes.push(s[i-1][0]);
-		var phaseDeviation = math.add(s[i][1], math.multiply(-2, s[i-1][1]), s[i-2][1]);
+		var phaseDeviation = math.add(s[i][1], math.dotMultiply(-2, s[i-1][1]), s[i-2][1]);
 		newPhases.push(math.atan2(math.sin(phaseDeviation), math.cos(phaseDeviation)));	// maps the values of phaseDeviation to the range [-pi, pi]
 	}
 
 	var detectionFunction = [];
 	for (var i = 0; i < len; i++){
-		frameStationarityMeasures = math.sqrt(math.add(math.dotPow(targetAmplitudes[i], 2), math.dotPow(s[i][0], 2), math.multiply(-2, targetAmplitudes[i], s[i][0], math.cos(newPhases[i]))));
+		frameStationarityMeasures = math.sqrt(math.add(math.dotPow(targetAmplitudes[i], 2), math.dotPow(s[i][0], 2), math.dotMultiply(math.dotMultiply(-2, targetAmplitudes[i]), math.dotMultiply(s[i][0], math.cos(newPhases[i])))));
 		detectionFunction.push(math.sum(frameStationarityMeasures));
 	}
 
 	return detectionFunction;
+}
+
+function percussiveFeatureDetection(s){ 
+
+	var percussiveMeasure = [0]; 	// percussive measure for the first frame is set to 0
+	const T = 22;					// threshold (rise in energy [dB] which must be detected to say that the frequency bin is percussive)
+
+	var len = s.length;
+	for (var i = 1; i < len; i++)
+		percussiveMeasure.push(math.dotMultiply(20, math.log10(math.dotDivide(s[i-1][0],s[i][0]))).filter(x => x > T).length)
+	
+	return percussiveMeasure;
 }
 
 function peakPicking(df){
