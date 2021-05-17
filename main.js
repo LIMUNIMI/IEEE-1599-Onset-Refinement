@@ -6,9 +6,9 @@ function main(){
 	// p_p.mp3 	--> pitched percussive, length 60s
 	// cm.mp3 	--> complex mixture, length 60s
 
-	const audiofile = 'audio/np_p.mp3';	// audiofile to analyze
+	const audiofile = 'audio/p_p.mp3';	// audiofile to analyze
 	const fs = 44100;					// sampling rate [Hz]
-	const n = 10;						// seconds of audiofile to analyze
+	const n = 15;						// seconds of audiofile to analyze
 	document.getElementById("time").innerHTML = "... analyzing leading " + n + " seconds of " + audiofile + " ...";
 
 	var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -78,6 +78,8 @@ function complexDomainOnsetDetection(inputReal){
 	
 	plotData1(inputReal, math.dotDivide(df, math.max(df)), math.divide(percussiveFeature, math.max(percussiveFeature)));	// plotting results with detection functions normalized in range [0,1]
 	peakPicking(df);
+
+	//test()
 }
 
 function STFT(inputReal, windowSize, hopSize){
@@ -141,8 +143,8 @@ function createDetectionFunction(s, windowSize){
 	var len = s.length;
 	for (var i = 2; i < len; i++){
 
-		targetAmplitudes.push(s[i-1][0]);
-		targetPhaseValue = math.subtract(math.dotMultiply(2, s[i-1][1]), s[i-2][1]);
+		targetAmplitudes.push(s[i-1][0]); 
+		targetPhaseValue = math.subtract(math.dotMultiply(2, s[i-1][1]), s[i-2][1]); //targetPhaseValue = math.subtract(s[i-1][1].map(function dotMultiply(item) {return item * 2;}), s[i-2][1]);
 		// given a vector x, computing math.atan2(math.sin(x), math.cos(x)) maps the values of x to the range [-pi, pi]
 		targetPhases.push(math.atan2(math.sin(targetPhaseValue), math.cos(targetPhaseValue)));
 	}
@@ -159,8 +161,10 @@ function createDetectionFunction(s, windowSize){
 
 			// measuring Euclidean distance for the kth bin between target and measured vector in the complex space
 			stationarityMeasures.push(math.distance([targetReIm.re, measuredReIm.re], [targetReIm.im, measuredReIm.im]));
-		}
+		} 
 		detectionFunction.push(math.sum(stationarityMeasures));
+		//detectionFunction.push(stationarityMeasures.reduce(function sum(total, num) {return total + num;})); 
+		//detectionFunction.push(sumElements(stationarityMeasures));
 	}
 
 	return detectionFunction;
@@ -187,7 +191,7 @@ function createDetectionFunction2(s, windowSize){
 
 	var detectionFunction = [];
 	for (var i = 0; i < len; i++){
-		frameStationarityMeasures = math.sqrt(math.add(math.dotPow(targetAmplitudes[i], 2), math.dotPow(s[i][0], 2), math.dotMultiply(math.dotMultiply(-2, targetAmplitudes[i]), math.dotMultiply(s[i][0], math.cos(newPhases[i])))));
+		var frameStationarityMeasures = math.sqrt(math.add(math.dotPow(targetAmplitudes[i], 2), math.dotPow(s[i][0], 2), math.dotMultiply(math.dotMultiply(-2, targetAmplitudes[i]), math.dotMultiply(s[i][0], math.cos(newPhases[i])))));
 		detectionFunction.push(math.sum(frameStationarityMeasures));
 	}
 
@@ -210,12 +214,12 @@ function peakPicking(df){
 
 	// subtracting the mean and dividing by the maximum absolute deviation the detection function
 	var mean = math.mean(df);
+	// var maxAbsoluteDeviation = math.max(math.abs(math.subtract(arr, math.mean(arr)))); --> nice one-liner but significantly slower than for loop
 	var maxAbsoluteDeviation = 0;
 	var len = df.length;
 	for (var i = 0; i < len; i++){
-		if (math.abs(df[i] - mean) > maxAbsoluteDeviation){
+		if (math.abs(df[i] - mean) > maxAbsoluteDeviation)
 			maxAbsoluteDeviation = math.abs(df[i] - mean);
-		}
 	}
 	df = math.divide(math.subtract(df, mean), maxAbsoluteDeviation);
 
@@ -226,38 +230,25 @@ function peakPicking(df){
 	// delta = 0.34 for np_p, = 4.58 for p_np, = 5.95 for p_p, = 5.79 for cm	
 	var delta = 0.1;
 	var lambda = 1;		// is set to 1 as it is not critical for the detection
-	var m = 10;			// is set to the longest time interval on which the global dinamics are not expected to evolve (around 100ms)
-	var threshold = [];
-	var i = 0;
-	while (i < m){
-		threshold.push(delta + lambda * math.median(df.slice(0, i+m+1)));
-		i++;
-	}
-	while (i < len-m){
-		threshold.push(delta + lambda * math.median(df.slice(i-m, i+m+1)));
-		i++;
-	}
-	while (i < len){
-		threshold.push(delta + lambda * math.median(df.slice(i-m, df.length)));
-		i++;
-	}
+	var m = 20;			// ?come lo imposto? windowSize of the median filter, is set to the longest time interval on which the global dinamics are not expected to evolve (around 100ms)
+	
+	var threshold = math.add(delta, math.dotMultiply(lambda, movingMedian(df, m)));
 
 	plotData2(df, threshold);	// plot df with threshold
+	
+	df = math.subtract(df, threshold)	// subtracting threshold from the normalized detection function
 
-	// subtracting threshold from the normalized detection function
-	for (var i = 0; i < len; i++)
-		df[i] = df[i] - threshold[i];
-
-	// finding local maximums
-	var localMaximums = [[],[]];
+	// finding positive peaks of df (local maximums)
+	var peaks = [[],[]];
 	for (var i = 1; i < len-1; i++){
 		if (df[i] >= 0 && df[i-1] < df[i] && df[i] > df[i+1]){
-			localMaximums[0].push(i);		// local maximum index
-			localMaximums[1].push(df[i]);	// local maximum value
+			peaks[0].push(i);		// peak index
+			peaks[1].push(df[i]);	// peak value
 		}
 	}
 
-	plotData3(df, localMaximums);	// plot df minus threshold with local maximums > 0
+	plotData3(df, peaks);	// plot df minus threshold with peaks > 0
 }
 
 main();
+

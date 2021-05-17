@@ -50,7 +50,7 @@ function plotData2(df, threshold){
 	Plotly.newPlot('df-threshold', data, layout);
 }
 
-function plotData3(df, localMaximums){
+function plotData3(df, peaks){
 	var trace1 = {
 	  x: Array.from({length: df.length}, (_, i) => i + 1),
 	  y: df,
@@ -59,15 +59,15 @@ function plotData3(df, localMaximums){
 	  line: {color: 'rgb(55, 128, 191)'}
 	};
 	var trace2 = {
-	  x: localMaximums[0],
-	  y: localMaximums[1],
+	  x: peaks[0],
+	  y: peaks[1],
 	  mode: 'markers',
 	  type: 'scatter',
-	  name: 'local maximum'
+	  name: 'peaks'
 	};
 	var data = [trace1, trace2];
 	var layout = {
-	  title:'Detection function minus threshold with local maximums > 0'
+	  title:'Detection function minus threshold with peaks > 0'
 	};
-	Plotly.newPlot('df-maximums', data, layout);
+	Plotly.newPlot('df-peaks', data, layout);
 }
