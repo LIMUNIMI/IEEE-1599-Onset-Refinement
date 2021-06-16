@@ -1,4 +1,4 @@
-# ComplexDomainOnsetDetection
+# AudioOnsetDetection
 Onset detection algorithm for music signals I'm implementing during my bachelor's degree internship.
 
 My work relies mainly on these papers: <br>
