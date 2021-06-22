@@ -1,4 +1,4 @@
-function plotData1(inputReal, df, percussiveFeature){
+plotData1 = (inputReal, df, percussiveFeature) => {
 	var trace1 = {
 	  x: Array.from({length: inputReal.length}, (_, i) => i + 1),
 	  y: inputReal,
@@ -28,7 +28,7 @@ function plotData1(inputReal, df, percussiveFeature){
 	Plotly.newPlot('result', data, layout);
 }
 
-function plotData2(df, threshold){
+plotData2 = (df, threshold) => {
 	var trace1 = {
 	  x: Array.from({length: df.length}, (_, i) => i + 1),
 	  y: df,
@@ -50,7 +50,7 @@ function plotData2(df, threshold){
 	Plotly.newPlot('df-threshold', data, layout);
 }
 
-function plotData3(df, peaks){
+plotData3 = (df, peaks) => {
 	var trace1 = {
 	  x: Array.from({length: df.length}, (_, i) => i + 1),
 	  y: df,

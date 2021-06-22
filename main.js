@@ -1,14 +1,14 @@
 const AudioContext = window.AudioContext || window.webkitAudioContext;
 const audioCtx = new AudioContext({sampleRate: 44100});
 
-const getFile = async (audioContext, filepath) => {
+getFile = async (audioContext, filepath) => {
   const response = await fetch(filepath);
   const arrayBuffer = await response.arrayBuffer();
   const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
   return audioBuffer;
 }
 
-const loadAudiofile = async () => {
+loadAudiofile = async () => {
   const filePath = 'audio/cm.mp3';
   const bufferedFile = await getFile(audioCtx, filePath);
   const channel1 = bufferedFile.getChannelData(0);
@@ -17,12 +17,14 @@ const loadAudiofile = async () => {
   return monoSignal;
 }
 
-var t0 = performance.now();
+const t0 = performance.now();
+
 loadAudiofile()
   .then((monoSignal) => {
     console.info('... audio file has been fetched and converted to mono correctly');
-    onsetDetection(monoSignal);
-    //onsetDetection(monoSignal.slice(0,44100*31));
+    const onsetTimes = onsetDetection(monoSignal);
+    //const onsetTimes = onsetDetection(monoSignal.slice(0,44100*40));
+    console.log(onsetTimes);
   })
   .catch((e) => {
     console.error('Error --> ' + e);
