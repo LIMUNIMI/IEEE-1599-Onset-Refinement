@@ -1,16 +1,16 @@
 // per un file di 10 minuti impiega 5min e 30s
 
+// setting parameters for STFT (parameters used in 'Onset detection revisited', Simon Dixon)
+const windowSize = 2048; 	// [#samples] (46ms)
+const hopSize = 441; 		// [#samples] (10ms, 78.5% overlap)
+
 onsetDetection = (inputReal) => {
-	
-	// setting parameters for STFT (parameters used in 'Onset detection revisited', Simon Dixon)
-	const windowSize = 2048; 	// [#samples] (46ms)
-	const hopSize = 441; 		// [#samples] (10ms, 78.5% overlap)
 
 	console.log('... computing STFT , ' + (performance.now() - t0));
-	let res = STFT(inputReal, windowSize, hopSize);
+	let res = STFT(inputReal);
 
 	console.info('... computing complex domain detection function , ' + (performance.now() - t0));
-	let df = createDetectionFunction(res, windowSize);
+	let df = createDetectionFunction(res);
 
 	console.info('... computing percussive feature detection function , ' + (performance.now() - t0));
 	let percussiveFeature = percussiveFeatureDetection(res);
@@ -24,8 +24,11 @@ onsetDetection = (inputReal) => {
 	console.log(percussiveFeature);
 	df = math.dotMultiply(df, percussiveFeature);*/
 
-	// esempio2: sommo le due funzioni
-	df = math.add(df, percussiveFeature);
+	// metodo2: normalizzo fra le due funzioni fra 0 e 1 e le sommo
+	df = math.add(math.dotDivide(df, math.max(df)), math.dotDivide(percussiveFeature, math.max(percussiveFeature)));
+
+	// metodo3: normalizzo fra le due funzioni fra 0 e 1 e le sommo pesandole diversamente
+	//df = math.add(math.dotMultiply(0.7, math.dotDivide(df, math.max(df))), math.dotMultiply(0.3, math.dotDivide(percussiveFeature, math.max(percussiveFeature))));
 
 	console.info('... computing peak picking and onset times, ' + (performance.now() - t0));
 	onsetTimes = peakPicking(df);
@@ -34,7 +37,7 @@ onsetDetection = (inputReal) => {
 	return onsetTimes;
 }
 
-STFT = (inputReal, windowSize, hopSize) => {
+STFT = (inputReal) => {
 
 	// input signals with length < windowSize are not analyzed
 	// input signals with length = windowSize+(hopSize*x) for x>=0 are fully analyzed
@@ -74,7 +77,7 @@ STFT = (inputReal, windowSize, hopSize) => {
 	return res;
 }
 
-createDetectionFunction = (s, windowSize) => { 
+createDetectionFunction = (s) => { 
 
 	let targetAmplitudes = [];
 	let targetPhases = [];
