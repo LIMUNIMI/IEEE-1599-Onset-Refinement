@@ -1,5 +1,6 @@
+const fs = 44100;
 const AudioContext = window.AudioContext || window.webkitAudioContext;
-const audioCtx = new AudioContext({sampleRate: 44100});
+const audioCtx = new AudioContext({sampleRate: fs});
 
 getFile = async (audioContext, filepath) => {
   const response = await fetch(filepath);
@@ -9,30 +10,22 @@ getFile = async (audioContext, filepath) => {
 }
 
 loadAudiofile = async () => {
+  console.info('... fetching, converting to mono and trimming audiofile');
   const filePath = 'audio/cm.mp3';
   const bufferedFile = await getFile(audioCtx, filePath);
-  // converting to mono
-  const channel1 = bufferedFile.getChannelData(0);
-  const channel2 = bufferedFile.getChannelData(1);
-  let monoSignal = channel1.map((currentValue, index) => (currentValue + channel2[index])/2);
-  // removing trailing silent samples
-  let i = 1;
-  const len = monoSignal.length;
-  while(monoSignal[len-i] == 0)
-    i++;
-  return monoSignal.slice(0,-i);
+  return trimSilence(stereo2mono(bufferedFile.getChannelData(0), bufferedFile.getChannelData(1)));
 }
 
 const t0 = performance.now();
 
 loadAudiofile()
   .then((monoSignal) => {
-    console.info('... audio file has been fetched, converted to mono and trimmed correctly');
-
     const onsetTimes = onsetDetection(monoSignal);
-    //onsetTimes = onsetDetection(monoSignal.slice(0,44100*40));
     console.log(onsetTimes);
   })
   .catch((e) => {
     console.error('Error --> ' + e);
   });
+
+  // cm.mp3 con utilities circa 30s
+  // cm.mp3 prima circa 7s

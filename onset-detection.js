@@ -1,5 +1,3 @@
-// per un file di 10 minuti impiega 5min e 30s
-
 // setting parameters for STFT (parameters used in 'Onset detection revisited', Simon Dixon)
 const windowSize = 2048; 	// [#samples] (46ms)
 const hopSize = 441; 		// [#samples] (10ms, 78.5% overlap)
@@ -14,21 +12,11 @@ onsetDetection = (inputReal) => {
 
 	console.info('... computing percussive feature detection function , ' + (performance.now() - t0));
 	let percussiveFeature = percussiveFeatureDetection(res);
-	plotData1(inputReal, math.dotDivide(df, math.max(df)), math.divide(percussiveFeature, math.max(percussiveFeature)));	// plotting results with detection functions normalized in range [0,1]
+	//plotData1(inputReal, scale(1/max(df), df), scale(1/max(percussiveFeature), percussiveFeature)); // plotting results with detection functions normalized in range [0,1]
 
 	console.info('... computing global detection function , ' + (performance.now() - t0));
-
-	// esempio1: i valori di percussitivity minori del 75° percentile non influenzano la detection function globale
-	/*const quantile_3rd = math.quantileSeq(percussiveFeature, 0.75);
-	percussiveFeature = percussiveFeature.map(el => (el < quantile_3rd) ? 1 : el);
-	console.log(percussiveFeature);
-	df = math.dotMultiply(df, percussiveFeature);*/
-
-	// metodo2: normalizzo fra le due funzioni fra 0 e 1 e le sommo
-	df = math.add(math.dotDivide(df, math.max(df)), math.dotDivide(percussiveFeature, math.max(percussiveFeature)));
-
-	// metodo3: normalizzo fra le due funzioni fra 0 e 1 e le sommo pesandole diversamente
-	//df = math.add(math.dotMultiply(0.7, math.dotDivide(df, math.max(df))), math.dotMultiply(0.3, math.dotDivide(percussiveFeature, math.max(percussiveFeature))));
+	// normalizzo fra le due funzioni fra 0 e 1 e le sommo
+	df = add(scale(1/max(df), df), scale(1/max(percussiveFeature), percussiveFeature));
 
 	console.info('... computing peak picking and onset times, ' + (performance.now() - t0));
 	onsetTimes = peakPicking(df);
@@ -62,16 +50,17 @@ STFT = (inputReal) => {
 		outputImag = outputImag.slice(windowSize/2, windowSize);
 
 		// converting output to polar coordinates
-		let outputR = [];
-		let outputPhi = [];
-		for (let j = 0; j < windowSize/2; j++){
-			let complex = math.complex(outputReal[j], outputImag[j]);
-		    outputR.push(complex.abs());
-		    outputPhi.push(complex.arg());	// phase is in (-pi, pi] range
-		}
 
+		let outputR = new Array(windowSize/2);
+		let outputPhi = new Array(windowSize/2);
+		for (let j = 0; j < windowSize/2; j++){
+		    outputR[j] = (outputReal[j]**2 + outputImag[j]**2)**0.5;
+		    outputPhi[j] = Math.atan(outputImag[j] / outputReal[j]);
+		    if (outputReal[j] < 0) 
+		    	outputPhi[j] = (outputPhi[j] + Math.PI) % Math.PI;
+		}
 		res.push([outputR, outputPhi]);
-		//res = [outputR, outputPhi]; console.log(i);
+
 		i += hopSize;
 	}
 	return res;
@@ -99,25 +88,25 @@ createDetectionFunction = (s) => {
 	for (var i = 2; i < len; i++){
 
 		targetAmplitudes.push(s[i-1][0]); 
-		targetPhaseValue = math.subtract(math.dotMultiply(2, s[i-1][1]), s[i-2][1]); //targetPhaseValue = math.subtract(s[i-1][1].map(function dotMultiply(item) {return item * 2;}), s[i-2][1]);
+		targetPhaseValue = subtract(scale(2, s[i-1][1]), s[i-2][1]);
 		// given a vector x, computing math.atan2(math.sin(x), math.cos(x)) maps the values of x to the range [-pi, pi]
-		targetPhases.push(math.atan2(math.sin(targetPhaseValue), math.cos(targetPhaseValue)));
+		targetPhases.push(atan2(sin(targetPhaseValue), cos(targetPhaseValue)));
 	}
 
 	// constructing the detection function
 	let detectionFunction = [];
+	let targetRe = 0, measuredRe = 0, targetIm = 0, measuredIm = 0, stationarityMeasure = 0;
 	for (let i = 0; i < len; i++){
-
-		let stationarityMeasures = [];
+		stationarityMeasure = 0;
 		for (let k = 0; k < windowSize/2; k++){
-
-			let targetReIm = math.Complex.fromPolar({r: targetAmplitudes[i][k], phi: targetPhases[i][k]});
-			let measuredReIm = math.Complex.fromPolar({r: s[i][0][k], phi: s[i][1][k]});
-
+			targetRe = targetAmplitudes[i][k] * Math.cos(targetPhases[i][k]);
+			targetIm = targetAmplitudes[i][k] * Math.sin(targetPhases[i][k]);
+			measuredRe = s[i][0][k] * Math.cos(s[i][1][k]);
+			measuredIm = s[i][0][k] * Math.sin(s[i][1][k]);
 			// measuring Euclidean distance for the kth bin between target and measured vector in the complex space
-			stationarityMeasures.push(math.distance([targetReIm.re, measuredReIm.re], [targetReIm.im, measuredReIm.im]));
+			stationarityMeasure += euclideanDistance(targetRe, measuredRe, targetIm, measuredIm);
 		} 
-		detectionFunction.push(math.sum(stationarityMeasures));
+		detectionFunction.push(stationarityMeasure);
 	}
 
 	return detectionFunction;
@@ -127,26 +116,30 @@ percussiveFeatureDetection = s => {
 
 	let percussiveMeasure = [0]; 	// percussive measure for the first frame is set to 0
 	const T = 22;					// threshold (rise in energy [dB] which must be detected to say that the frequency bin is percussive)
-
 	const len = s.length;
-	for (let i = 1; i < len; i++)
-		percussiveMeasure.push(math.dotMultiply(20, math.log10(math.dotDivide(s[i-1][0],s[i][0]))).filter(x => x > T).length)
-	
+	let count = 0;
+	for (let i = 1; i < len; i++){
+		count = 0;
+		for (let j = 0; j < windowSize/2; j++){
+			if (20 * Math.log10(s[i-1][0][j] / s[i][0][j]) > T)
+				count += 1;
+		}
+		percussiveMeasure.push(count);
+	}
 	return percussiveMeasure;
 }
 
 peakPicking = df => {
 
 	// subtracting the mean and dividing by the maximum absolute deviation the detection function
-	const mean = math.mean(df);
-	// var maxAbsoluteDeviation = math.max(math.abs(math.subtract(arr, math.mean(arr)))); --> nice one-liner but significantly slower than for loop
+	let mean = avg(df);
 	let maxAbsoluteDeviation = 0;
 	const len = df.length;
 	for (var i = 0; i < len; i++){
-		if (math.abs(df[i] - mean) > maxAbsoluteDeviation)
-			maxAbsoluteDeviation = math.abs(df[i] - mean);
+		if (Math.abs(df[i] - mean) > maxAbsoluteDeviation)
+			maxAbsoluteDeviation = Math.abs(df[i] - mean);
 	}
-	df = math.divide(math.subtract(df, mean), maxAbsoluteDeviation);
+	df = scale(1/maxAbsoluteDeviation, subtractC(mean, df));
 
 	// low-pass filtering (to do)
 
@@ -157,24 +150,23 @@ peakPicking = df => {
 	const lambda = 1;		// is set to 1 as it is not critical for the detection
 	const m = 20;			// ?come lo imposto? windowSize of the median filter, is set to the longest time interval on which the global dinamics are not expected to evolve (around 100ms)
 	
-	const threshold = math.add(delta, math.dotMultiply(lambda, movingMedian(df, m)));
-
-	plotData2(df, threshold);	// plot df with threshold
+	const threshold = addC(delta, scale(lambda, movingMedian(df, m)));
+	//plotData2(df, threshold);	// plot df with threshold
 	
-	df = math.subtract(df, threshold)	// subtracting threshold from the normalized detection function
+	df = subtract(df, threshold); // subtracting threshold from the normalized detection function
 
 	// finding positive peaks of df (local maximums)
-	let peaks = [[],[]];	
-	const timeFrame1 = (1/44100) * 1024;
-    const timeOffset = (1/44100) * 441;
+	//let peaks = [[],[]];	
+	const timeFrame1 = (1/fs) * (windowSize/2);
+    const timeOffset = (1/fs) * hopSize;
     let onsetTimes = [];
 	for (let i = 1; i < len-1; i++) {
 		if (df[i] >= 0 && df[i-1] < df[i] && df[i] > df[i+1]) {
-			peaks[0].push(i);		// peak index
-			peaks[1].push(df[i]);	// peak value
-			onsetTimes.push(math.round(timeFrame1 + timeOffset * i, 3));
+			//peaks[0].push(i);		// peak index
+			//peaks[1].push(df[i]);	// peak value
+			onsetTimes.push(parseFloat((timeFrame1 + timeOffset * i).toFixed(3)));
 		}
 	}
-	plotData3(df, peaks);	// plot df minus threshold with peaks > 0
+	//plotData3(df, peaks);	// plot df minus threshold with peaks > 0
 	return onsetTimes;
 }
