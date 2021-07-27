@@ -6,10 +6,15 @@
     <title>Musical Onset Detection</title>
 
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/mathjs@9.4.4/lib/browser/math.min.js"></script>-->
+
     <script src="nayuki-fft/fft.js"></script>
     <script src="window-function/apply.js"></script>
     <script src="window-function/hamming.js"></script>
     <script src="moving-median/median.js"></script>
+
+    <script src="ieee1599-framework/utils.js"></script>
+    <script src="ieee1599-framework/IEEE1599.js"></script>
 </head>
 <body>
     <h3 id="info"></h3>
@@ -17,7 +22,7 @@
     <div id="df-threshold"></div>
     <div id="df-peaks"></div>
     
-    <script src="utilities.js"></script>
+    <script src="utils.js"></script>
     <script src="onset-detection.js"></script>
     <script src="plots.js"></script>
 	<script src="main.js"></script>  

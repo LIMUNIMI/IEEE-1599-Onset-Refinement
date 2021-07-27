@@ -2,7 +2,7 @@
 const windowSize = 2048; 	// [#samples] (46ms)
 const hopSize = 441; 		// [#samples] (10ms, 78.5% overlap)
 
-onsetDetection = (inputReal) => {
+onsetDetection = inputReal => {
 
 	console.log('... computing STFT , ' + (performance.now() - t0));
 	let res = STFT(inputReal);
@@ -25,7 +25,7 @@ onsetDetection = (inputReal) => {
 	return onsetTimes;
 }
 
-STFT = (inputReal) => {
+STFT = inputReal => {
 
 	// input signals with length < windowSize are not analyzed
 	// input signals with length = windowSize+(hopSize*x) for x>=0 are fully analyzed
@@ -50,23 +50,28 @@ STFT = (inputReal) => {
 		outputImag = outputImag.slice(windowSize/2, windowSize);
 
 		// converting output to polar coordinates
-
 		let outputR = new Array(windowSize/2);
 		let outputPhi = new Array(windowSize/2);
 		for (let j = 0; j < windowSize/2; j++){
 		    outputR[j] = (outputReal[j]**2 + outputImag[j]**2)**0.5;
-		    outputPhi[j] = Math.atan(outputImag[j] / outputReal[j]);
-		    if (outputReal[j] < 0) 
-		    	outputPhi[j] = (outputPhi[j] + Math.PI) % Math.PI;
-		}
-		res.push([outputR, outputPhi]);
 
+		    //outputPhi[j] = math.complex(outputReal[j], outputImag[j]).arg()
+		    if (outputReal[j] == 0) 
+		    	outputPhi[j] = 0
+		    else {
+		    	outputPhi[j] = Math.atan(outputImag[j] / outputReal[j]);
+			    if (outputReal[j] < 0) 
+			    	outputPhi[j] = (outputPhi[j] + Math.PI) % Math.PI;
+		    }
+		}
+
+		res.push([outputR, outputPhi]);
 		i += hopSize;
 	}
 	return res;
 }
 
-createDetectionFunction = (s) => { 
+createDetectionFunction = s => { 
 
 	let targetAmplitudes = [];
 	let targetPhases = [];
@@ -85,12 +90,16 @@ createDetectionFunction = (s) => {
 	targetPhases.push(zerosArray.slice());	
 
 	const len = s.length;
-	for (var i = 2; i < len; i++){
+	for (let i = 2; i < len; i++){
 
 		targetAmplitudes.push(s[i-1][0]); 
 		targetPhaseValue = subtract(scale(2, s[i-1][1]), s[i-2][1]);
 		// given a vector x, computing math.atan2(math.sin(x), math.cos(x)) maps the values of x to the range [-pi, pi]
-		targetPhases.push(atan2(sin(targetPhaseValue), cos(targetPhaseValue)));
+		//targetPhases.push(atan2(sin(targetPhaseValue), cos(targetPhaseValue)));
+		let mapped = new Array(targetPhaseValue.length);
+		for (let i=0, len=targetPhaseValue.length; i < len; i++)
+			mapped[i] = Math.atan2(Math.sin(targetPhaseValue[i]), Math.cos(targetPhaseValue[i]));
+		targetPhases.push(mapped);
 	}
 
 	// constructing the detection function
@@ -105,7 +114,7 @@ createDetectionFunction = (s) => {
 			measuredIm = s[i][0][k] * Math.sin(s[i][1][k]);
 			// measuring Euclidean distance for the kth bin between target and measured vector in the complex space
 			stationarityMeasure += euclideanDistance(targetRe, measuredRe, targetIm, measuredIm);
-		} 
+		}
 		detectionFunction.push(stationarityMeasure);
 	}
 
@@ -116,9 +125,8 @@ percussiveFeatureDetection = s => {
 
 	let percussiveMeasure = [0]; 	// percussive measure for the first frame is set to 0
 	const T = 22;					// threshold (rise in energy [dB] which must be detected to say that the frequency bin is percussive)
-	const len = s.length;
 	let count = 0;
-	for (let i = 1; i < len; i++){
+	for (let i = 1, len = s.length; i < len; i++){
 		count = 0;
 		for (let j = 0; j < windowSize/2; j++){
 			if (20 * Math.log10(s[i-1][0][j] / s[i][0][j]) > T)
@@ -133,13 +141,13 @@ peakPicking = df => {
 
 	// subtracting the mean and dividing by the maximum absolute deviation the detection function
 	let mean = avg(df);
-	let maxAbsoluteDeviation = 0;
+	let maxAD = 0; // maximum absolute deviation
 	const len = df.length;
-	for (var i = 0; i < len; i++){
-		if (Math.abs(df[i] - mean) > maxAbsoluteDeviation)
-			maxAbsoluteDeviation = Math.abs(df[i] - mean);
+	for (let i = 0; i < len; i++){
+		if (Math.abs(df[i] - mean) > maxAD)
+			maxAD = Math.abs(df[i] - mean);
 	}
-	df = scale(1/maxAbsoluteDeviation, subtractC(mean, df));
+	df = scale(1/maxAD, subtractC(mean, df));
 
 	// low-pass filtering (to do)
 
@@ -151,22 +159,68 @@ peakPicking = df => {
 	const m = 20;			// ?come lo imposto? windowSize of the median filter, is set to the longest time interval on which the global dinamics are not expected to evolve (around 100ms)
 	
 	const threshold = addC(delta, scale(lambda, movingMedian(df, m)));
-	//plotData2(df, threshold);	// plot df with threshold
+	plotData2(df, threshold);	// plot df with threshold
 	
 	df = subtract(df, threshold); // subtracting threshold from the normalized detection function
 
 	// finding positive peaks of df (local maximums)
-	//let peaks = [[],[]];	
+	let peaks = [[],[]];	
 	const timeFrame1 = (1/fs) * (windowSize/2);
     const timeOffset = (1/fs) * hopSize;
     let onsetTimes = [];
 	for (let i = 1; i < len-1; i++) {
 		if (df[i] >= 0 && df[i-1] < df[i] && df[i] > df[i+1]) {
-			//peaks[0].push(i);		// peak index
-			//peaks[1].push(df[i]);	// peak value
+			peaks[0].push(i);		// peak index
+			peaks[1].push(df[i]);	// peak value
 			onsetTimes.push(parseFloat((timeFrame1 + timeOffset * i).toFixed(3)));
 		}
 	}
-	//plotData3(df, peaks);	// plot df minus threshold with peaks > 0
+	plotData3(df, peaks);	// plot df minus threshold with peaks > 0
 	return onsetTimes;
+}
+
+fixTimes = (original, found) => {
+
+	let u = original.concat(found);
+	for (let i=0, len=u.length, len_original=original.length; i<len; i++)
+		(i < len_original) ? u[i] = [u[i], true] : u[i] = [u[i], false]
+	u = u.sort((a, b) => a[0] - b[0]);
+
+	const limit = 0.2 		// intorno entro cui correggo tempo di IEEE1599 col il mio onset
+	const len = u.length
+	let j = 0 				// indice per tenere conto dove sono nell'array original
+
+	// caso speciale primo elemento
+	if (u[0][1] == true){
+		if (u[1][1] == false && u[1][0]-u[0][0] <= limit) 
+			original[j] = u[1][0]
+		j += 1	
+	}
+	// caso generale
+	let i = 1, cond1 = null, cond2 = null;
+	while (i < len-1){
+		if (u[i][1] == true){
+
+			cond1 = (u[i-1][1] == false && u[i][0]-u[i-1][0] <= limit)
+			cond2 = (u[i+1][1] == false && u[i+1][0]-u[i][0] <= limit)
+
+			if (cond1 && cond2){
+				(u[i][0]-u[i-1][0] > u[i+1][0]-u[i][0]) ? original[j] = u[i+1][0] : original[j] = u[i-1][0]
+				j += 1;
+				i += 1;
+				continue;
+			}
+
+			if (cond1) original[j] = u[i-1][0]
+			if (cond2) original[j] = u[i+1][0]
+			j += 1
+		}
+		i += 1
+	}
+	// caso speciale ultimo elemento
+	if (u[len-1][1] == true){
+		if (u[len-2][1] == false && u[len-1][0]-u[len-2][0] <= limit) 
+			original[j] = u[len-2][0]
+		j += 1	
+	}
 }

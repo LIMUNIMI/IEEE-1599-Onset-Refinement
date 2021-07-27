@@ -14,43 +14,7 @@ trimSilence = signal => {
   	return signal.slice(0,-i);
 }
 
-//------------------- MY-MATH
-// somma elementi in array
-sum = arr => {
-	let sum = 0;
-	const len = arr.length;
-	for (let i=0; i < len; i++)
-		sum += arr[i];
-	return sum;
-}
-
-// cos elementi in array
-cos = arr => {
-	const len = arr.length;
-	let res = new Array(len);
-	for (let i=0; i < len; i++)
-		res[i] = Math.cos(arr[i]);
-	return res;
-}
-
-// sin elementi in array
-sin = arr => {
-	const len = arr.length;
-	let res = new Array(len);
-	for (let i=0; i < len; i++)
-		res[i] = Math.sin(arr[i]);
-	return res;
-}
-
-// atan2
-atan2 = (y, x) => {
-	const len = y.length;
-	if (len != x.length) throw "different sizes";
-	let res = new Array(len);
-	for (let i=0; i < len; i++)
-		res[i] = Math.atan2(y[i], x[i]);
-	return res;
-}
+//------------------- my math utils
 
 // log10 elementi in array
 log10 = arr => {
@@ -125,25 +89,62 @@ subtractC = (c, arr) => addC(-c, arr);
 //distanza euclidea fra due punti
 euclideanDistance = (x1, y1, x2, y2) => ((x2-x1)**2 + (y2-y1)**2)**0.5;
 
-// massimo elemento in array
+// media elementi in array
+avg = arr => sum(arr) / arr.length;
+
+// CHECKED ------------------------------------------------------------------
+// massimo elemento in array 
 max = arr => {
-	let max = Number.MIN_SAFE_INTEGER;
-	const len = arr.length;
-	for (let i=0; i < len; i++)
+    let max = -Infinity;
+	for (let i=0, len = arr.length; i < len; i++)
 		if (arr[i] > max)
 			max = arr[i];
-	return max;
+    return max;
 }
 
 // minimo elemento in array
 min = arr => {
-	let min = Number.MAX_SAFE_INTEGER;
-	const len = arr.length;
-	for (let i=0; i < len; i++)
+    let min = +Infinity;
+	for (let i=0, len = arr.length; i < len; i++)
 		if (arr[i] < min)
 			min = arr[i];
-	return min;
+    return min;
 }
 
-// media elementi in array
-avg = arr => sum(arr) / arr.length;
+// somma elementi in array
+sum = arr => {
+	let sum = 0;
+	for (let i=0, len = arr.length; i < len; i++)
+		sum += arr[i];
+	return sum;
+}
+
+/*
+// cos elementi in array
+cos = arr => {
+	const len = arr.length;
+	let res = new Array(len);
+	for (let i=0; i < len; i++)
+		res[i] = Math.cos(arr[i]);
+	return res;
+}
+
+// sin elementi in array
+sin = arr => {
+	const len = arr.length;
+	let res = new Array(len);
+	for (let i=0; i < len; i++)
+		res[i] = Math.sin(arr[i]);
+	return res;
+}
+
+// atan2
+atan2 = (y, x) => {
+	const len = y.length;
+	if (len != x.length) throw "different sizes";
+	let res = new Array(len);
+	for (let i=0; i < len; i++)
+		res[i] = Math.atan2(y[i], x[i]);
+	return res;
+}
+*/
