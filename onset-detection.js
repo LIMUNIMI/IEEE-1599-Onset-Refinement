@@ -159,7 +159,7 @@ peakPicking = df => {
 	const m = 20;			// ?come lo imposto? windowSize of the median filter, is set to the longest time interval on which the global dinamics are not expected to evolve (around 100ms)
 	
 	const threshold = addC(delta, scale(lambda, movingMedian(df, m)));
-	plotData2(df, threshold);	// plot df with threshold
+	//plotData2(df, threshold);	// plot df with threshold
 	
 	df = subtract(df, threshold); // subtracting threshold from the normalized detection function
 
@@ -172,10 +172,10 @@ peakPicking = df => {
 		if (df[i] >= 0 && df[i-1] < df[i] && df[i] > df[i+1]) {
 			peaks[0].push(i);		// peak index
 			peaks[1].push(df[i]);	// peak value
-			onsetTimes.push(parseFloat((timeFrame1 + timeOffset * i).toFixed(3)));
+			onsetTimes.push(parseFloat((timeFrame1 + timeOffset * i).toFixed(2)));
 		}
 	}
-	plotData3(df, peaks);	// plot df minus threshold with peaks > 0
+	//plotData3(df, peaks);	// plot df minus threshold with peaks > 0
 	return onsetTimes;
 }
 

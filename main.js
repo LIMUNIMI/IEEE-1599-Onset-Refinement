@@ -79,9 +79,14 @@ loadAudiofile()
       }
     }*/
 
-    // ho l'XML modificato in una stringa, manderò al server per salvare la stringa come file XML
-    s = new XMLSerializer().serializeToString(d.xmlDoc);
-    console.log(s)
+    // mando al server l'XML con gli onset corretti sotto forma di stringa, per poi salvarlo in locale tramite PHP
+    const ajax = new XMLHttpRequest();
+    ajax.onload = function() {
+      console.log(this.responseText);
+    }
+    ajax.open("POST", "createXML.php");
+    ajax.setRequestHeader("Content-type", "text/plain");
+    ajax.send(new XMLSerializer().serializeToString(d.xmlDoc));
     
   })
   .catch((e) => {
