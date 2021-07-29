@@ -32,7 +32,8 @@ loadAudiofile()
       originalTimes[i] = +originalTimes[i];
     console.log("Onset di IEEE1599: ", originalTimes);
 
-    console.log("Onset di IEEE1599 corretti: ", fixTimes(originalTimes, onsetTimes));
+    let correctedTimes = fixTimes(originalTimes, onsetTimes);
+    console.log("Onset di IEEE1599 corretti: ", correctedTimes);
 
   })
   .catch((e) => {
