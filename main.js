@@ -23,9 +23,11 @@ loadAudiofile()
     const onsetTimes = onsetDetection(monoSignal);
     console.log("Onset trovati dall'algoritmo: ", onsetTimes);
 
+    const filenameTrack = "audio/performed by Scuola Corale G. Puccini with Orchestra Filarmonica Emiliana, 04.11.2006.mp3"
+
     // confronto gli onset con quelli del documento IEEE1599
     const d = new IEEE1599Document("Mozart_Ave_Verum_Corpus.xml");
-    const trackEventsByTime = d.tracks["audio/performed by Scuola Corale G. Puccini with Orchestra Filarmonica Emiliana, 04.11.2006.mp3"].trackEventsByTime;
+    const trackEventsByTime = d.tracks[filenameTrack].trackEventsByTime;
     let originalTimes = Object.keys(trackEventsByTime);
     // casting strings of times to numbers
     for (let i = 0, len = originalTimes.length; i < len; i++) 
@@ -34,7 +36,53 @@ loadAudiofile()
 
     let correctedTimes = fixTimes(originalTimes, onsetTimes);
     console.log("Onset di IEEE1599 corretti: ", correctedTimes);
+    
+    // !!! la sostituzione si basa sul fatto che nell'XML gli start_time siano in ordine crescente
 
+    // correggo gli onset sull'XML
+    let tracks = d.xmlDoc.getElementsByTagName("audio")[0].childNodes
+    for (let t = 0; t < tracks.length; t++) {
+      if (tracks[t].nodeType == 1) {
+        if (tracks[t].getAttributeNode("file_name").nodeValue == filenameTrack) {
+          let track_events = tracks[t].childNodes[1].childNodes
+
+          // sovrascrivo i tempi
+          let i = 0 // tengo conto di dove sono arrivato in correctedTimes
+          let curXMLOnset = track_events[1].getAttributeNode("start_time").nodeValue // inizializzo allo start_time del primo evento
+          //console.log(curXMLOnset)
+          for (let j = 0; j < track_events.length; j++) {
+            if (track_events[j].nodeType == 1) {
+              // quando cambia lo start_time dell'evento cambia anche l'onset da sovrascrivere
+              if (track_events[j].getAttributeNode("start_time").nodeValue != curXMLOnset){ 
+                curXMLOnset = track_events[j].getAttributeNode("start_time").nodeValue
+                i += 1
+                //console.log(curXMLOnset)
+              } 
+              track_events[j].setAttribute("start_time", correctedTimes[i].toString())
+            }
+          }
+
+        }
+      }
+    }
+
+    /* per debugging
+    for (let t = 0; t < tracks.length; t++) {
+      if (tracks[t].nodeType == 1) {
+        if (tracks[t].getAttributeNode("file_name").nodeValue == filenameTrack) {
+          track_events = tracks[t].childNodes[1].childNodes
+          for (let j = 0; j < track_events.length; j++) {
+            if (track_events[j].nodeType == 1)
+              console.log(track_events[j].getAttributeNode("start_time"))
+          }
+        }
+      }
+    }*/
+
+    // ho l'XML modificato in una stringa, manderò al server per salvare la stringa come file XML
+    s = new XMLSerializer().serializeToString(d.xmlDoc);
+    console.log(s)
+    
   })
   .catch((e) => {
     console.error('Error --> ' + e);
