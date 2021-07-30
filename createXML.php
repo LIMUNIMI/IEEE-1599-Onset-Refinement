@@ -3,5 +3,5 @@
 	$file = fopen("newOnsets.xml", "w") or die("Unable to create file!");
 	fwrite($file, $data);
 	fclose($file);
-	echo "... file XML creato";
+	echo "... il file XML con gli onset corretti è stato creato";
 ?>
