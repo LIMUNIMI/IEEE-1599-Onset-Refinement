@@ -1,17 +1,17 @@
 stereo2mono = (dx, sx) => {
 	const len = dx.length;
 	let mono = new Array(len);
-	for (let i=0; i < len; i++)
+	for (let i = 0; i < len; i++)
 		mono[i] = (dx[i] + sx[i]) / 2;
 	return mono;
 }
 
 trimSilence = signal => {
 	let i = 1;
-  	const len = signal.length;
-  	while(signal[len-i] == 0)
-    	i++;
-  	return signal.slice(0,-i);
+	const len = signal.length;
+	while (signal[len - i] == 0)
+		i++;
+	return signal.slice(0, -i);
 }
 
 //------------------- my math utils
@@ -20,7 +20,7 @@ trimSilence = signal => {
 log10 = arr => {
 	const len = arr.length;
 	let res = new Array(len);
-	for (let i=0; i < len; i++)
+	for (let i = 0; i < len; i++)
 		res[i] = Math.log10(arr[i]);
 	return res;
 }
@@ -30,7 +30,7 @@ add = (arr1, arr2) => {
 	const len = arr1.length;
 	if (len != arr2.length) throw "different sizes";
 	let res = new Array(len);
-	for (let i=0; i < len; i++)
+	for (let i = 0; i < len; i++)
 		res[i] = arr1[i] + arr2[i];
 	return res;
 }
@@ -40,7 +40,7 @@ subtract = (arr1, arr2) => {
 	const len = arr1.length;
 	if (len != arr2.length) throw "different sizes";
 	let res = new Array(len);
-	for (let i=0; i < len; i++)
+	for (let i = 0; i < len; i++)
 		res[i] = arr1[i] - arr2[i];
 	return res;
 }
@@ -50,7 +50,7 @@ dotMultiply = (arr1, arr2) => {
 	const len = arr1.length;
 	if (len != arr2.length) throw "different sizes";
 	let res = new Array(len);
-	for (let i=0; i < len; i++)
+	for (let i = 0; i < len; i++)
 		res[i] = arr1[i] * arr2[i];
 	return res;
 }
@@ -60,7 +60,7 @@ dotDivide = (arr1, arr2) => {
 	const len = arr1.length;
 	if (len != arr2.length) throw "different sizes";
 	let res = new Array(len);
-	for (let i=0; i < len; i++)
+	for (let i = 0; i < len; i++)
 		res[i] = arr1[i] / arr2[i];
 	return res;
 }
@@ -69,7 +69,7 @@ dotDivide = (arr1, arr2) => {
 scale = (k, arr) => {
 	const len = arr.length;
 	let res = new Array(len);
-	for (let i=0; i < len; i++)
+	for (let i = 0; i < len; i++)
 		res[i] = k * arr[i];
 	return res;
 }
@@ -78,7 +78,7 @@ scale = (k, arr) => {
 addC = (c, arr) => {
 	const len = arr.length;
 	let res = new Array(len);
-	for (let i=0; i < len; i++)
+	for (let i = 0; i < len; i++)
 		res[i] = c + arr[i];
 	return res;
 }
@@ -87,34 +87,33 @@ addC = (c, arr) => {
 subtractC = (c, arr) => addC(-c, arr);
 
 //distanza euclidea fra due punti
-euclideanDistance = (x1, y1, x2, y2) => ((x2-x1)**2 + (y2-y1)**2)**0.5;
+euclideanDistance = (x1, y1, x2, y2) => ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5;
 
 // media elementi in array
 avg = arr => sum(arr) / arr.length;
 
-// CHECKED ------------------------------------------------------------------
 // massimo elemento in array 
 max = arr => {
-    let max = -Infinity;
-	for (let i=0, len = arr.length; i < len; i++)
+	let max = -Infinity;
+	for (let i = 0, len = arr.length; i < len; i++)
 		if (arr[i] > max)
 			max = arr[i];
-    return max;
+	return max;
 }
 
 // minimo elemento in array
 min = arr => {
-    let min = +Infinity;
-	for (let i=0, len = arr.length; i < len; i++)
+	let min = +Infinity;
+	for (let i = 0, len = arr.length; i < len; i++)
 		if (arr[i] < min)
 			min = arr[i];
-    return min;
+	return min;
 }
 
 // somma elementi in array
 sum = arr => {
 	let sum = 0;
-	for (let i=0, len = arr.length; i < len; i++)
+	for (let i = 0, len = arr.length; i < len; i++)
 		sum += arr[i];
 	return sum;
 }
@@ -148,3 +147,27 @@ atan2 = (y, x) => {
 	return res;
 }
 */
+
+// modulo di un numero complesso
+getModulus = (real, imag) => (real ** 2 + imag ** 2) ** 0.5;
+
+// fase di un numero complesso
+getPhase = (real, imag) => {
+	if (real == 0)
+		return 0;
+	let phase = Math.atan(imag / real);
+	if (real < 0)
+		phase = (phase + Math.PI) % Math.PI;
+	return phase;
+}
+
+// maximum absolute deviation
+maxAD = (arr, mean) => {
+	let maximumAbsoluteDeviation = 0, deviation = 0;
+	for (let i = 0, len = arr.length; i < len; i++) {
+		deviation = Math.abs(arr[i] - mean);
+		if (deviation > maximumAbsoluteDeviation)
+			maximumAbsoluteDeviation = deviation;
+	}
+	return maximumAbsoluteDeviation;
+}
