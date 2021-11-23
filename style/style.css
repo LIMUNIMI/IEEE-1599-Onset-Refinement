@@ -1,0 +1,431 @@
+body {
+	background-color:#353c47;
+	margin:0;
+	font-family: 'PT Sans', Verdana, Arial, sans-serif;
+	font-size: 16px;
+}
+
+table {
+	width:100%;
+	border:0;
+	padding:0;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+
+tr {
+	vertical-align:top;
+}
+
+tr.bottom {
+	vertical-align:bottom;
+}
+
+tr.middle {
+	vertical-align:middle;
+}
+
+td {
+	text-align:left;
+}
+
+td.logo {
+	text-align:center;
+}
+
+td.width49 {
+	width:49%;
+}
+
+td.width2 {
+	width:2%;
+}
+
+td.staff_img {
+	width:170px;
+}
+
+td.staff_desc {
+	width:545px;
+}
+
+tr.form {
+	vertical-align: top;
+}
+
+tr.form td h2 {
+	display: inline;
+}
+
+tr.form td {
+	padding-bottom:20px;
+}
+
+div.main_container {
+	width:1600px;
+	margin: 0 auto;
+	color:#FFFFFF;
+	background-color:#f89407;
+}
+
+div.header_home {
+	position:relative;
+	padding:15px 30px 15px 30px;
+	min-height:91px;
+	margin:0;
+	margin-bottom:15px;
+}
+
+div.header_pages {
+	position:relative;
+	padding:15px 30px 15px 30px;
+	min-height:91px;
+	margin-bottom:15px;
+	box-sizing:content-box;
+}
+
+div.footer {
+	padding:15px 30px 15px 30px;
+}
+
+img.footer {
+	vertical-align:middle;
+}
+
+span.footer {
+	vertical-align:middle;
+}
+
+div.showcase {
+	height:450px;
+	width:1600px;
+}
+
+div.presentation {
+	padding:15px 30px 15px 30px;
+	background-color:#f3f1ec;
+	color:#4e5a67;
+}
+
+div.quick_links {
+	padding:15px 30px 15px 30px;
+	background-color:#e0ded9;
+	color:#4e5a67;
+	border-top:solid 1px #c3bdb7;
+}
+
+table.member_table {
+	background-color:#e0ded9;
+	color:#4e5a67;
+	border:solid 1px #c3bdb7;
+	min-width:500px;
+	border-collapse: separate;
+    border-spacing: 10px;
+}
+
+div.contacts {
+	padding:15px 30px 15px 30px;
+	background-color:#f3f1ec;
+	color:#4e5a67;
+	border-top:solid 1px #c3bdb7;
+}
+
+div.unimi_logo {
+	position:absolute;
+	right:30px;
+	bottom:3px;
+}
+
+div.blue_square {
+	width:70px;
+	height:70px;
+	display: table-cell; 
+	text-align:center;
+	vertical-align: middle;
+	background-color:#f89407;
+	color:#FFF;
+	font-family: 'PT Sans', Verdana, Arial, sans-serif;
+	font-size:26px;
+	font-weight:bold;
+}
+
+div.blue_square_narrow {
+	width:70px;
+	height:70px;
+	display: table-cell; 
+	text-align:center;
+	vertical-align: middle;
+	background-color:#f89407;
+	color:#FFF;
+	font-family: 'PT Sans Narrow', Verdana, Arial, sans-serif;
+	font-size:26px;
+	font-weight:bold;
+}
+
+td.blue_square {
+	width:70px;
+}
+
+div.presentation ul {
+	list-style-type: square;
+    list-style-image: url("../images/bullet.png");
+	list-style-position: inside;
+    text-indent: -1.5em;
+    padding-left: 1.5em;
+}
+
+div.quick_links ul {
+	list-style-type: square;
+    list-style-image: url("../images/bullet.png");
+	list-style-position: inside;
+    text-indent: -1.5em;
+    padding-left: 1.5em;
+}
+
+td.media_exhibits {
+	width:270px;
+}
+
+tr.press {
+	vertical-align:middle;
+	min-height:300px;
+}
+
+td.press_title {
+	width:210px;
+}
+
+video {
+	border:solid 1px #c3bdb7;
+}
+
+.typewriter {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 14px;
+}
+
+.dtd_example {
+	background-color: #fff;
+	border: solid 1px #000;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+a.dtd_example {
+	border:none;
+}
+
+/* Top menu - Start -------------------------------- */
+
+div#mainmenu_container {
+	position:absolute;
+	left:155px;
+	bottom:0;
+    float: left; 
+    margin: 0; 
+    padding: 0;
+}
+
+div#mainmenu_container ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div#mainmenu_container li
+{
+    float:left;
+    margin: 0;
+	padding:0;
+	min-height: 22px;
+	width:250px;
+	border-left:solid 1px #FFF;
+	color:#FFF;
+}
+
+div#mainmenu_container a
+{
+    display: block;
+    color:#FFF;
+    text-decoration: none;
+}
+ 
+div#mainmenu_container a:hover
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div#mainmenu_container li ul
+{
+    display: none;
+	padding-top:25px;
+	padding-bottom:5px;
+}
+
+div#mainmenu_container li:hover ul
+{
+    display: block;
+    position: absolute;
+    z-index:1;
+    width:250px;
+    margin: 0 0 0 -1px;
+    border:1px solid white;
+	border-top:0;
+	border-right:0;
+	
+	padding: 0;
+	padding-top:25px;
+	padding-bottom:5px;
+    background-color:rgba(248, 148, 7, 0.9);
+	min-width:185px;
+}
+
+div#mainmenu_container li li { 
+	border:none; 
+	min-width:250px; 
+} 
+
+div#mainmenu_container li li a { 
+	padding:2px 2px 2px 5px; 
+}
+
+div#mainmenu_container li li a:hover
+{
+    color: #e0ded9;
+    text-decoration: none;
+}
+
+div#logo_container {
+	left:30px;
+	bottom:3px;
+	position:absolute;
+}
+
+/* Top menu - End -------------------------------- */
+
+.huge_title {
+	font-family: 'PT Sans', Verdana, Arial, sans-serif;
+	font-weight:bold;
+	font-size:50px
+}
+
+.big_title {
+	font-family: 'PT Sans', Verdana, Arial, sans-serif;
+	font-weight:bold;
+	font-size:30px;
+	line-height: 120%;
+}
+
+.title {
+	font-family: 'PT Sans', Verdana, Arial, sans-serif;
+	font-weight:bold;
+	font-size:26px;
+	line-height: 120%;
+}
+
+.small_title {
+	font-family: 'PT Sans', Verdana, Arial, sans-serif;
+	font-size:20px;
+	line-height: 100%;
+}
+
+.submenu_text {
+	font-family: 'PT Sans Narrow', Verdana, Arial, sans-serif;
+	font-size:18px;
+	line-height: 100%;
+	font-weight:normal;
+}
+
+.default_text {
+	font-family: 'PT Sans', Verdana, Arial, sans-serif;
+	font-size: 16px;
+}
+
+.small_text {
+	font-family: 'PT Sans Narrow', Verdana, Arial, sans-serif;
+	font-size:14px;
+}
+
+.tiny_text {
+	font-family: 'PT Sans Narrow', Verdana, Arial, sans-serif;
+	font-size:10px;
+}
+
+a:link, a:visited { 
+	color:#4e5a67;
+	text-decoration: none;
+} 
+
+a:hover {
+	color: #7b7b7b;
+}
+
+td.small_td {
+	width: 352px;
+}
+
+td.cellpadding10 {
+	padding: 10px;
+}
+
+/* Images - Start -------------------------------- */
+
+img.small_img {
+	width: 350px; 
+	height: 210px;
+	border: solid 1px #c3bdb7;
+}
+
+img.bio_img {
+	width: 170px; 
+	height: 170px;
+	border: solid 1px #c3bdb7;
+}
+
+img.logo_img {
+	width: 240px; 
+	height: 250px;
+	border: 0;
+}
+
+img.cover {
+	width: auto;
+	height: auto;
+	max-height: 100px;
+	border: solid 1px #c3bdb7;
+}
+
+div.unimi_logo img {
+	width: 266px; 
+	height: 90px;
+	border: 0;
+}
+
+div#logo_container img {
+	width: 90px;
+	height: 90px;
+	border: 0;
+}
+
+td.media_exhibits img {
+	width: 268px;
+	height: 376px;
+	border: solid 1px #c3bdb7;
+}
+
+td.press_title img {
+	width:200px;
+	height:100px;
+}
+
+td.press_title a img {
+	border: solid 1px #c3bdb7;
+}
+
+td.press_title img.pagepreview {
+	width:200px;
+	height:150px;
+}
+
+/* Images - End -------------------------------- */

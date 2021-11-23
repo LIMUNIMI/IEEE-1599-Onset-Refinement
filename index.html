@@ -1,34 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="author" content="Alessandro Minoli">
     <title>Musical Onset Detection</title>
 
-    <!--<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>-->
+    <!-- Stylesheets -->
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+    <link href="style/style_medium.css" media="(max-width:1650px)" rel="stylesheet" type="text/css" />
+    <link href="style/style_small.css" media="(max-width:1350px)" rel="stylesheet" type="text/css" />
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+    <!-- Scripts -->
     <script src="nayuki-fft/fft.js"></script>
     <script src="window-function/apply.js"></script>
     <script src="window-function/hamming.js"></script>
     <script src="moving-median/median.js"></script>
-
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="ieee1599-framework/utils.js"></script>
     <script src="ieee1599-framework/IEEE1599.js"></script>
+
 </head>
-
 <body>
-    <h1>Assicurati che nel file main.js siano configurate correttamente le variabili audiofilePath, filenameXML e filenameTrack.<h1>
-    <h1>Gli script "ieee1599-framework/IEEE1599.js" e "ieee1599-framework/utils.js" non sono stati caricati su Github ma vengono inclusi in index.html ed è indispensabile averli per poter eseguire il codice.<h1>
-    <h1>Nella console del browser appariranno tutte le info sull'esecuzione del codice.<h1>
-    <!--<h3 id="info"></h3>-->
-    <div id="result"></div>
-    <div id="df-threshold"></div>
-    <div id="df-peaks"></div>
+    <div class="main_container"> 
+        <!-- header start -->
+        <div class="header_pages">
+            <div id="logo_container"><a href="index.php"><img src="style/images/ieee1599.png" alt="IEEE 1599"/></a></div>
+            <div class="unimi_logo"><a href="https://standards.ieee.org/findstds/standard/1599-2008.html" target="_blank"><img src="style/images/ieee.png" alt="IEEE"/></a></div>
+        </div>
+        <!-- header end -->
+  
+        <!-- contents start -->
+        <div class="presentation">
 
+            <p><span class="huge_title">Un applicativo web di Onset detection per la <br>sincronizzazione audio di documenti IEEE 1599</span></p>
+            
+            <p>Gli script "ieee1599-framework/IEEE1599.js" e "ieee1599-framework/utils.js" non sono stati caricati su Github ma vengono inclusi in index.html ed è indispensabile averli per poter eseguire il codice.</p>
+
+            <p style="color:red">NOTE<br>
+                - si può fare il log dell'algoritmo sulla pagina al posto che sulla console?<br>
+                - provare a capire meglio come funzionano import ed export<br>
+                - generare le filename track automaticamente, senza farle inserire all'utente<br>
+                <b style="color:green"> - capito come combinare le due detection function a creare una detection function globale</b><br>
+                <b style="color:green"> - parametrizzato il T della percussive</b><br>
+                - <b> tuning pesi e T percussive</b><br>
+                <b style="color:green"> - peak picking: lowpass? abbiamo detto no</b><br>
+                - peak picking: scelta delta interattiva<br>
+                - correzione tempi: scelta limit magari aiutandosi con dati sull'XML<br>
+                <b style="color:green"> - capito come esportare da musescore a ieee1599</b>
+            </p>
+
+            <p><span class="big_title">Input: </span></p>
+
+            <form action="javascript:void(0);" id="input">
+                <p>
+                    <label for="track_path">Seleziona path per la traccia audio da analizzare</label><br>
+                    <input type="file" id="track_path" name="track_path" accept="audio/*" required><br>
+                </p>
+                <p>
+                    <label for="signal_type">Seleziona di che tipo è la traccia audio da analizzare</label><br>
+                    <input type="radio" id="cm" name="signal_type" value="cm" checked>
+                    <label for="cm">complex mixture</label><br>
+                    <input type="radio" id="np" name="signal_type" value="np">
+                    <label for="np">non-pitched percussive (drums, ...)</label><br>
+                    <input type="radio" id="pp" name="signal_type" value="pp">
+                    <label for="pp">pitched percussive (piano, guitar ...)</label><br>
+                    <input type="radio" id="pn" name="signal_type" value="pn">
+                    <label for="pn">pitched non-percussive (violin ...)</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="load_xml" name="load_xml" value="load_xml">
+                    <label for="load_xml">Modifica un documento XML IEEE 1599, se non è selezionato testa solo l'algoritmo</label>
+                </p>
+                <p name="xml_path" style="display:none; margin-left:30px;">
+                    <label for="xml_path">Seleziona path per il documento XML IEEE 1599 da modificare</label><br>
+                    <input type="file" id="xml_path" name="xml_path" accept=".xml" required disabled><br>
+                </p>
+                <p name="track_file_name" style="display:none; margin-left:30px;">
+                    <label for="track_file_name">Inserisci l'attributo file_name della traccia di cui ci occuparsi sul documento XML IEEE 1599</label><br>
+                    <input type="text" id="track_file_name" name="track_file_name" value="audio/performed by Scuola Corale G. Puccini with Orchestra Filarmonica Emiliana, 04.11.2006.mp3" required disabled><br>
+                </p>
+                <p>
+                    <input type="checkbox" id="show_plots" name="show_plots" value="show_plots" checked>
+                    <label for="show_plots">Mostra grafici (seleziona solo se la lunghezza del file audio è ridotta)</label>
+                </p>
+                <input type="submit" value="VAI">
+                <input type="reset">
+            </form>
+
+            <p><span class="big_title">Output: </span></p>
+
+            <p id="log">
+                Nella console del browser appariranno tutte le info sull'esecuzione del codice.
+            </p>
+            <img id="spinner" src="style/images/loader.gif" style="display:none; margin-left:auto; margin-right:auto;">
+            <div id="result"></div>
+            <div id="df-global"></div>
+            <div id="df-threshold"></div>
+            <div id="df-peaks"></div>
+        </div>
+        <!-- contents end --> 
+  
+        <!-- footer start -->
+        <div class="footer">
+            <div>
+                <p>Alessandro Minoli, <a href="mailto:alessandro.minoli@studenti.unimi.it">alessandro.minoli@studenti.unimi.it</a></p>
+            </div>
+        </div>  
+        <!-- footer end -->  
+    </div>
+    
     <script src="onset-detection-correction/utils.js"></script>
-    <script src="onset-detection-correction/utilsXML.js"></script>
-    <script src="onset-detection-correction/onset-detection.js"></script>
     <script src="onset-detection-correction/plots.js"></script>
+    <script src="onset-detection-correction/onset-detection.js"></script>
     <script src="onset-detection-correction/time-correction.js"></script>
-    <script src="main.js"></script>
+	<script src="main.js"></script>  
 </body>

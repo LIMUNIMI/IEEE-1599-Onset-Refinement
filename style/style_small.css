@@ -1,0 +1,182 @@
+body {
+	font-size: 11px;
+}
+
+div.main_container {
+	width:1000px;
+}
+
+div.header_home {
+	min-height:50px;
+	margin-bottom:15px;
+}
+
+div.header_pages {
+	min-height:50px;
+	margin-bottom:15px;
+}
+
+div.showcase {
+	height:280px;
+	width:1000px;
+}
+
+table.member_table {
+	min-width:313px;
+}
+
+div.unimi_logo {
+	position:absolute;
+	right:30px;
+	bottom:3px;
+}
+
+div.flags {
+	position:absolute;
+	left:115px;
+	bottom:40px;
+}
+
+div.blue_square {
+	width:44px;
+	height:44px;
+	font-size:18px;
+}
+
+div.blue_square_narrow {
+	width:44px;
+	height:44px;
+	font-size:18px;
+}
+
+td.blue_square {
+	width:44px;
+}
+
+td.media_exhibits {
+	width:170px;
+}
+
+td.press_title {
+	width:130px;
+}
+
+.typewriter {
+	font-size: 10px;
+}
+
+/* Top menu - Start -------------------------------- */
+
+div#mainmenu_container {
+	left:150px;
+}
+
+div#mainmenu_container li
+{
+	width:150px;
+	min-height:12px;
+}
+
+div#mainmenu_container li ul
+{
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+div#mainmenu_container li:hover ul
+{
+    width:150px;
+    margin: 0 0 0 -1px;
+	border: 0;
+    border-left:1px solid white;
+	border-bottom:1px solid white;
+	padding-top:15px;
+	padding-bottom:5px;
+	min-width:150px;
+}
+
+div#mainmenu_container li li { 
+	min-width:150px; 
+} 
+
+div#mainmenu_container li li a { 
+	padding:2px 2px 2px 5px; 
+}
+
+/* Top menu - End -------------------------------- */
+
+.huge_title {
+	font-size:30px
+}
+
+.big_title {
+	font-size:18px;
+}
+
+.title {
+	font-size:16px;
+}
+
+.small_title {
+	font-size:14px;
+}
+
+.submenu_text {
+	font-size:11px;
+}
+
+.small_text {
+	font-size:11px;
+}
+
+.tiny_text {
+	font-size:10px;
+}
+
+td.small_td {
+	width: 220px;
+}
+
+/* Images - Start -------------------------------- */
+
+img.small_img {
+	width: 218px; 
+	height: 131px;
+}
+
+img.bio_img {
+	width: 105px; 
+	height: 105px;
+}
+
+img.logo_img {
+	width: 150px; 
+	height: 116px;
+}
+
+div.unimi_logo img {
+	width: 166px; 
+	height: 56px;
+}
+
+div#logo_container img {
+	width: 56px;
+	height: 56px;
+}
+
+td.media_exhibits img {
+	width: 168px;
+	height: 236px;
+}
+
+td.press_title img {
+	width:124px;
+	height:62px;
+}
+
+td.press_title img.pagepreview {
+	width:124px;
+	height:93px;
+}
+
+/* Images - End -------------------------------- */
