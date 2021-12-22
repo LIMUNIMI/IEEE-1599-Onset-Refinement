@@ -10,6 +10,6 @@
 	fclose($file);
 	
 	// sending a response
-	echo json_encode("... il file XML con gli onset corretti è stato creato");
+	echo json_encode("<b>Il file XML con gli onset corretti è stato creato!</b><br>");
 ?>
 

@@ -1,81 +1,65 @@
-fixTimes = (original, found) => {
+export const fixTimes = (original, found) => { 
 
-	// original : tempi degli onset sul documento IEEE1599
-	// found : tempi degli onset trovati dall'algoritmo
+	/*************** 
 
-	// questa funzione modifica un tempo original se c'è un tempo found 
-	// che cade in un intorno arbitrariamente largo di original
+		original : array dei tempi degli onset sul documento IEEE-1599
+		found : array dei tempi degli onset trovati dall'algoritmo
 
-	// ritorna array dei nuovi tempi corretti
+		Questa funzione modifica in-place un tempo in original se c'è un tempo in found che cade in un intorno largo LIMIT di original.
+		Il caso in cui gli intorni di onset original adiacenti si sovrappongono è opportunamente gestito.
 
-	let correctedTimes = original.slice();
+	***************/
 
-	let u = original.concat(found);
-	for (let i=0, len=u.length, len_original=original.length; i<len; i++)
-		(i < len_original) ? u[i] = [u[i], true] : u[i] = [u[i], false]
-	u = u.sort((a, b) => a[0] - b[0]);
+	if (original == undefined) throw "original is undefined"
+	if (found == undefined) throw "found is undefined"
+	if (original.length == 0) throw "original is empty"
+	if (found.length == 0) return
+	
+	//const limit = 0.2 								// larghezza di default dell'intorno 
+	let limitPrev = LIMIT, limitNext = LIMIT 		// larghezza effettiva dell'intorno verso indietro e verso avanti
+	let differenceWithPrev, differenceWithNext		// differenza dell'onset original con l'onset found precedente / successivo
+	let replaceWithPrev, replaceWithNext 			// true se posso sostituire l'onset original con l'onset found precedente / successivo
 
-	const limit = 0.2; 		// intorno in s entro cui correggo tempo di IEEE1599 col tempo del mio onset
-	const len = u.length;
-	let j = 0; 				// indice per tenere conto dove sono nell'array original
+	// aggiungo due onset found d'appoggio, essi non verranno mai sostituiti a degli onset original ma semplificano la scrittura dell'algoritmo
 
-	// caso speciale primo elemento
-	if (u[0][1] == true){
-		if (u[1][1] == false && u[1][0]-u[0][0] <= limit) 
-			correctedTimes[j] = u[1][0];
-		j += 1;	
-	}
+	found.unshift(original[0] - LIMIT - 0.1) 				// serve ad evitare il caso in cui non ci sia nessuno onset found prima del primo onset original
+	found.push(original[original.length-1] + LIMIT + 0.1) 	// serve ad evitare il caso in cui non ci sia nessun onset found dopo l'ultimo onset original
 
-	// caso generale
-	let i = 1, replaceWithPrevious = false, replaceWithNext = false, differenceWithPrevious = 0, differenceWithNext = 0;
-	while (i < len-1){
-		if (u[i][1] == true){
+	for (let i = 0, cur = 0; i < found.length && cur < original.length; i++){
 
-			differenceWithPrevious = u[i][0] - u[i-1][0];
-			differenceWithNext = u[i+1][0] - u[i][0];
+		if (found[i] <= original[cur] && found[i+1] > original[cur]){
 
-			replaceWithPrevious = (u[i-1][1] == false && differenceWithPrevious <= limit);
-			replaceWithNext = (u[i+1][1] == false && differenceWithNext <= limit);
+			differenceWithPrev = original[cur] - found[i]
+			differenceWithNext = found[i+1] - original[cur]
 
-			if (replaceWithPrevious && replaceWithNext){
-				(differenceWithPrevious > differenceWithNext) ? correctedTimes[j] = u[i+1][0] : correctedTimes[j] = u[i-1][0]
-				j += 1;
-				i += 1;
-				continue;
+			limitPrev = limitNext
+			limitNext = ( cur+1 < original.length && original[cur+1] - original[cur] < LIMIT*2 ) ? (original[cur+1] - original[cur]) * 0.4 : LIMIT
+
+			replaceWithPrev = (differenceWithPrev <= limitPrev)
+			replaceWithNext = (differenceWithNext <= limitNext)
+
+			//console.log(original[cur], found[i], limitPrev, differenceWithPrev, replaceWithPrev, found[i+1], limitNext, differenceWithNext, replaceWithNext)
+
+			// sostituzione onset originale
+			if (replaceWithPrev && replaceWithNext){
+				original[cur] = (differenceWithPrev > differenceWithNext) ?  found[i+1] : found[i]
+				cur += 1
+				continue
 			}
+			if (replaceWithPrev) original[cur] = found[i]
+			if (replaceWithNext) original[cur] = found[i+1]
+			cur += 1
+		}	
+		else if (found[i] > original[cur]) i -= 2;	
+		/* 
+			con l'elseif risolvo il caso in cui il found successivo sia dopo l'original successivo, capita ad esempio in
 
-			if (replaceWithPrevious) correctedTimes[j] = u[i-1][0];
-			if (replaceWithNext) correctedTimes[j] = u[i+1][0];
-			j += 1;
-		}
-		i += 1;
+			let original = [  1,          2,            3,                 3.1,            4]
+			let found = [0.9,   1.12, 1.9,                 3.04,    3.15,          3.8,             4.2]
+
+			quando dal found 1.9 passo direttamente al found 3.04, che è > dell'original 3
+			i -= 2 mi fa tornare indietro di onset nel found mentre ho avanzato col cur
+			quindi sia per 2 che per 3 considero come prev 1.9 e come next 3.04
+		*/	
 	}
-
-	// caso speciale ultimo elemento
-	if (u[len-1][1] == true){
-		if (u[len-2][1] == false && u[len-1][0]-u[len-2][0] <= limit) 
-			correctedTimes[j] = u[len-2][0];
-		j += 1;	
-	}
-
-	if (correctedTimes.length !== Array.from(new Set(correctedTimes)).length) {
-
-		// se entro qui la nuova mappatura contiene duplicati 
-		// (cioè eventi che avvengono in tempi diversi sono stati erroneamente mappati sullo stesso tempo)
-
-		for (let i=0, len=correctedTimes.length; i<len-1; i++){
-			if (correctedTimes[i] == correctedTimes[i+1]){
-				// correctedTimes[i] è un duplicato
-				// conto quanti elementi duplicati uguali ci sono in fila
-				let cont = 0;
-				while (i+cont+1 < len && correctedTimes[i+cont] == correctedTimes[i+cont+1])
-					cont += 1;
-				// sostituisco gli elementi mappati sullo stesso tempo con i tempi originari di IEEE1599
-				for (let j=0; j<=cont; j++) 
-					correctedTimes[i+j] = original[i+j];
-			}
-		}
-	}
-
-	return correctedTimes;
 }

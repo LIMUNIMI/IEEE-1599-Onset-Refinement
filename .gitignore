@@ -1,13 +1,10 @@
 ieee1599-framework
 
-script_vecchi
-
 fft-test.html
 fft-test.js
 
-onset-detection2.js 
-
 *.flac
 *.mp3
-!mozart.mp3
-
+!bach_piano.mp3
+*.xml
+!bach_piano.xml

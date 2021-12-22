@@ -6,14 +6,6 @@ stereo2mono = (dx, sx) => {
 	return mono;
 }
 
-trimSilence = signal => {
-	let i = 1;
-  	const len = signal.length;
-  	while(signal[len-i] == 0)
-    	i++;
-  	return signal.slice(0,-i);
-}
-
 //------------------- my math utils
 
 // log10 elementi in array
