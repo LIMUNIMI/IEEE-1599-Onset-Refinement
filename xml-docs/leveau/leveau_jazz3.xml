@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ieee1599 SYSTEM "https://www.lim.di.unimi.it/IEEE/ieee1599.dtd">
+<ieee1599 version="1.0">
+    <general>
+        <description>
+            <main_title>jazz3</main_title>
+            <author type="composer"></author>
+        </description>
+    </general>
+    <audio>
+        <track file_name="jazz3.wav" file_format="audio_wav" encoding_format="audio_wav">
+            <track_indexing timing_type="seconds">
+                <track_event event_ref="e0" start_time="0.0022"/>
+                <track_event event_ref="e1" start_time="0.8085"/>
+                <track_event event_ref="e2" start_time="1.0247"/>
+                <track_event event_ref="e3" start_time="1.2304"/>
+                <track_event event_ref="e4" start_time="1.4208"/>
+                <track_event event_ref="e5" start_time="1.6143"/>
+                <track_event event_ref="e6" start_time="1.8153"/>
+                <track_event event_ref="e7" start_time="2.0126"/>
+                <track_event event_ref="e8" start_time="2.2242"/>
+                <track_event event_ref="e9" start_time="2.4089"/>
+                <track_event event_ref="e10" start_time="2.6337"/>
+                <track_event event_ref="e11" start_time="2.8222"/>
+                <track_event event_ref="e12" start_time="2.988"/>
+                <track_event event_ref="e13" start_time="3.2174"/>
+                <track_event event_ref="e14" start_time="3.4223"/>
+                <track_event event_ref="e15" start_time="3.602"/>
+                <track_event event_ref="e16" start_time="3.8204"/>
+                <track_event event_ref="e17" start_time="3.9854"/>
+                <track_event event_ref="e18" start_time="4.3856"/>
+                <track_event event_ref="e19" start_time="4.5769"/>
+                <track_event event_ref="e20" start_time="4.7878"/>
+                <track_event event_ref="e21" start_time="4.9716"/>
+                <track_event event_ref="e22" start_time="4.9935"/>
+                <track_event event_ref="e23" start_time="5.1968"/>
+                <track_event event_ref="e24" start_time="5.4021"/>
+                <track_event event_ref="e25" start_time="5.5737"/>
+                <track_event event_ref="e26" start_time="5.7934"/>
+                <track_event event_ref="e27" start_time="5.9883"/>
+                <track_event event_ref="e28" start_time="6.2099"/>
+                <track_event event_ref="e29" start_time="6.399"/>
+                <track_event event_ref="e30" start_time="6.6217"/>
+                <track_event event_ref="e31" start_time="6.8062"/>
+                <track_event event_ref="e32" start_time="7.03"/>
+                <track_event event_ref="e33" start_time="7.217"/>
+                <track_event event_ref="e34" start_time="7.435"/>
+                <track_event event_ref="e35" start_time="7.6221"/>
+                <track_event event_ref="e36" start_time="7.8177"/>
+                <track_event event_ref="e37" start_time="8.0186"/>
+                <track_event event_ref="e38" start_time="8.4112"/>
+                <track_event event_ref="e39" start_time="8.6327"/>
+                <track_event event_ref="e40" start_time="8.8272"/>
+                <track_event event_ref="e41" start_time="9.0776"/>
+                <track_event event_ref="e42" start_time="9.0901"/>
+                <track_event event_ref="e43" start_time="9.2515"/>
+                <track_event event_ref="e44" start_time="9.4509"/>
+                <track_event event_ref="e45" start_time="9.636"/>
+                <track_event event_ref="e46" start_time="9.8431"/>
+                <track_event event_ref="e47" start_time="10.0474"/>
+                <track_event event_ref="e48" start_time="10.269"/>
+                <track_event event_ref="e49" start_time="10.4586"/>
+                <track_event event_ref="e50" start_time="10.6652"/>
+                <track_event event_ref="e51" start_time="10.8334"/>
+                <track_event event_ref="e52" start_time="10.8443"/>
+           </track_indexing>
+        </track>
+    </audio>
+</ieee1599>

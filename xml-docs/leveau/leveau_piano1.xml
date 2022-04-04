@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ieee1599 SYSTEM "https://www.lim.di.unimi.it/IEEE/ieee1599.dtd">
+<ieee1599 version="1.0">
+    <general>
+        <description>
+            <main_title>piano1</main_title>
+            <author type="composer"></author>
+        </description>
+    </general>
+    <audio>
+        <track file_name="piano1.wav" file_format="audio_wav" encoding_format="audio_wav">
+            <track_indexing timing_type="seconds">
+                <track_event event_ref="e0" start_time="0.0417"/>
+                <track_event event_ref="e1" start_time="0.2754"/>
+                <track_event event_ref="e2" start_time="0.594"/>
+                <track_event event_ref="e3" start_time="2.5217"/>
+                <track_event event_ref="e4" start_time="3.8912"/>
+                <track_event event_ref="e5" start_time="4.162"/>
+                <track_event event_ref="e6" start_time="4.4894"/>
+                <track_event event_ref="e7" start_time="5.4433"/>
+                <track_event event_ref="e8" start_time="6.5236"/>
+                <track_event event_ref="e9" start_time="7.7881"/>
+                <track_event event_ref="e10" start_time="8.0655"/>
+                <track_event event_ref="e11" start_time="8.4684"/>
+                <track_event event_ref="e12" start_time="9.7238"/>
+                <track_event event_ref="e13" start_time="9.9957"/>
+                <track_event event_ref="e14" start_time="10.4076"/>
+                <track_event event_ref="e15" start_time="11.9814"/>
+                <track_event event_ref="e16" start_time="12.5297"/>
+                <track_event event_ref="e17" start_time="13.5678"/>
+                <track_event event_ref="e18" start_time="14.5926"/>
+           </track_indexing>
+        </track>
+    </audio>
+</ieee1599>

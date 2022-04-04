@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ieee1599 SYSTEM "http://www.lim.di.unimi.it/IEEE/ieee1599.dtd"[]>
+<ieee1599 version="1.0" creator="MuseScore Export Plugin 3.0">
+  <general>
+    <description>
+      <main_title>The girl from Ipanema</main_title>
+      <author type="composer">Carlos Jobim</author>
+    </description>
+  </general>
+  <logic>
+    <spine>
+      <event id="clef_staff1_meas1_0" timing="0" hpos="0" />
+      <event id="keysig_staff1_meas1" timing="0" hpos="0" />
+      <event id="saxophone_alto1_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="saxophone_alto1_meas1_voice1_ev2" timing="720" hpos="720" />
+      <event id="saxophone_alto1_meas1_voice1_ev3" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas1_voice1_ev4" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas1_voice1_ev5" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas1_voice1_ev6" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas2_voice1_ev1" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas2_voice1_ev2" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas2_voice1_ev3" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas2_voice1_ev4" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas2_voice1_ev5" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas2_voice1_ev6" timing="480" hpos="480" />
+      <event id="saxophone_alto1_meas3_voice1_ev1" timing="480" hpos="480" />
+      <event id="saxophone_alto1_meas3_voice1_ev2" timing="720" hpos="720" />
+      <event id="saxophone_alto1_meas3_voice1_ev3" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas3_voice1_ev4" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas3_voice1_ev5" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas3_voice1_ev6" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas4_voice1_ev1" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas4_voice1_ev2" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas4_voice1_ev3" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas4_voice1_ev4" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas4_voice1_ev5" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas4_voice1_ev6" timing="480" hpos="480" />
+      <event id="saxophone_alto1_meas5_voice1_ev1" timing="480" hpos="480" />
+      <event id="saxophone_alto1_meas5_voice1_ev2" timing="720" hpos="720" />
+      <event id="saxophone_alto1_meas5_voice1_ev3" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas5_voice1_ev4" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas5_voice1_ev5" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas5_voice1_ev6" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas6_voice1_ev1" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas6_voice1_ev2" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas6_voice1_ev3" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas6_voice1_ev4" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas6_voice1_ev5" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas6_voice1_ev6" timing="480" hpos="480" />
+      <event id="saxophone_alto1_meas6_voice1_ev7" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas7_voice1_ev1" timing="240" hpos="240" />
+      <event id="saxophone_alto1_meas8_voice1_ev1" timing="1920" hpos="1920" />
+      <event id="saxophone_alto1_meas9_voice1_ev1" timing="1920" hpos="1920" />
+      <event id="saxophone_alto1_meas9_voice1_ev2" timing="320" hpos="320" />
+      <event id="saxophone_alto1_meas9_voice1_ev3" timing="320" hpos="320" />
+      <event id="saxophone_alto1_meas9_voice1_ev4" timing="320" hpos="320" />
+      <event id="saxophone_alto1_meas9_voice1_ev5" timing="320" hpos="320" />
+      <event id="saxophone_alto1_meas9_voice1_ev6" timing="320" hpos="320" />
+      <event id="saxophone_alto1_meas10_voice1_ev1" timing="320" hpos="320" />
+      <event id="saxophone_alto1_meas10_voice1_ev2" timing="720" hpos="720" />
+      <event id="saxophone_alto1_meas10_voice1_ev3" timing="240" hpos="240" />
+    </spine>
+    <los>
+      <staff_list>
+        <staff id="staff1">
+          <clef event_ref="clef_staff1_meas1_0" shape="C" staff_step="0" />
+          <key_signature event_ref="keysig_staff1_meas1">
+            <sharp_num number="0" />
+          </key_signature>
+        </staff>
+      </staff_list>
+      <part id="saxophone_alto1" transposition_pitch="E" transposition_accidental="flat">
+        <voice_list>
+          <voice_item id="saxophone_alto1_voice1" staff_ref="staff1" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="saxophone_alto1_voice1">
+            <chord event_ref="saxophone_alto1_meas1_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas1_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas1_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas1_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="saxophone_alto1_meas1_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="saxophone_alto1_meas1_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="saxophone_alto1_voice1">
+            <rest event_ref="saxophone_alto1_meas2_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="saxophone_alto1_meas2_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="saxophone_alto1_meas2_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="saxophone_alto1_meas2_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas2_voice1_ev5">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas2_voice1_ev6">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="saxophone_alto1_voice1">
+            <chord event_ref="saxophone_alto1_meas3_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas3_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas3_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas3_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="saxophone_alto1_meas3_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="saxophone_alto1_meas3_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="saxophone_alto1_voice1">
+            <rest event_ref="saxophone_alto1_meas4_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="saxophone_alto1_meas4_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="saxophone_alto1_meas4_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="saxophone_alto1_meas4_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas4_voice1_ev5">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas4_voice1_ev6">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="saxophone_alto1_voice1">
+            <chord event_ref="saxophone_alto1_meas5_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas5_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas5_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas5_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="saxophone_alto1_meas5_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="saxophone_alto1_meas5_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="saxophone_alto1_voice1">
+            <rest event_ref="saxophone_alto1_meas6_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="saxophone_alto1_meas6_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="saxophone_alto1_meas6_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="saxophone_alto1_meas6_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas6_voice1_ev5">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas6_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+                <printed_accidentals>
+                  <flat />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas6_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="7">
+          <voice voice_item_ref="saxophone_alto1_voice1">
+            <chord event_ref="saxophone_alto1_meas7_voice1_ev1">
+              <duration num="1" den="1">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="8">
+          <voice voice_item_ref="saxophone_alto1_voice1">
+            <chord event_ref="saxophone_alto1_meas8_voice1_ev1">
+              <duration num="1" den="1">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="9">
+          <voice voice_item_ref="saxophone_alto1_voice1">
+            <chord event_ref="saxophone_alto1_meas9_voice1_ev1">
+              <duration num="1" den="4">
+                <tuplet_ratio enter_num="3" enter_den="8" in_num="1" in_den="4" />
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas9_voice1_ev2">
+              <duration num="1" den="4">
+                <tuplet_ratio enter_num="3" enter_den="8" in_num="1" in_den="4" />
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="flat" />
+                <printed_accidentals>
+                  <flat />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas9_voice1_ev3">
+              <duration num="1" den="4">
+                <tuplet_ratio enter_num="3" enter_den="8" in_num="1" in_den="4" />
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas9_voice1_ev4">
+              <duration num="1" den="4">
+                <tuplet_ratio enter_num="3" enter_den="8" in_num="1" in_den="4" />
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+                <printed_accidentals>
+                  <flat />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas9_voice1_ev5">
+              <duration num="1" den="4">
+                <tuplet_ratio enter_num="3" enter_den="8" in_num="1" in_den="4" />
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas9_voice1_ev6">
+              <duration num="1" den="4">
+                <tuplet_ratio enter_num="3" enter_den="8" in_num="1" in_den="4" />
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="10">
+          <voice voice_item_ref="saxophone_alto1_voice1">
+            <chord event_ref="saxophone_alto1_meas10_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="flat" />
+                <printed_accidentals>
+                  <flat />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas10_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+                <printed_accidentals>
+                  <flat />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="saxophone_alto1_meas10_voice1_ev3">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+      </part>
+    </los>
+  </logic>
+  <audio>
+    <track file_name="sax.mp3" file_format="audio_mp3" encoding_format="audio_mp3">
+      <track_indexing timing_type="seconds">
+        <track_event event_ref="clef_staff1_meas1_0" start_time="0" />
+        <track_event event_ref="keysig_staff1_meas1" start_time="0" />
+        <track_event event_ref="saxophone_alto1_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="saxophone_alto1_meas1_voice1_ev2" start_time="0.81" />
+        <track_event event_ref="saxophone_alto1_meas1_voice1_ev3" start_time="1.07" />
+        <track_event event_ref="saxophone_alto1_meas1_voice1_ev4" start_time="1.32" />
+        <track_event event_ref="saxophone_alto1_meas1_voice1_ev5" start_time="1.57" />
+        <track_event event_ref="saxophone_alto1_meas1_voice1_ev6" start_time="1.83" />
+        <track_event event_ref="saxophone_alto1_meas2_voice1_ev1" start_time="2.08" />
+        <track_event event_ref="saxophone_alto1_meas2_voice1_ev2" start_time="2.33" />
+        <track_event event_ref="saxophone_alto1_meas2_voice1_ev3" start_time="2.58" />
+        <track_event event_ref="saxophone_alto1_meas2_voice1_ev4" start_time="2.84" />
+        <track_event event_ref="saxophone_alto1_meas2_voice1_ev5" start_time="3.11" />
+        <track_event event_ref="saxophone_alto1_meas2_voice1_ev6" start_time="3.6" />
+        <track_event event_ref="saxophone_alto1_meas3_voice1_ev1" start_time="4.1" />
+        <track_event event_ref="saxophone_alto1_meas3_voice1_ev2" start_time="4.84" />
+        <track_event event_ref="saxophone_alto1_meas3_voice1_ev3" start_time="5.08" />
+        <track_event event_ref="saxophone_alto1_meas3_voice1_ev4" start_time="5.33" />
+        <track_event event_ref="saxophone_alto1_meas3_voice1_ev5" start_time="5.58" />
+        <track_event event_ref="saxophone_alto1_meas3_voice1_ev6" start_time="5.83" />
+        <track_event event_ref="saxophone_alto1_meas4_voice1_ev1" start_time="6.08" />
+        <track_event event_ref="saxophone_alto1_meas4_voice1_ev2" start_time="6.34" />
+        <track_event event_ref="saxophone_alto1_meas4_voice1_ev3" start_time="6.59" />
+        <track_event event_ref="saxophone_alto1_meas4_voice1_ev4" start_time="6.84" />
+        <track_event event_ref="saxophone_alto1_meas4_voice1_ev5" start_time="7.08" />
+        <track_event event_ref="saxophone_alto1_meas4_voice1_ev6" start_time="7.6" />
+        <track_event event_ref="saxophone_alto1_meas5_voice1_ev1" start_time="8.11" />
+        <track_event event_ref="saxophone_alto1_meas5_voice1_ev2" start_time="8.86" />
+        <track_event event_ref="saxophone_alto1_meas5_voice1_ev3" start_time="9.12" />
+        <track_event event_ref="saxophone_alto1_meas5_voice1_ev4" start_time="9.36" />
+        <track_event event_ref="saxophone_alto1_meas5_voice1_ev5" start_time="9.6" />
+        <track_event event_ref="saxophone_alto1_meas5_voice1_ev6" start_time="9.85" />
+        <track_event event_ref="saxophone_alto1_meas6_voice1_ev1" start_time="10.1" />
+        <track_event event_ref="saxophone_alto1_meas6_voice1_ev2" start_time="10.34" />
+        <track_event event_ref="saxophone_alto1_meas6_voice1_ev3" start_time="10.57" />
+        <track_event event_ref="saxophone_alto1_meas6_voice1_ev4" start_time="10.82" />
+        <track_event event_ref="saxophone_alto1_meas6_voice1_ev5" start_time="11.06" />
+        <track_event event_ref="saxophone_alto1_meas6_voice1_ev6" start_time="11.57" />
+        <track_event event_ref="saxophone_alto1_meas6_voice1_ev7" start_time="11.82" />
+        <track_event event_ref="saxophone_alto1_meas7_voice1_ev1" start_time="12.08" />
+        <track_event event_ref="saxophone_alto1_meas8_voice1_ev1" start_time="14.15" />
+        <track_event event_ref="saxophone_alto1_meas9_voice1_ev1" start_time="16.09" />
+        <track_event event_ref="saxophone_alto1_meas9_voice1_ev2" start_time="16.43" />
+        <track_event event_ref="saxophone_alto1_meas9_voice1_ev3" start_time="16.76" />
+        <track_event event_ref="saxophone_alto1_meas9_voice1_ev4" start_time="17.08" />
+        <track_event event_ref="saxophone_alto1_meas9_voice1_ev5" start_time="17.41" />
+        <track_event event_ref="saxophone_alto1_meas9_voice1_ev6" start_time="17.74" />
+        <track_event event_ref="saxophone_alto1_meas10_voice1_ev1" start_time="18.09" />
+        <track_event event_ref="saxophone_alto1_meas10_voice1_ev2" start_time="18.84" />
+        <track_event event_ref="saxophone_alto1_meas10_voice1_ev3" start_time="19.09" />
+      </track_indexing>
+    </track>
+  </audio>
+</ieee1599>

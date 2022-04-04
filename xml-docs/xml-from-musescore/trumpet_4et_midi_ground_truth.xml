@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ieee1599 SYSTEM "http://www.lim.di.unimi.it/IEEE/ieee1599.dtd"[]>
+<ieee1599 version="1.0" creator="MuseScore Export Plugin 3.0">
+  <general>
+    <description>
+      <main_title>The Godfather</main_title>
+      <author type="composer">
+      </author>
+    </description>
+  </general>
+  <logic>
+    <spine>
+      <event id="clef_staff1_meas1_0" timing="0" hpos="0" />
+      <event id="keysig_staff1_meas1" timing="0" hpos="0" />
+      <event id="clef_staff2_meas1_0" timing="0" hpos="0" />
+      <event id="keysig_staff2_meas1" timing="0" hpos="0" />
+      <event id="clef_staff3_meas1_0" timing="0" hpos="0" />
+      <event id="keysig_staff3_meas1" timing="0" hpos="0" />
+      <event id="clef_staff4_meas1_0" timing="0" hpos="0" />
+      <event id="keysig_staff4_meas1" timing="0" hpos="0" />
+      <event id="b_trumpet1_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet2_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet4_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet1_meas2_voice1_ev1" timing="960" hpos="960" />
+      <event id="b_trumpet2_meas2_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas2_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet4_meas2_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet1_meas2_voice1_ev2" timing="240" hpos="240" />
+      <event id="b_trumpet1_meas2_voice1_ev3" timing="240" hpos="240" />
+      <event id="b_trumpet1_meas2_voice1_ev4" timing="240" hpos="240" />
+      <event id="b_trumpet1_meas3_voice1_ev1" timing="240" hpos="240" />
+      <event id="b_trumpet2_meas3_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas3_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet4_meas3_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet1_meas3_voice1_ev2" timing="240" hpos="240" />
+      <event id="b_trumpet1_meas3_voice1_ev3" timing="240" hpos="240" />
+      <event id="b_trumpet1_meas3_voice1_ev4" timing="240" hpos="240" />
+      <event id="b_trumpet1_meas4_voice1_ev1" timing="240" hpos="240" />
+      <event id="b_trumpet2_meas4_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas4_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet4_meas4_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet1_meas4_voice1_ev2" timing="240" hpos="240" />
+      <event id="b_trumpet1_meas4_voice1_ev3" timing="240" hpos="240" />
+      <event id="b_trumpet1_meas4_voice1_ev4" timing="240" hpos="240" />
+      <event id="b_trumpet1_meas5_voice1_ev1" timing="240" hpos="240" />
+      <event id="b_trumpet2_meas5_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas5_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet4_meas5_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet2_meas5_voice1_ev2" timing="480" hpos="480" />
+      <event id="b_trumpet3_meas5_voice1_ev2" timing="0" hpos="0" />
+      <event id="b_trumpet1_meas6_voice1_ev1" timing="480" hpos="480" />
+      <event id="b_trumpet2_meas6_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas6_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet4_meas6_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas6_voice1_ev2" timing="240" hpos="240" />
+      <event id="b_trumpet4_meas6_voice1_ev2" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas6_voice1_ev3" timing="240" hpos="240" />
+      <event id="b_trumpet4_meas6_voice1_ev3" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas6_voice1_ev4" timing="240" hpos="240" />
+      <event id="b_trumpet1_meas7_voice1_ev1" timing="240" hpos="240" />
+      <event id="b_trumpet2_meas7_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas7_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet4_meas7_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas7_voice1_ev2" timing="240" hpos="240" />
+      <event id="b_trumpet3_meas7_voice1_ev3" timing="240" hpos="240" />
+      <event id="b_trumpet3_meas7_voice1_ev4" timing="240" hpos="240" />
+      <event id="b_trumpet1_meas8_voice1_ev1" timing="240" hpos="240" />
+      <event id="b_trumpet2_meas8_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas8_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet4_meas8_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas8_voice1_ev2" timing="240" hpos="240" />
+      <event id="b_trumpet3_meas8_voice1_ev3" timing="240" hpos="240" />
+      <event id="b_trumpet3_meas8_voice1_ev4" timing="240" hpos="240" />
+      <event id="b_trumpet1_meas9_voice1_ev1" timing="240" hpos="240" />
+      <event id="b_trumpet2_meas9_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas9_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet4_meas9_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet1_meas9_voice1_ev2" timing="240" hpos="240" />
+      <event id="b_trumpet2_meas9_voice1_ev2" timing="0" hpos="0" />
+      <event id="b_trumpet1_meas9_voice1_ev3" timing="240" hpos="240" />
+      <event id="b_trumpet2_meas9_voice1_ev3" timing="0" hpos="0" />
+      <event id="b_trumpet1_meas9_voice1_ev4" timing="240" hpos="240" />
+      <event id="b_trumpet2_meas9_voice1_ev4" timing="0" hpos="0" />
+      <event id="b_trumpet1_meas10_voice1_ev1" timing="240" hpos="240" />
+      <event id="b_trumpet2_meas10_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas10_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet4_meas10_voice1_ev1" timing="0" hpos="0" />
+      <event id="b_trumpet3_meas10_voice1_ev2" timing="240" hpos="240" />
+    </spine>
+    <los>
+      <staff_list>
+        <staff id="staff1">
+          <clef event_ref="clef_staff1_meas1_0" shape="G" staff_step="2" />
+          <key_signature event_ref="keysig_staff1_meas1">
+            <flat_num number="1" />
+          </key_signature>
+        </staff>
+        <staff id="staff2">
+          <clef event_ref="clef_staff2_meas1_0" shape="G" staff_step="2" />
+          <key_signature event_ref="keysig_staff2_meas1">
+            <flat_num number="1" />
+          </key_signature>
+        </staff>
+        <staff id="staff3">
+          <clef event_ref="clef_staff3_meas1_0" shape="G" staff_step="2" />
+          <key_signature event_ref="keysig_staff3_meas1">
+            <flat_num number="1" />
+          </key_signature>
+        </staff>
+        <staff id="staff4">
+          <clef event_ref="clef_staff4_meas1_0" shape="G" staff_step="2" />
+          <key_signature event_ref="keysig_staff4_meas1">
+            <flat_num number="1" />
+          </key_signature>
+        </staff>
+      </staff_list>
+      <part id="b_trumpet1" transposition_pitch="B" transposition_accidental="flat">
+        <voice_list>
+          <voice_item id="b_trumpet1_voice1" staff_ref="staff1" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="b_trumpet1_voice1">
+            <chord event_ref="b_trumpet1_meas1_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="b_trumpet1_voice1">
+            <rest event_ref="b_trumpet1_meas2_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="b_trumpet1_meas2_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet1_meas2_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet1_meas2_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="b_trumpet1_voice1">
+            <chord event_ref="b_trumpet1_meas3_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet1_meas3_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet1_meas3_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet1_meas3_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="b_trumpet1_voice1">
+            <chord event_ref="b_trumpet1_meas4_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet1_meas4_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet1_meas4_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet1_meas4_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="b_trumpet1_voice1">
+            <chord event_ref="b_trumpet1_meas5_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="b_trumpet1_voice1">
+            <chord event_ref="b_trumpet1_meas6_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="7">
+          <voice voice_item_ref="b_trumpet1_voice1">
+            <chord event_ref="b_trumpet1_meas7_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="8">
+          <voice voice_item_ref="b_trumpet1_voice1">
+            <chord event_ref="b_trumpet1_meas8_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="9">
+          <voice voice_item_ref="b_trumpet1_voice1">
+            <rest event_ref="b_trumpet1_meas9_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="b_trumpet1_meas9_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet1_meas9_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet1_meas9_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="10">
+          <voice voice_item_ref="b_trumpet1_voice1">
+            <chord event_ref="b_trumpet1_meas10_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+      </part>
+      <part id="b_trumpet2" transposition_pitch="B" transposition_accidental="flat">
+        <voice_list>
+          <voice_item id="b_trumpet2_voice1" staff_ref="staff2" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="b_trumpet2_voice1">
+            <chord event_ref="b_trumpet2_meas1_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="b_trumpet2_voice1">
+            <rest event_ref="b_trumpet2_meas2_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="b_trumpet2_voice1">
+            <chord event_ref="b_trumpet2_meas3_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="b_trumpet2_voice1">
+            <chord event_ref="b_trumpet2_meas4_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="b_trumpet2_voice1">
+            <chord event_ref="b_trumpet2_meas5_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet2_meas5_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="b_trumpet2_voice1">
+            <chord event_ref="b_trumpet2_meas6_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="7">
+          <voice voice_item_ref="b_trumpet2_voice1">
+            <chord event_ref="b_trumpet2_meas7_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="8">
+          <voice voice_item_ref="b_trumpet2_voice1">
+            <chord event_ref="b_trumpet2_meas8_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="9">
+          <voice voice_item_ref="b_trumpet2_voice1">
+            <rest event_ref="b_trumpet2_meas9_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="b_trumpet2_meas9_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet2_meas9_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet2_meas9_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="10">
+          <voice voice_item_ref="b_trumpet2_voice1">
+            <chord event_ref="b_trumpet2_meas10_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+      </part>
+      <part id="b_trumpet3" transposition_pitch="B" transposition_accidental="flat">
+        <voice_list>
+          <voice_item id="b_trumpet3_voice1" staff_ref="staff3" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="b_trumpet3_voice1">
+            <chord event_ref="b_trumpet3_meas1_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="b_trumpet3_voice1">
+            <rest event_ref="b_trumpet3_meas2_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="b_trumpet3_voice1">
+            <chord event_ref="b_trumpet3_meas3_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="b_trumpet3_voice1">
+            <chord event_ref="b_trumpet3_meas4_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="b_trumpet3_voice1">
+            <chord event_ref="b_trumpet3_meas5_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet3_meas5_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="b_trumpet3_voice1">
+            <chord event_ref="b_trumpet3_meas6_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet3_meas6_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet3_meas6_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet3_meas6_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="7">
+          <voice voice_item_ref="b_trumpet3_voice1">
+            <chord event_ref="b_trumpet3_meas7_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet3_meas7_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet3_meas7_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet3_meas7_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="8">
+          <voice voice_item_ref="b_trumpet3_voice1">
+            <chord event_ref="b_trumpet3_meas8_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet3_meas8_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet3_meas8_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="b_trumpet3_meas8_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="9">
+          <voice voice_item_ref="b_trumpet3_voice1">
+            <chord event_ref="b_trumpet3_meas9_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="10">
+          <voice voice_item_ref="b_trumpet3_voice1">
+            <chord event_ref="b_trumpet3_meas10_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="b_trumpet3_meas10_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+            </rest>
+          </voice>
+        </measure>
+      </part>
+      <part id="b_trumpet4" transposition_pitch="B" transposition_accidental="flat">
+        <voice_list>
+          <voice_item id="b_trumpet4_voice1" staff_ref="staff4" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="b_trumpet4_voice1">
+            <chord event_ref="b_trumpet4_meas1_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="b_trumpet4_voice1">
+            <rest event_ref="b_trumpet4_meas2_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="b_trumpet4_voice1">
+            <chord event_ref="b_trumpet4_meas3_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="b_trumpet4_voice1">
+            <chord event_ref="b_trumpet4_meas4_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="b_trumpet4_voice1">
+            <chord event_ref="b_trumpet4_meas5_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="b_trumpet4_voice1">
+            <chord event_ref="b_trumpet4_meas6_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="b_trumpet4_meas6_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <rest event_ref="b_trumpet4_meas6_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="7">
+          <voice voice_item_ref="b_trumpet4_voice1">
+            <chord event_ref="b_trumpet4_meas7_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="8">
+          <voice voice_item_ref="b_trumpet4_voice1">
+            <chord event_ref="b_trumpet4_meas8_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="9">
+          <voice voice_item_ref="b_trumpet4_voice1">
+            <rest event_ref="b_trumpet4_meas9_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="10">
+          <voice voice_item_ref="b_trumpet4_voice1">
+            <rest event_ref="b_trumpet4_meas10_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+      </part>
+    </los>
+  </logic>
+  <audio>
+    <track file_name="trumpet_4et.mp3" file_format="audio_mp3" encoding_format="audio_mp3">
+      <track_indexing timing_type="seconds">
+        <track_event event_ref="clef_staff1_meas1_0" start_time="0" />
+        <track_event event_ref="keysig_staff1_meas1" start_time="0" />
+        <track_event event_ref="clef_staff2_meas1_0" start_time="0" />
+        <track_event event_ref="keysig_staff2_meas1" start_time="0" />
+        <track_event event_ref="clef_staff3_meas1_0" start_time="0" />
+        <track_event event_ref="keysig_staff3_meas1" start_time="0" />
+        <track_event event_ref="clef_staff4_meas1_0" start_time="0" />
+        <track_event event_ref="keysig_staff4_meas1" start_time="0" />
+        <track_event event_ref="b_trumpet1_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="b_trumpet2_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="b_trumpet3_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="b_trumpet4_meas1_voice1_ev1" start_time="0" />
+
+        <track_event event_ref="b_trumpet1_meas2_voice1_ev1" start_time="1.78" />
+        <track_event event_ref="b_trumpet2_meas2_voice1_ev1" start_time="1.78" />
+        <track_event event_ref="b_trumpet3_meas2_voice1_ev1" start_time="1.78" />
+        <track_event event_ref="b_trumpet4_meas2_voice1_ev1" start_time="1.78" />
+        <track_event event_ref="b_trumpet1_meas2_voice1_ev2" start_time="2.1428575" />
+        <track_event event_ref="b_trumpet1_meas2_voice1_ev3" start_time="2.5714289999999997" />
+        <track_event event_ref="b_trumpet1_meas2_voice1_ev4" start_time="3.0000004999999996" />
+
+        <track_event event_ref="b_trumpet1_meas3_voice1_ev1" start_time="3.4285719999999995" />
+        <track_event event_ref="b_trumpet2_meas3_voice1_ev1" start_time="3.4285719999999995" />
+        <track_event event_ref="b_trumpet3_meas3_voice1_ev1" start_time="3.4285719999999995" />
+        <track_event event_ref="b_trumpet4_meas3_voice1_ev1" start_time="3.4285719999999995" />
+        <track_event event_ref="b_trumpet1_meas3_voice1_ev2" start_time="3.8571434999999994" />
+        <track_event event_ref="b_trumpet1_meas3_voice1_ev3" start_time="4.285715" />
+        <track_event event_ref="b_trumpet1_meas3_voice1_ev4" start_time="4.7142865" />
+
+        <track_event event_ref="b_trumpet1_meas4_voice1_ev1" start_time="5.142858" />
+        <track_event event_ref="b_trumpet2_meas4_voice1_ev1" start_time="5.142858" />
+        <track_event event_ref="b_trumpet3_meas4_voice1_ev1" start_time="5.142858" />
+        <track_event event_ref="b_trumpet4_meas4_voice1_ev1" start_time="5.142858" />
+        <track_event event_ref="b_trumpet1_meas4_voice1_ev2" start_time="5.571429500000001" />
+        <track_event event_ref="b_trumpet1_meas4_voice1_ev3" start_time="6.000001000000001" />
+        <track_event event_ref="b_trumpet1_meas4_voice1_ev4" start_time="6.428572500000001" />
+
+        <track_event event_ref="b_trumpet1_meas5_voice1_ev1" start_time="6.857144000000002" />
+        <track_event event_ref="b_trumpet2_meas5_voice1_ev1" start_time="6.857144000000002" />
+        <track_event event_ref="b_trumpet3_meas5_voice1_ev1" start_time="6.857144000000002" />
+        <track_event event_ref="b_trumpet4_meas5_voice1_ev1" start_time="6.857144000000002" />
+        <track_event event_ref="b_trumpet2_meas5_voice1_ev2" start_time="7.714287000000002" />
+        <track_event event_ref="b_trumpet3_meas5_voice1_ev2" start_time="7.714287000000002" />
+
+        <track_event event_ref="b_trumpet1_meas6_voice1_ev1" start_time="8.569644285416668" />
+        <track_event event_ref="b_trumpet2_meas6_voice1_ev1" start_time="8.569644285416668" />
+        <track_event event_ref="b_trumpet3_meas6_voice1_ev1" start_time="8.569644285416668" />
+        <track_event event_ref="b_trumpet4_meas6_voice1_ev1" start_time="8.569644285416668" />
+        <track_event event_ref="b_trumpet3_meas6_voice1_ev2" start_time="8.996430070833336" />
+        <track_event event_ref="b_trumpet4_meas6_voice1_ev2" start_time="8.996430070833336" />
+        <track_event event_ref="b_trumpet3_meas6_voice1_ev3" start_time="9.425001570833336" />
+        <track_event event_ref="b_trumpet4_meas6_voice1_ev3" start_time="9.425001570833336" />
+        <track_event event_ref="b_trumpet3_meas6_voice1_ev4" start_time="9.853573070833336" />
+
+        <track_event event_ref="b_trumpet1_meas7_voice1_ev1" start_time="10.280358856250004" />
+        <track_event event_ref="b_trumpet2_meas7_voice1_ev1" start_time="10.280358856250004" />
+        <track_event event_ref="b_trumpet3_meas7_voice1_ev1" start_time="10.280358856250004" />
+        <track_event event_ref="b_trumpet4_meas7_voice1_ev1" start_time="10.280358856250004" />
+        <track_event event_ref="b_trumpet3_meas7_voice1_ev2" start_time="10.708930356250004" />
+        <track_event event_ref="b_trumpet3_meas7_voice1_ev3" start_time="11.137501856250005" />
+        <track_event event_ref="b_trumpet3_meas7_voice1_ev4" start_time="11.566073356250005" />
+
+        <track_event event_ref="b_trumpet1_meas8_voice1_ev1" start_time="11.992859141666672" />
+        <track_event event_ref="b_trumpet2_meas8_voice1_ev1" start_time="11.992859141666672" />
+        <track_event event_ref="b_trumpet3_meas8_voice1_ev1" start_time="11.992859141666672" />
+        <track_event event_ref="b_trumpet4_meas8_voice1_ev1" start_time="11.992859141666672" />
+        <track_event event_ref="b_trumpet3_meas8_voice1_ev2" start_time="12.421430641666673" />
+        <track_event event_ref="b_trumpet3_meas8_voice1_ev3" start_time="12.850002141666673" />
+        <track_event event_ref="b_trumpet3_meas8_voice1_ev4" start_time="13.278573641666673" />
+
+        <track_event event_ref="b_trumpet1_meas9_voice1_ev1" start_time="13.707145141666674" />
+        <track_event event_ref="b_trumpet2_meas9_voice1_ev1" start_time="13.707145141666674" />
+        <track_event event_ref="b_trumpet3_meas9_voice1_ev1" start_time="13.707145141666674" />
+        <track_event event_ref="b_trumpet4_meas9_voice1_ev1" start_time="13.707145141666674" />
+        <track_event event_ref="b_trumpet1_meas9_voice1_ev2" start_time="14.135716641666674" />
+        <track_event event_ref="b_trumpet2_meas9_voice1_ev2" start_time="14.135716641666674" />
+        <track_event event_ref="b_trumpet1_meas9_voice1_ev3" start_time="14.564288141666674" />
+        <track_event event_ref="b_trumpet2_meas9_voice1_ev3" start_time="14.564288141666674" />
+        <track_event event_ref="b_trumpet1_meas9_voice1_ev4" start_time="14.992859641666675" />
+        <track_event event_ref="b_trumpet2_meas9_voice1_ev4" start_time="14.992859641666675" />
+
+        <track_event event_ref="b_trumpet1_meas10_voice1_ev1" start_time="15.421431141666675" />
+        <track_event event_ref="b_trumpet2_meas10_voice1_ev1" start_time="15.421431141666675" />
+        <track_event event_ref="b_trumpet3_meas10_voice1_ev1" start_time="15.421431141666675" />
+        <track_event event_ref="b_trumpet4_meas10_voice1_ev1" start_time="15.421431141666675" />
+        <track_event event_ref="b_trumpet3_meas10_voice1_ev2" start_time="15.95" />
+      </track_indexing>
+    </track>
+  </audio>
+</ieee1599>

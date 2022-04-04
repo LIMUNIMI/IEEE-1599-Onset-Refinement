@@ -1,0 +1,1838 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ieee1599 SYSTEM "http://www.lim.di.unimi.it/IEEE/ieee1599.dtd"[]>
+<ieee1599 version="1.0" creator="MuseScore Export Plugin 3.0">
+  <general>
+    <description>
+      <main_title>Por Una Cabeza </main_title>
+      <author type="composer">Carlos Gardel</author>
+    </description>
+  </general>
+  <logic>
+    <spine>
+      <event id="clef_staff1_meas1_0" timing="0" hpos="0" />
+      <event id="keysig_staff1_meas1" timing="0" hpos="0" />
+      <event id="clef_staff2_meas1_0" timing="0" hpos="0" />
+      <event id="keysig_staff2_meas1" timing="0" hpos="0" />
+      <event id="clef_staff3_meas2_0" timing="0" hpos="0" />
+      <event id="keysig_staff3_meas1" timing="0" hpos="0" />
+      <event id="clef_staff4_meas2_0" timing="0" hpos="0" />
+      <event id="keysig_staff4_meas1" timing="0" hpos="0" />
+      <event id="violin_11_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="violin_22_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="viola3_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="violoncello4_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="violin_11_meas1_voice1_ev2" timing="240" hpos="240" />
+      <event id="violin_22_meas1_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas1_voice1_ev3" timing="240" hpos="240" />
+      <event id="violin_22_meas1_voice1_ev3" timing="0" hpos="0" />
+      <event id="violin_11_meas1_voice1_ev4" timing="240" hpos="240" />
+      <event id="violin_22_meas1_voice1_ev4" timing="0" hpos="0" />
+      <event id="violin_11_meas2_voice1_ev1" timing="240" hpos="240" />
+      <event id="violin_22_meas2_voice1_ev1" timing="0" hpos="0" />
+      <event id="viola3_meas2_voice1_ev1" timing="0" hpos="0" />
+      <event id="violoncello4_meas2_voice1_ev1" timing="0" hpos="0" />
+      <event id="violin_11_meas2_voice1_ev2" timing="240" hpos="240" />
+      <event id="violin_22_meas2_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas2_voice1_ev3" timing="240" hpos="240" />
+      <event id="violin_22_meas2_voice1_ev3" timing="0" hpos="0" />
+      <event id="viola3_meas2_voice1_ev2" timing="0" hpos="0" />
+      <event id="violoncello4_meas2_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas2_voice1_ev4" timing="480" hpos="480" />
+      <event id="violin_22_meas2_voice1_ev4" timing="0" hpos="0" />
+      <event id="viola3_meas2_voice1_ev3" timing="0" hpos="0" />
+      <event id="violoncello4_meas2_voice1_ev3" timing="0" hpos="0" />
+      <event id="violin_11_meas2_voice1_ev5" timing="240" hpos="240" />
+      <event id="violin_22_meas2_voice1_ev5" timing="0" hpos="0" />
+      <event id="violin_11_meas2_voice1_ev6" timing="240" hpos="240" />
+      <event id="violin_22_meas2_voice1_ev6" timing="0" hpos="0" />
+      <event id="violoncello4_meas2_voice1_ev4" timing="0" hpos="0" />
+      <event id="violin_11_meas2_voice1_ev7" timing="240" hpos="240" />
+      <event id="violin_11_meas3_voice1_ev1" timing="240" hpos="240" />
+      <event id="violin_22_meas3_voice1_ev1" timing="0" hpos="0" />
+      <event id="viola3_meas3_voice1_ev1" timing="0" hpos="0" />
+      <event id="violoncello4_meas3_voice1_ev1" timing="0" hpos="0" />
+      <event id="violin_11_meas3_voice1_ev2" timing="240" hpos="240" />
+      <event id="violin_22_meas3_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas3_voice1_ev3" timing="240" hpos="240" />
+      <event id="violin_22_meas3_voice1_ev3" timing="0" hpos="0" />
+      <event id="viola3_meas3_voice1_ev2" timing="0" hpos="0" />
+      <event id="violoncello4_meas3_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas3_voice1_ev4" timing="480" hpos="480" />
+      <event id="violin_22_meas3_voice1_ev4" timing="0" hpos="0" />
+      <event id="viola3_meas3_voice1_ev3" timing="0" hpos="0" />
+      <event id="violoncello4_meas3_voice1_ev3" timing="0" hpos="0" />
+      <event id="violin_11_meas3_voice1_ev5" timing="240" hpos="240" />
+      <event id="violin_22_meas3_voice1_ev5" timing="0" hpos="0" />
+      <event id="violin_11_meas3_voice1_ev6" timing="240" hpos="240" />
+      <event id="violin_22_meas3_voice1_ev6" timing="0" hpos="0" />
+      <event id="violoncello4_meas3_voice1_ev4" timing="0" hpos="0" />
+      <event id="violin_11_meas3_voice1_ev7" timing="240" hpos="240" />
+      <event id="violin_22_meas3_voice1_ev7" timing="0" hpos="0" />
+      <event id="violin_11_meas4_voice1_ev1" timing="240" hpos="240" />
+      <event id="violin_22_meas4_voice1_ev1" timing="0" hpos="0" />
+      <event id="viola3_meas4_voice1_ev1" timing="0" hpos="0" />
+      <event id="violoncello4_meas4_voice1_ev1" timing="0" hpos="0" />
+      <event id="violin_11_meas4_voice1_ev2" timing="240" hpos="240" />
+      <event id="violin_22_meas4_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas4_voice1_ev3" timing="240" hpos="240" />
+      <event id="violin_22_meas4_voice1_ev3" timing="0" hpos="0" />
+      <event id="viola3_meas4_voice1_ev2" timing="0" hpos="0" />
+      <event id="violoncello4_meas4_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas4_voice1_ev4" timing="240" hpos="240" />
+      <event id="violin_22_meas4_voice1_ev4" timing="0" hpos="0" />
+      <event id="violin_11_meas4_voice1_ev5" timing="240" hpos="240" />
+      <event id="violin_22_meas4_voice1_ev5" timing="0" hpos="0" />
+      <event id="viola3_meas4_voice1_ev3" timing="0" hpos="0" />
+      <event id="violoncello4_meas4_voice1_ev3" timing="0" hpos="0" />
+      <event id="violoncello4_meas4_voice1_ev4" timing="480" hpos="480" />
+      <event id="violin_11_meas4_voice1_ev6" timing="240" hpos="240" />
+      <event id="violin_22_meas4_voice1_ev6" timing="0" hpos="0" />
+      <event id="violin_11_meas5_voice1_ev1" timing="240" hpos="240" />
+      <event id="violin_22_meas5_voice1_ev1" timing="0" hpos="0" />
+      <event id="viola3_meas5_voice1_ev1" timing="0" hpos="0" />
+      <event id="violoncello4_meas5_voice1_ev1" timing="0" hpos="0" />
+      <event id="violin_11_meas5_voice1_ev2" timing="240" hpos="240" />
+      <event id="violin_22_meas5_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas5_voice1_ev3" timing="240" hpos="240" />
+      <event id="violin_22_meas5_voice1_ev3" timing="0" hpos="0" />
+      <event id="viola3_meas5_voice1_ev2" timing="0" hpos="0" />
+      <event id="violoncello4_meas5_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas5_voice1_ev4" timing="480" hpos="480" />
+      <event id="violin_22_meas5_voice1_ev4" timing="0" hpos="0" />
+      <event id="viola3_meas5_voice1_ev3" timing="0" hpos="0" />
+      <event id="violoncello4_meas5_voice1_ev3" timing="0" hpos="0" />
+      <event id="violin_11_meas5_voice1_ev5" timing="240" hpos="240" />
+      <event id="violin_22_meas5_voice1_ev5" timing="0" hpos="0" />
+      <event id="violoncello4_meas5_voice1_ev4" timing="240" hpos="240" />
+      <event id="violin_11_meas5_voice1_ev6" timing="120" hpos="120" />
+      <event id="violin_22_meas5_voice1_ev6" timing="0" hpos="0" />
+      <event id="violin_11_meas5_voice1_ev7" timing="120" hpos="120" />
+      <event id="violin_22_meas5_voice1_ev7" timing="0" hpos="0" />
+      <event id="violin_11_meas6_voice1_ev1" timing="240" hpos="240" />
+      <event id="violin_22_meas6_voice1_ev1" timing="0" hpos="0" />
+      <event id="viola3_meas6_voice1_ev1" timing="0" hpos="0" />
+      <event id="violoncello4_meas6_voice1_ev1" timing="0" hpos="0" />
+      <event id="violin_11_meas6_voice1_ev2" timing="240" hpos="240" />
+      <event id="violin_22_meas6_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas6_voice1_ev3" timing="240" hpos="240" />
+      <event id="violin_22_meas6_voice1_ev3" timing="0" hpos="0" />
+      <event id="viola3_meas6_voice1_ev2" timing="0" hpos="0" />
+      <event id="violoncello4_meas6_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas6_voice1_ev4" timing="480" hpos="480" />
+      <event id="violin_22_meas6_voice1_ev4" timing="0" hpos="0" />
+      <event id="viola3_meas6_voice1_ev3" timing="0" hpos="0" />
+      <event id="violoncello4_meas6_voice1_ev3" timing="0" hpos="0" />
+      <event id="violin_11_meas6_voice1_ev5" timing="240" hpos="240" />
+      <event id="violin_11_meas6_voice1_ev6" timing="240" hpos="240" />
+      <event id="violin_22_meas6_voice1_ev5" timing="0" hpos="0" />
+      <event id="violoncello4_meas6_voice1_ev4" timing="0" hpos="0" />
+      <event id="violin_11_meas6_voice1_ev7" timing="240" hpos="240" />
+      <event id="violin_11_meas7_voice1_ev1" timing="240" hpos="240" />
+      <event id="violin_22_meas7_voice1_ev1" timing="0" hpos="0" />
+      <event id="viola3_meas7_voice1_ev1" timing="0" hpos="0" />
+      <event id="violoncello4_meas7_voice1_ev1" timing="0" hpos="0" />
+      <event id="violin_11_meas7_voice1_ev2" timing="240" hpos="240" />
+      <event id="violin_22_meas7_voice1_ev2" timing="120" hpos="120" />
+      <event id="violin_11_meas7_voice1_ev3" timing="120" hpos="120" />
+      <event id="violin_22_meas7_voice1_ev3" timing="0" hpos="0" />
+      <event id="viola3_meas7_voice1_ev2" timing="0" hpos="0" />
+      <event id="violoncello4_meas7_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas7_voice1_ev4" timing="480" hpos="480" />
+      <event id="violin_22_meas7_voice1_ev4" timing="0" hpos="0" />
+      <event id="viola3_meas7_voice1_ev3" timing="0" hpos="0" />
+      <event id="violoncello4_meas7_voice1_ev3" timing="0" hpos="0" />
+      <event id="violin_11_meas7_voice1_ev5" timing="240" hpos="240" />
+      <event id="violin_22_meas7_voice1_ev5" timing="0" hpos="0" />
+      <event id="violin_11_meas7_voice1_ev6" timing="240" hpos="240" />
+      <event id="violin_22_meas7_voice1_ev6" timing="0" hpos="0" />
+      <event id="violoncello4_meas7_voice1_ev4" timing="0" hpos="0" />
+      <event id="violin_11_meas7_voice1_ev7" timing="240" hpos="240" />
+      <event id="violin_22_meas7_voice1_ev7" timing="0" hpos="0" />
+      <event id="violin_11_meas8_voice1_ev1" timing="240" hpos="240" />
+      <event id="violin_22_meas8_voice1_ev1" timing="0" hpos="0" />
+      <event id="viola3_meas8_voice1_ev1" timing="0" hpos="0" />
+      <event id="violoncello4_meas8_voice1_ev1" timing="0" hpos="0" />
+      <event id="violin_11_meas8_voice1_ev2" timing="240" hpos="240" />
+      <event id="violin_11_meas8_voice1_ev3" timing="240" hpos="240" />
+      <event id="violin_22_meas8_voice1_ev2" timing="0" hpos="0" />
+      <event id="viola3_meas8_voice1_ev2" timing="0" hpos="0" />
+      <event id="violoncello4_meas8_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas8_voice1_ev4" timing="240" hpos="240" />
+      <event id="violin_22_meas8_voice1_ev3" timing="0" hpos="0" />
+      <event id="violin_11_meas8_voice1_ev5" timing="240" hpos="240" />
+      <event id="violin_22_meas8_voice1_ev4" timing="0" hpos="0" />
+      <event id="viola3_meas8_voice1_ev3" timing="0" hpos="0" />
+      <event id="violoncello4_meas8_voice1_ev3" timing="0" hpos="0" />
+      <event id="violin_11_meas8_voice1_ev6" timing="240" hpos="240" />
+      <event id="violin_11_meas8_voice1_ev7" timing="240" hpos="240" />
+      <event id="violoncello4_meas8_voice1_ev4" timing="0" hpos="0" />
+      <event id="violin_11_meas8_voice1_ev8" timing="240" hpos="240" />
+      <event id="violin_22_meas8_voice1_ev5" timing="0" hpos="0" />
+      <event id="violin_11_meas9_voice1_ev1" timing="240" hpos="240" />
+      <event id="violin_22_meas9_voice1_ev1" timing="0" hpos="0" />
+      <event id="viola3_meas9_voice1_ev1" timing="0" hpos="0" />
+      <event id="violoncello4_meas9_voice1_ev1" timing="0" hpos="0" />
+      <event id="violin_11_meas9_voice1_ev2" timing="240" hpos="240" />
+      <event id="violin_22_meas9_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas9_voice1_ev3" timing="240" hpos="240" />
+      <event id="violin_22_meas9_voice1_ev3" timing="0" hpos="0" />
+      <event id="viola3_meas9_voice1_ev2" timing="0" hpos="0" />
+      <event id="violoncello4_meas9_voice1_ev2" timing="0" hpos="0" />
+      <event id="violin_11_meas9_voice1_ev4" timing="480" hpos="480" />
+      <event id="violin_22_meas9_voice1_ev4" timing="0" hpos="0" />
+      <event id="viola3_meas9_voice1_ev3" timing="0" hpos="0" />
+      <event id="violoncello4_meas9_voice1_ev3" timing="0" hpos="0" />
+    </spine>
+    <los>
+      <staff_list>
+        <staff id="staff1">
+          <clef event_ref="clef_staff1_meas1_0" shape="G" staff_step="2" />
+          <key_signature event_ref="keysig_staff1_meas1">
+            <sharp_num number="1" />
+          </key_signature>
+        </staff>
+        <staff id="staff2">
+          <clef event_ref="clef_staff2_meas1_0" shape="G" staff_step="2" />
+          <key_signature event_ref="keysig_staff2_meas1">
+            <sharp_num number="1" />
+          </key_signature>
+        </staff>
+        <staff id="staff3">
+          <clef event_ref="clef_staff3_meas2_0" shape="C" staff_step="4" />
+          <key_signature event_ref="keysig_staff3_meas1">
+            <sharp_num number="1" />
+          </key_signature>
+        </staff>
+        <staff id="staff4">
+          <clef event_ref="clef_staff4_meas2_0" shape="F" staff_step="6" />
+          <key_signature event_ref="keysig_staff4_meas1">
+            <sharp_num number="1" />
+          </key_signature>
+        </staff>
+      </staff_list>
+      <part id="violin_11">
+        <voice_list>
+          <voice_item id="violin_11_voice1" staff_ref="staff1" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="violin_11_voice1">
+            <chord event_ref="violin_11_meas1_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas1_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas1_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas1_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="violin_11_voice1">
+            <chord event_ref="violin_11_meas2_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas2_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violin_11_meas2_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violin_11_meas2_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas2_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas2_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas2_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="sharp" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="violin_11_voice1">
+            <chord event_ref="violin_11_meas3_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas3_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violin_11_meas3_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violin_11_meas3_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas3_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="7" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas3_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas3_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="violin_11_voice1">
+            <chord event_ref="violin_11_meas4_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas4_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas4_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="sharp" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas4_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas4_voice1_ev5">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="sharp" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas4_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="violin_11_voice1">
+            <chord event_ref="violin_11_meas5_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violin_11_meas5_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <rest event_ref="violin_11_meas5_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violin_11_meas5_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="7" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas5_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="B" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas5_voice1_ev6">
+              <duration num="1" den="16">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="7" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas5_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="7" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="violin_11_voice1">
+            <chord event_ref="violin_11_meas6_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violin_11_meas6_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <rest event_ref="violin_11_meas6_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violin_11_meas6_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas6_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="6" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas6_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas6_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="7">
+          <voice voice_item_ref="violin_11_voice1">
+            <chord event_ref="violin_11_meas7_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="sharp" />
+              </notehead>
+            </chord>
+            <rest event_ref="violin_11_meas7_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <rest event_ref="violin_11_meas7_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violin_11_meas7_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="sharp" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas7_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas7_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="6" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas7_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="8">
+          <voice voice_item_ref="violin_11_voice1">
+            <chord event_ref="violin_11_meas8_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas8_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas8_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="sharp" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas8_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas8_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas8_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="sharp" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas8_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_11_meas8_voice1_ev8">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="9">
+          <voice voice_item_ref="violin_11_voice1">
+            <chord event_ref="violin_11_meas9_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violin_11_meas9_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <rest event_ref="violin_11_meas9_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <rest event_ref="violin_11_meas9_voice1_ev4">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+      </part>
+      <part id="violin_22">
+        <voice_list>
+          <voice_item id="violin_22_voice1" staff_ref="staff2" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="violin_22_voice1">
+            <chord event_ref="violin_22_meas1_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas1_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas1_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas1_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="violin_22_voice1">
+            <chord event_ref="violin_22_meas2_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas2_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violin_22_meas2_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violin_22_meas2_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas2_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas2_voice1_ev6">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="violin_22_voice1">
+            <chord event_ref="violin_22_meas3_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas3_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violin_22_meas3_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violin_22_meas3_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas3_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas3_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas3_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="violin_22_voice1">
+            <chord event_ref="violin_22_meas4_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas4_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas4_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas4_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas4_voice1_ev5">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas4_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="violin_22_voice1">
+            <chord event_ref="violin_22_meas5_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violin_22_meas5_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <rest event_ref="violin_22_meas5_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violin_22_meas5_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas5_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas5_voice1_ev6">
+              <duration num="1" den="16">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+                <printed_accidentals>
+                  <natural />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas5_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="violin_22_voice1">
+            <chord event_ref="violin_22_meas6_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violin_22_meas6_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <rest event_ref="violin_22_meas6_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violin_22_meas6_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas6_voice1_ev5">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="7">
+          <voice voice_item_ref="violin_22_voice1">
+            <chord event_ref="violin_22_meas7_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violin_22_meas7_voice1_ev2">
+              <duration num="1" den="16">
+              </duration>
+            </rest>
+            <rest event_ref="violin_22_meas7_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violin_22_meas7_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas7_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas7_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+                <printed_accidentals>
+                  <natural />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas7_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="8">
+          <voice voice_item_ref="violin_22_voice1">
+            <chord event_ref="violin_22_meas8_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="sharp" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas8_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas8_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas8_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violin_22_meas8_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="9">
+          <voice voice_item_ref="violin_22_voice1">
+            <chord event_ref="violin_22_meas9_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violin_22_meas9_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <rest event_ref="violin_22_meas9_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <rest event_ref="violin_22_meas9_voice1_ev4">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+      </part>
+      <part id="viola3">
+        <voice_list>
+          <voice_item id="viola3_voice1" staff_ref="staff3" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="viola3_voice1">
+            <rest event_ref="viola3_meas1_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="viola3_voice1">
+            <chord event_ref="viola3_meas2_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="viola3_meas2_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="viola3_meas2_voice1_ev3">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="viola3_voice1">
+            <chord event_ref="viola3_meas3_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="viola3_meas3_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="viola3_meas3_voice1_ev3">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="viola3_voice1">
+            <chord event_ref="viola3_meas4_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="viola3_meas4_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="viola3_meas4_voice1_ev3">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="viola3_voice1">
+            <chord event_ref="viola3_meas5_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="viola3_meas5_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="viola3_meas5_voice1_ev3">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="viola3_voice1">
+            <chord event_ref="viola3_meas6_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="viola3_meas6_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="viola3_meas6_voice1_ev3">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="7">
+          <voice voice_item_ref="viola3_voice1">
+            <chord event_ref="viola3_meas7_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="viola3_meas7_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="viola3_meas7_voice1_ev3">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="8">
+          <voice voice_item_ref="viola3_voice1">
+            <chord event_ref="viola3_meas8_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="viola3_meas8_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="viola3_meas8_voice1_ev3">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="9">
+          <voice voice_item_ref="viola3_voice1">
+            <chord event_ref="viola3_meas9_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="viola3_meas9_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="viola3_meas9_voice1_ev3">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+      </part>
+      <part id="violoncello4">
+        <voice_list>
+          <voice_item id="violoncello4_voice1" staff_ref="staff4" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="violoncello4_voice1">
+            <rest event_ref="violoncello4_meas1_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="violoncello4_voice1">
+            <chord event_ref="violoncello4_meas2_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violoncello4_meas2_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violoncello4_meas2_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violoncello4_meas2_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="violoncello4_voice1">
+            <chord event_ref="violoncello4_meas3_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violoncello4_meas3_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violoncello4_meas3_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violoncello4_meas3_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="violoncello4_voice1">
+            <chord event_ref="violoncello4_meas4_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violoncello4_meas4_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violoncello4_meas4_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violoncello4_meas4_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="3" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="violoncello4_voice1">
+            <chord event_ref="violoncello4_meas5_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violoncello4_meas5_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violoncello4_meas5_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violoncello4_meas5_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="violoncello4_voice1">
+            <chord event_ref="violoncello4_meas6_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violoncello4_meas6_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violoncello4_meas6_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violoncello4_meas6_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+                <printed_accidentals>
+                  <flat />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="7">
+          <voice voice_item_ref="violoncello4_voice1">
+            <chord event_ref="violoncello4_meas7_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violoncello4_meas7_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="sharp" />
+              </notehead>
+            </chord>
+            <rest event_ref="violoncello4_meas7_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violoncello4_meas7_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="8">
+          <voice voice_item_ref="violoncello4_voice1">
+            <chord event_ref="violoncello4_meas8_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violoncello4_meas8_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="sharp" />
+              </notehead>
+            </chord>
+            <rest event_ref="violoncello4_meas8_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="violoncello4_meas8_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="9">
+          <voice voice_item_ref="violoncello4_voice1">
+            <chord event_ref="violoncello4_meas9_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="violoncello4_meas9_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="violoncello4_meas9_voice1_ev3">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+      </part>
+    </los>
+  </logic>
+  <notational>
+    <graphic_instance_group description="musescore-string-quartet">
+      <graphic_instance file_name="scores/Por_Una_Cabeza_String_Quartet-1.png" file_format="image_png" encoding_format="image_png" position_in_group="1" measurement_unit="pixels">
+        <graphic_event event_ref="violoncello4_meas1_voice1_ev1" upper_left_x="424" upper_left_y="1324" lower_right_x="524" lower_right_y="1464" />
+        <graphic_event event_ref="violoncello4_meas2_voice1_ev1" upper_left_x="944" upper_left_y="1344" lower_right_x="1036" lower_right_y="1504" />
+        <graphic_event event_ref="violoncello4_meas2_voice1_ev2" upper_left_x="1052" upper_left_y="1320" lower_right_x="1124" lower_right_y="1468" />
+        <graphic_event event_ref="violoncello4_meas2_voice1_ev3" upper_left_x="1136" upper_left_y="1348" lower_right_x="1212" lower_right_y="1472" />
+        <graphic_event event_ref="violoncello4_meas2_voice1_ev4" upper_left_x="1252" upper_left_y="1372" lower_right_x="1340" lower_right_y="1544" />
+        <graphic_event event_ref="violoncello4_meas3_voice1_ev1" upper_left_x="1404" upper_left_y="1336" lower_right_x="1492" lower_right_y="1500" />
+        <graphic_event event_ref="violoncello4_meas3_voice1_ev2" upper_left_x="1536" upper_left_y="1312" lower_right_x="1616" lower_right_y="1472" />
+        <graphic_event event_ref="violoncello4_meas3_voice1_ev3" upper_left_x="1636" upper_left_y="1344" lower_right_x="1708" lower_right_y="1472" />
+        <graphic_event event_ref="violoncello4_meas3_voice1_ev4" upper_left_x="1756" upper_left_y="1376" lower_right_x="1844" lower_right_y="1532" />
+        <graphic_event event_ref="violoncello4_meas4_voice1_ev1" upper_left_x="1904" upper_left_y="1328" lower_right_x="1992" lower_right_y="1496" />
+        <graphic_event event_ref="violoncello4_meas4_voice1_ev2" upper_left_x="2020" upper_left_y="1308" lower_right_x="2104" lower_right_y="1468" />
+        <graphic_event event_ref="violoncello4_meas4_voice1_ev3" upper_left_x="2132" upper_left_y="1304" lower_right_x="2200" lower_right_y="1468" />
+        <graphic_event event_ref="violoncello4_meas4_voice1_ev4" upper_left_x="2224" upper_left_y="1348" lower_right_x="2304" lower_right_y="1508" />
+        <graphic_event event_ref="violoncello4_meas5_voice1_ev1" upper_left_x="2376" upper_left_y="1336" lower_right_x="2448" lower_right_y="1488" />
+        <graphic_event event_ref="violoncello4_meas5_voice1_ev2" upper_left_x="2496" upper_left_y="1316" lower_right_x="2580" lower_right_y="1468" />
+        <graphic_event event_ref="violoncello4_meas5_voice1_ev3" upper_left_x="2600" upper_left_y="1344" lower_right_x="2664" lower_right_y="1476" />
+        <graphic_event event_ref="violoncello4_meas5_voice1_ev4" upper_left_x="2728" upper_left_y="1352" lower_right_x="2816" lower_right_y="1520" />
+        <graphic_event event_ref="violoncello4_meas6_voice1_ev1" upper_left_x="492" upper_left_y="2600" lower_right_x="584" lower_right_y="2768" />
+        <graphic_event event_ref="violoncello4_meas6_voice1_ev2" upper_left_x="640" upper_left_y="2564" lower_right_x="736" lower_right_y="2760" />
+        <graphic_event event_ref="violoncello4_meas6_voice1_ev3" upper_left_x="760" upper_left_y="2588" lower_right_x="836" lower_right_y="2748" />
+        <graphic_event event_ref="violoncello4_meas6_voice1_ev4" upper_left_x="896" upper_left_y="2616" lower_right_x="1020" lower_right_y="2796" />
+        <graphic_event event_ref="violoncello4_meas7_voice1_ev1" upper_left_x="1112" upper_left_y="2640" lower_right_x="1196" lower_right_y="2812" />
+        <graphic_event event_ref="violoncello4_meas7_voice1_ev2" upper_left_x="1304" upper_left_y="2600" lower_right_x="1380" lower_right_y="2760" />
+        <graphic_event event_ref="violoncello4_meas7_voice1_ev3" upper_left_x="1416" upper_left_y="2600" lower_right_x="1496" lower_right_y="2724" />
+        <graphic_event event_ref="violoncello4_meas7_voice1_ev4" upper_left_x="1596" upper_left_y="2588" lower_right_x="1668" lower_right_y="2744" />
+        <graphic_event event_ref="violoncello4_meas8_voice1_ev1" upper_left_x="1792" upper_left_y="2640" lower_right_x="1876" lower_right_y="2804" />
+        <graphic_event event_ref="violoncello4_meas8_voice1_ev2" upper_left_x="1952" upper_left_y="2584" lower_right_x="2036" lower_right_y="2732" />
+        <graphic_event event_ref="violoncello4_meas8_voice1_ev3" upper_left_x="2124" upper_left_y="2576" lower_right_x="2184" lower_right_y="2736" />
+        <graphic_event event_ref="violoncello4_meas8_voice1_ev4" upper_left_x="2272" upper_left_y="2576" lower_right_x="2368" lower_right_y="2736" />
+        <graphic_event event_ref="violoncello4_meas9_voice1_ev1" upper_left_x="2468" upper_left_y="2596" lower_right_x="2552" lower_right_y="2780" />
+        <graphic_event event_ref="violoncello4_meas9_voice1_ev2" upper_left_x="2608" upper_left_y="2568" lower_right_x="2688" lower_right_y="2752" />
+        <graphic_event event_ref="violoncello4_meas9_voice1_ev3" upper_left_x="2728" upper_left_y="2604" lower_right_x="2792" lower_right_y="2696" />
+        <graphic_event event_ref="viola3_meas1_voice1_ev1" upper_left_x="420" upper_left_y="1052" lower_right_x="508" lower_right_y="1208" />
+        <graphic_event event_ref="viola3_meas2_voice1_ev1" upper_left_x="940" upper_left_y="1064" lower_right_x="1024" lower_right_y="1212" />
+        <graphic_event event_ref="viola3_meas2_voice1_ev2" upper_left_x="1044" upper_left_y="1072" lower_right_x="1124" lower_right_y="1228" />
+        <graphic_event event_ref="viola3_meas2_voice1_ev3" upper_left_x="1144" upper_left_y="1104" lower_right_x="1220" lower_right_y="1152" />
+        <graphic_event event_ref="viola3_meas3_voice1_ev1" upper_left_x="1396" upper_left_y="1076" lower_right_x="1472" lower_right_y="1224" />
+        <graphic_event event_ref="viola3_meas3_voice1_ev2" upper_left_x="1520" upper_left_y="1076" lower_right_x="1604" lower_right_y="1252" />
+        <graphic_event event_ref="viola3_meas3_voice1_ev3" upper_left_x="1632" upper_left_y="1088" lower_right_x="1716" lower_right_y="1180" />
+        <graphic_event event_ref="viola3_meas4_voice1_ev1" upper_left_x="1924" upper_left_y="1068" lower_right_x="1980" lower_right_y="1224" />
+        <graphic_event event_ref="viola3_meas4_voice1_ev2" upper_left_x="2024" upper_left_y="1060" lower_right_x="2108" lower_right_y="1236" />
+        <graphic_event event_ref="viola3_meas4_voice1_ev3" upper_left_x="2144" upper_left_y="1084" lower_right_x="2208" lower_right_y="1160" />
+        <graphic_event event_ref="viola3_meas5_voice1_ev1" upper_left_x="2376" upper_left_y="1044" lower_right_x="2448" lower_right_y="1212" />
+        <graphic_event event_ref="viola3_meas5_voice1_ev2" upper_left_x="2500" upper_left_y="1044" lower_right_x="2568" lower_right_y="1232" />
+        <graphic_event event_ref="viola3_meas5_voice1_ev3" upper_left_x="2584" upper_left_y="1088" lower_right_x="2680" lower_right_y="1172" />
+        <graphic_event event_ref="viola3_meas6_voice1_ev1" upper_left_x="488" upper_left_y="2320" lower_right_x="568" lower_right_y="2496" />
+        <graphic_event event_ref="viola3_meas6_voice1_ev2" upper_left_x="644" upper_left_y="2324" lower_right_x="720" lower_right_y="2508" />
+        <graphic_event event_ref="viola3_meas6_voice1_ev3" upper_left_x="780" upper_left_y="2352" lower_right_x="848" lower_right_y="2416" />
+        <graphic_event event_ref="viola3_meas7_voice1_ev1" upper_left_x="1136" upper_left_y="2360" lower_right_x="1204" lower_right_y="2508" />
+        <graphic_event event_ref="viola3_meas7_voice1_ev2" upper_left_x="1316" upper_left_y="2288" lower_right_x="1388" lower_right_y="2484" />
+        <graphic_event event_ref="viola3_meas7_voice1_ev3" upper_left_x="1420" upper_left_y="2360" lower_right_x="1500" lower_right_y="2424" />
+        <graphic_event event_ref="viola3_meas8_voice1_ev1" upper_left_x="1808" upper_left_y="2364" lower_right_x="1872" lower_right_y="2524" />
+        <graphic_event event_ref="viola3_meas8_voice1_ev2" upper_left_x="1956" upper_left_y="2296" lower_right_x="2048" lower_right_y="2476" />
+        <graphic_event event_ref="viola3_meas8_voice1_ev3" upper_left_x="2100" upper_left_y="2360" lower_right_x="2204" lower_right_y="2416" />
+        <graphic_event event_ref="viola3_meas9_voice1_ev1" upper_left_x="2476" upper_left_y="2332" lower_right_x="2552" lower_right_y="2476" />
+        <graphic_event event_ref="viola3_meas9_voice1_ev2" upper_left_x="2616" upper_left_y="2340" lower_right_x="2692" lower_right_y="2488" />
+        <graphic_event event_ref="viola3_meas9_voice1_ev3" upper_left_x="2728" upper_left_y="2364" lower_right_x="2788" lower_right_y="2432" />
+        <graphic_event event_ref="violin_11_meas1_voice1_ev1" upper_left_x="664" upper_left_y="588" lower_right_x="714" lower_right_y="718" />
+        <graphic_event event_ref="violin_11_meas1_voice1_ev2" upper_left_x="729" upper_left_y="577" lower_right_x="778" lower_right_y="697" />
+        <graphic_event event_ref="violin_11_meas1_voice1_ev3" upper_left_x="805" upper_left_y="561" lower_right_x="845" lower_right_y="708" />
+        <graphic_event event_ref="violin_11_meas1_voice1_ev4" upper_left_x="862" upper_left_y="550" lower_right_x="908" lower_right_y="698" />
+        <graphic_event event_ref="violin_11_meas2_voice1_ev1" upper_left_x="953" upper_left_y="534" lower_right_x="1000" lower_right_y="682" />
+        <graphic_event event_ref="violin_11_meas2_voice1_ev2" upper_left_x="1009" upper_left_y="546" lower_right_x="1057" lower_right_y="694" />
+        <graphic_event event_ref="violin_11_meas2_voice1_ev3" upper_left_x="1070" upper_left_y="553" lower_right_x="1096" lower_right_y="661" />
+        <graphic_event event_ref="violin_11_meas2_voice1_ev4" upper_left_x="1142" upper_left_y="558" lower_right_x="1202" lower_right_y="685" />
+        <graphic_event event_ref="violin_11_meas2_voice1_ev5" upper_left_x="1218" upper_left_y="558" lower_right_x="1258" lower_right_y="680" />
+        <graphic_event event_ref="violin_11_meas2_voice1_ev6" upper_left_x="1270" upper_left_y="538" lower_right_x="1310" lower_right_y="670" />
+        <graphic_event event_ref="violin_11_meas2_voice1_ev7" upper_left_x="1318" upper_left_y="533" lower_right_x="1365" lower_right_y="652" />
+        <graphic_event event_ref="violin_11_meas3_voice1_ev1" upper_left_x="1408" upper_left_y="498" lower_right_x="1464" lower_right_y="648" />
+        <graphic_event event_ref="violin_11_meas3_voice1_ev2" upper_left_x="1473" upper_left_y="517" lower_right_x="1524" lower_right_y="657" />
+        <graphic_event event_ref="violin_11_meas3_voice1_ev3" upper_left_x="1544" upper_left_y="556" lower_right_x="1582" lower_right_y="657" />
+        <graphic_event event_ref="violin_11_meas3_voice1_ev4" upper_left_x="1637" upper_left_y="488" lower_right_x="1693" lower_right_y="616" />
+        <graphic_event event_ref="violin_11_meas3_voice1_ev5" upper_left_x="1700" upper_left_y="482" lower_right_x="1749" lower_right_y="618" />
+        <graphic_event event_ref="violin_11_meas3_voice1_ev6" upper_left_x="1766" upper_left_y="504" lower_right_x="1810" lower_right_y="608" />
+        <graphic_event event_ref="violin_11_meas3_voice1_ev7" upper_left_x="1834" upper_left_y="497" lower_right_x="1880" lower_right_y="632" />
+        <graphic_event event_ref="violin_11_meas4_voice1_ev1" upper_left_x="1909" upper_left_y="496" lower_right_x="1966" lower_right_y="669" />
+        <graphic_event event_ref="violin_11_meas4_voice1_ev2" upper_left_x="1970" upper_left_y="502" lower_right_x="2022" lower_right_y="673" />
+        <graphic_event event_ref="violin_11_meas4_voice1_ev3" upper_left_x="2034" upper_left_y="529" lower_right_x="2077" lower_right_y="652" />
+        <graphic_event event_ref="violin_11_meas4_voice1_ev4" upper_left_x="2088" upper_left_y="513" lower_right_x="2137" lower_right_y="653" />
+        <graphic_event event_ref="violin_11_meas4_voice1_ev5" upper_left_x="2149" upper_left_y="522" lower_right_x="2213" lower_right_y="665" />
+        <graphic_event event_ref="violin_11_meas4_voice1_ev6" upper_left_x="2292" upper_left_y="549" lower_right_x="2346" lower_right_y="693" />
+        <graphic_event event_ref="violin_11_meas5_voice1_ev1" upper_left_x="2384" upper_left_y="553" lower_right_x="2434" lower_right_y="704" />
+        <graphic_event event_ref="violin_11_meas5_voice1_ev2" upper_left_x="2456" upper_left_y="570" lower_right_x="2492" lower_right_y="645" />
+        <graphic_event event_ref="violin_11_meas5_voice1_ev3" upper_left_x="2513" upper_left_y="564" lower_right_x="2556" lower_right_y="661" />
+        <graphic_event event_ref="violin_11_meas5_voice1_ev4" upper_left_x="2606" upper_left_y="490" lower_right_x="2654" lower_right_y="626" />
+        <graphic_event event_ref="violin_11_meas5_voice1_ev5" upper_left_x="2676" upper_left_y="494" lower_right_x="2737" lower_right_y="629" />
+        <graphic_event event_ref="violin_11_meas5_voice1_ev6" upper_left_x="2774" upper_left_y="477" lower_right_x="2829" lower_right_y="626" />
+        <graphic_event event_ref="violin_11_meas5_voice1_ev7" upper_left_x="2837" upper_left_y="489" lower_right_x="2894" lower_right_y="614" />
+        <graphic_event event_ref="violin_11_meas6_voice1_ev1" upper_left_x="501" upper_left_y="1773" lower_right_x="566" lower_right_y="1908" />
+        <graphic_event event_ref="violin_11_meas6_voice1_ev2" upper_left_x="592" upper_left_y="1840" lower_right_x="622" lower_right_y="1913" />
+        <graphic_event event_ref="violin_11_meas6_voice1_ev3" upper_left_x="665" upper_left_y="1822" lower_right_x="697" lower_right_y="1929" />
+        <graphic_event event_ref="violin_11_meas6_voice1_ev4" upper_left_x="770" upper_left_y="1770" lower_right_x="828" lower_right_y="1913" />
+        <graphic_event event_ref="violin_11_meas6_voice1_ev5" upper_left_x="838" upper_left_y="1766" lower_right_x="908" lower_right_y="1912" />
+        <graphic_event event_ref="violin_11_meas6_voice1_ev6" upper_left_x="928" upper_left_y="1750" lower_right_x="988" lower_right_y="1916" />
+        <graphic_event event_ref="violin_11_meas6_voice1_ev7" upper_left_x="1006" upper_left_y="1772" lower_right_x="1070" lower_right_y="1908" />
+        <graphic_event event_ref="violin_11_meas7_voice1_ev1" upper_left_x="1125" upper_left_y="1794" lower_right_x="1177" lower_right_y="1921" />
+        <graphic_event event_ref="violin_11_meas7_voice1_ev2" upper_left_x="1217" upper_left_y="1841" lower_right_x="1257" lower_right_y="1906" />
+        <graphic_event event_ref="violin_11_meas7_voice1_ev3" upper_left_x="1322" upper_left_y="1825" lower_right_x="1361" lower_right_y="1920" />
+        <graphic_event event_ref="violin_11_meas7_voice1_ev4" upper_left_x="1426" upper_left_y="1793" lower_right_x="1482" lower_right_y="1930" />
+        <graphic_event event_ref="violin_11_meas7_voice1_ev5" upper_left_x="1513" upper_left_y="1784" lower_right_x="1561" lower_right_y="1920" />
+        <graphic_event event_ref="violin_11_meas7_voice1_ev6" upper_left_x="1578" upper_left_y="1768" lower_right_x="1650" lower_right_y="1910" />
+        <graphic_event event_ref="violin_11_meas7_voice1_ev7" upper_left_x="1677" upper_left_y="1764" lower_right_x="1746" lower_right_y="1897" />
+        <graphic_event event_ref="violin_11_meas8_voice1_ev1" upper_left_x="1805" upper_left_y="1754" lower_right_x="1853" lower_right_y="1922" />
+        <graphic_event event_ref="violin_11_meas8_voice1_ev2" upper_left_x="1880" upper_left_y="1768" lower_right_x="1945" lower_right_y="1929" />
+        <graphic_event event_ref="violin_11_meas8_voice1_ev3" upper_left_x="1960" upper_left_y="1802" lower_right_x="2017" lower_right_y="1937" />
+        <graphic_event event_ref="violin_11_meas8_voice1_ev4" upper_left_x="2037" upper_left_y="1818" lower_right_x="2094" lower_right_y="1948" />
+        <graphic_event event_ref="violin_11_meas8_voice1_ev5" upper_left_x="2105" upper_left_y="1801" lower_right_x="2177" lower_right_y="1950" />
+        <graphic_event event_ref="violin_11_meas8_voice1_ev6" upper_left_x="2196" upper_left_y="1793" lower_right_x="2250" lower_right_y="1949" />
+        <graphic_event event_ref="violin_11_meas8_voice1_ev7" upper_left_x="2285" upper_left_y="1814" lower_right_x="2337" lower_right_y="1952" />
+        <graphic_event event_ref="violin_11_meas8_voice1_ev8" upper_left_x="2361" upper_left_y="1844" lower_right_x="2421" lower_right_y="1958" />
+        <graphic_event event_ref="violin_11_meas9_voice1_ev1" upper_left_x="2468" upper_left_y="1852" lower_right_x="2533" lower_right_y="1974" />
+        <graphic_event event_ref="violin_11_meas9_voice1_ev2" upper_left_x="2560" upper_left_y="1841" lower_right_x="2596" lower_right_y="1904" />
+        <graphic_event event_ref="violin_11_meas9_voice1_ev3" upper_left_x="2620" upper_left_y="1825" lower_right_x="2658" lower_right_y="1924" />
+        <graphic_event event_ref="violin_11_meas9_voice1_ev4" upper_left_x="2732" upper_left_y="1849" lower_right_x="2778" lower_right_y="1894" />
+        <graphic_event event_ref="violin_22_meas1_voice1_ev1" upper_left_x="670" upper_left_y="793" lower_right_x="720" lower_right_y="928" />
+        <graphic_event event_ref="violin_22_meas1_voice1_ev2" upper_left_x="734" upper_left_y="790" lower_right_x="777" lower_right_y="909" />
+        <graphic_event event_ref="violin_22_meas1_voice1_ev3" upper_left_x="808" upper_left_y="777" lower_right_x="854" lower_right_y="922" />
+        <graphic_event event_ref="violin_22_meas1_voice1_ev4" upper_left_x="869" upper_left_y="770" lower_right_x="913" lower_right_y="896" />
+        <graphic_event event_ref="violin_22_meas2_voice1_ev1" upper_left_x="944" upper_left_y="830" lower_right_x="992" lower_right_y="966" />
+        <graphic_event event_ref="violin_22_meas2_voice1_ev2" upper_left_x="998" upper_left_y="844" lower_right_x="1056" lower_right_y="970" />
+        <graphic_event event_ref="violin_22_meas2_voice1_ev3" upper_left_x="1068" upper_left_y="821" lower_right_x="1098" lower_right_y="930" />
+        <graphic_event event_ref="violin_22_meas2_voice1_ev4" upper_left_x="1152" upper_left_y="789" lower_right_x="1205" lower_right_y="929" />
+        <graphic_event event_ref="violin_22_meas2_voice1_ev5" upper_left_x="1209" upper_left_y="784" lower_right_x="1261" lower_right_y="898" />
+        <graphic_event event_ref="violin_22_meas2_voice1_ev6" upper_left_x="1256" upper_left_y="834" lower_right_x="1316" lower_right_y="952" />
+        <graphic_event event_ref="violin_22_meas3_voice1_ev1" upper_left_x="1406" upper_left_y="832" lower_right_x="1466" lower_right_y="964" />
+        <graphic_event event_ref="violin_22_meas3_voice1_ev2" upper_left_x="1474" upper_left_y="853" lower_right_x="1524" lower_right_y="972" />
+        <graphic_event event_ref="violin_22_meas3_voice1_ev3" upper_left_x="1541" upper_left_y="828" lower_right_x="1578" lower_right_y="910" />
+        <graphic_event event_ref="violin_22_meas3_voice1_ev4" upper_left_x="1637" upper_left_y="820" lower_right_x="1684" lower_right_y="970" />
+        <graphic_event event_ref="violin_22_meas3_voice1_ev5" upper_left_x="1693" upper_left_y="814" lower_right_x="1752" lower_right_y="974" />
+        <graphic_event event_ref="violin_22_meas3_voice1_ev6" upper_left_x="1754" upper_left_y="841" lower_right_x="1810" lower_right_y="976" />
+        <graphic_event event_ref="violin_22_meas3_voice1_ev7" upper_left_x="1829" upper_left_y="821" lower_right_x="1874" lower_right_y="976" />
+        <graphic_event event_ref="violin_22_meas4_voice1_ev1" upper_left_x="1917" upper_left_y="852" lower_right_x="1962" lower_right_y="992" />
+        <graphic_event event_ref="violin_22_meas4_voice1_ev2" upper_left_x="1976" upper_left_y="834" lower_right_x="2025" lower_right_y="994" />
+        <graphic_event event_ref="violin_22_meas4_voice1_ev3" upper_left_x="2038" upper_left_y="858" lower_right_x="2077" lower_right_y="989" />
+        <graphic_event event_ref="violin_22_meas4_voice1_ev4" upper_left_x="2092" upper_left_y="852" lower_right_x="2137" lower_right_y="988" />
+        <graphic_event event_ref="violin_22_meas4_voice1_ev5" upper_left_x="2145" upper_left_y="821" lower_right_x="2208" lower_right_y="950" />
+        <graphic_event event_ref="violin_22_meas4_voice1_ev6" upper_left_x="2285" upper_left_y="848" lower_right_x="2349" lower_right_y="973" />
+        <graphic_event event_ref="violin_22_meas5_voice1_ev1" upper_left_x="2390" upper_left_y="789" lower_right_x="2440" lower_right_y="921" />
+        <graphic_event event_ref="violin_22_meas5_voice1_ev2" upper_left_x="2460" upper_left_y="836" lower_right_x="2492" lower_right_y="912" />
+        <graphic_event event_ref="violin_22_meas5_voice1_ev3" upper_left_x="2498" upper_left_y="828" lower_right_x="2545" lower_right_y="929" />
+        <graphic_event event_ref="violin_22_meas5_voice1_ev4" upper_left_x="2602" upper_left_y="806" lower_right_x="2660" lower_right_y="938" />
+        <graphic_event event_ref="violin_22_meas5_voice1_ev5" upper_left_x="2669" upper_left_y="820" lower_right_x="2733" lower_right_y="932" />
+        <graphic_event event_ref="violin_22_meas5_voice1_ev6" upper_left_x="2764" upper_left_y="793" lower_right_x="2828" lower_right_y="948" />
+        <graphic_event event_ref="violin_22_meas5_voice1_ev7" upper_left_x="2832" upper_left_y="806" lower_right_x="2888" lower_right_y="940" />
+        <graphic_event event_ref="violin_22_meas6_voice1_ev1" upper_left_x="506" upper_left_y="2097" lower_right_x="553" lower_right_y="2228" />
+        <graphic_event event_ref="violin_22_meas6_voice1_ev2" upper_left_x="586" upper_left_y="2112" lower_right_x="624" lower_right_y="2172" />
+        <graphic_event event_ref="violin_22_meas6_voice1_ev3" upper_left_x="654" upper_left_y="2085" lower_right_x="702" lower_right_y="2182" />
+        <graphic_event event_ref="violin_22_meas6_voice1_ev4" upper_left_x="774" upper_left_y="2105" lower_right_x="825" lower_right_y="2216" />
+        <graphic_event event_ref="violin_22_meas6_voice1_ev5" upper_left_x="934" upper_left_y="2100" lower_right_x="988" lower_right_y="2228" />
+        <graphic_event event_ref="violin_22_meas7_voice1_ev1" upper_left_x="1126" upper_left_y="2100" lower_right_x="1185" lower_right_y="2225" />
+        <graphic_event event_ref="violin_22_meas7_voice1_ev2" upper_left_x="1273" upper_left_y="2106" lower_right_x="1316" lower_right_y="2192" />
+        <graphic_event event_ref="violin_22_meas7_voice1_ev3" upper_left_x="1314" upper_left_y="2089" lower_right_x="1358" lower_right_y="2190" />
+        <graphic_event event_ref="violin_22_meas7_voice1_ev4" upper_left_x="1424" upper_left_y="2088" lower_right_x="1481" lower_right_y="2217" />
+        <graphic_event event_ref="violin_22_meas7_voice1_ev5" upper_left_x="1512" upper_left_y="2078" lower_right_x="1556" lower_right_y="2193" />
+        <graphic_event event_ref="violin_22_meas7_voice1_ev6" upper_left_x="1578" upper_left_y="2050" lower_right_x="1644" lower_right_y="2197" />
+        <graphic_event event_ref="violin_22_meas7_voice1_ev7" upper_left_x="1670" upper_left_y="2041" lower_right_x="1736" lower_right_y="2181" />
+        <graphic_event event_ref="violin_22_meas8_voice1_ev1" upper_left_x="1800" upper_left_y="2066" lower_right_x="1864" lower_right_y="2186" />
+        <graphic_event event_ref="violin_22_meas8_voice1_ev2" upper_left_x="1964" upper_left_y="2097" lower_right_x="2017" lower_right_y="2198" />
+        <graphic_event event_ref="violin_22_meas8_voice1_ev3" upper_left_x="2042" upper_left_y="2098" lower_right_x="2098" lower_right_y="2214" />
+        <graphic_event event_ref="violin_22_meas8_voice1_ev4" upper_left_x="2136" upper_left_y="2101" lower_right_x="2192" lower_right_y="2224" />
+        <graphic_event event_ref="violin_22_meas8_voice1_ev5" upper_left_x="2381" upper_left_y="2058" lower_right_x="2440" lower_right_y="2180" />
+        <graphic_event event_ref="violin_22_meas9_voice1_ev1" upper_left_x="2485" upper_left_y="2069" lower_right_x="2557" lower_right_y="2200" />
+        <graphic_event event_ref="violin_22_meas9_voice1_ev2" upper_left_x="2569" upper_left_y="2108" lower_right_x="2606" lower_right_y="2176" />
+        <graphic_event event_ref="violin_22_meas9_voice1_ev3" upper_left_x="2624" upper_left_y="2084" lower_right_x="2672" lower_right_y="2182" />
+        <graphic_event event_ref="violin_22_meas9_voice1_ev4" upper_left_x="2736" upper_left_y="2117" lower_right_x="2781" lower_right_y="2154" />
+      </graphic_instance>
+    </graphic_instance_group>
+  </notational>
+  <audio>
+    <track file_name="string_4et.mp3" file_format="audio_mp3" encoding_format="audio_mp3">
+      <track_indexing timing_type="seconds">
+        <track_event event_ref="clef_staff1_meas1_0" start_time="0" />
+        <track_event event_ref="keysig_staff1_meas1" start_time="0" />
+        <track_event event_ref="clef_staff2_meas1_0" start_time="0" />
+        <track_event event_ref="keysig_staff2_meas1" start_time="0" />
+        <track_event event_ref="clef_staff3_meas2_0" start_time="0" />
+        <track_event event_ref="keysig_staff3_meas1" start_time="0" />
+        <track_event event_ref="clef_staff4_meas2_0" start_time="0" />
+        <track_event event_ref="keysig_staff4_meas1" start_time="0" />
+        <track_event event_ref="violin_11_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="violin_22_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="viola3_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="violoncello4_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="violin_11_meas1_voice1_ev2" start_time="0.25" />
+        <track_event event_ref="violin_22_meas1_voice1_ev2" start_time="0.25" />
+        <track_event event_ref="violin_11_meas1_voice1_ev3" start_time="0.5" />
+        <track_event event_ref="violin_22_meas1_voice1_ev3" start_time="0.5" />
+        <track_event event_ref="violin_11_meas1_voice1_ev4" start_time="0.7500000000000001" />
+        <track_event event_ref="violin_22_meas1_voice1_ev4" start_time="0.7500000000000001" />
+
+        <track_event event_ref="violin_11_meas2_voice1_ev1" start_time="0.9989583333333334" />
+        <track_event event_ref="violin_22_meas2_voice1_ev1" start_time="0.9989583333333334" />
+        <track_event event_ref="viola3_meas2_voice1_ev1" start_time="0.9989583333333334" />
+        <track_event event_ref="violoncello4_meas2_voice1_ev1" start_time="0.9989583333333334" />
+        <track_event event_ref="violin_11_meas2_voice1_ev2" start_time="1.2489583333333334" />
+        <track_event event_ref="violin_22_meas2_voice1_ev2" start_time="1.2489583333333334" />
+        <track_event event_ref="violin_11_meas2_voice1_ev3" start_time="1.4989583333333334" />
+        <track_event event_ref="violin_22_meas2_voice1_ev3" start_time="1.4989583333333334" />
+        <track_event event_ref="viola3_meas2_voice1_ev2" start_time="1.4989583333333334" />
+        <track_event event_ref="violoncello4_meas2_voice1_ev2" start_time="1.4989583333333334" />
+        <track_event event_ref="violin_11_meas2_voice1_ev4" start_time="1.9989583333333334" />
+        <track_event event_ref="violin_22_meas2_voice1_ev4" start_time="1.9989583333333334" />
+        <track_event event_ref="viola3_meas2_voice1_ev3" start_time="1.9989583333333334" />
+        <track_event event_ref="violoncello4_meas2_voice1_ev3" start_time="1.9989583333333334" />
+        <track_event event_ref="violin_11_meas2_voice1_ev5" start_time="2.2489583333333334" />
+        <track_event event_ref="violin_22_meas2_voice1_ev5" start_time="2.2489583333333334" />
+        <track_event event_ref="violin_11_meas2_voice1_ev6" start_time="2.4989583333333334" />
+        <track_event event_ref="violin_22_meas2_voice1_ev6" start_time="2.4989583333333334" />
+        <track_event event_ref="violoncello4_meas2_voice1_ev4" start_time="2.4989583333333334" />
+        <track_event event_ref="violin_11_meas2_voice1_ev7" start_time="2.7489583333333334" />
+
+        <track_event event_ref="violin_11_meas3_voice1_ev1" start_time="2.9989583333333334" />
+        <track_event event_ref="violin_22_meas3_voice1_ev1" start_time="2.9989583333333334" />
+        <track_event event_ref="viola3_meas3_voice1_ev1" start_time="2.9989583333333334" />
+        <track_event event_ref="violoncello4_meas3_voice1_ev1" start_time="2.9989583333333334" />
+        <track_event event_ref="violin_11_meas3_voice1_ev2" start_time="3.2489583333333334" />
+        <track_event event_ref="violin_22_meas3_voice1_ev2" start_time="3.2489583333333334" />
+        <track_event event_ref="violin_11_meas3_voice1_ev3" start_time="3.4989583333333334" />
+        <track_event event_ref="violin_22_meas3_voice1_ev3" start_time="3.4989583333333334" />
+        <track_event event_ref="viola3_meas3_voice1_ev2" start_time="3.4989583333333334" />
+        <track_event event_ref="violoncello4_meas3_voice1_ev2" start_time="3.4989583333333334" />
+        <track_event event_ref="violin_11_meas3_voice1_ev4" start_time="3.9989583333333334" />
+        <track_event event_ref="violin_22_meas3_voice1_ev4" start_time="3.9989583333333334" />
+        <track_event event_ref="viola3_meas3_voice1_ev3" start_time="3.9989583333333334" />
+        <track_event event_ref="violoncello4_meas3_voice1_ev3" start_time="3.9989583333333334" />
+        <track_event event_ref="violin_11_meas3_voice1_ev5" start_time="4.248958333333333" />
+        <track_event event_ref="violin_22_meas3_voice1_ev5" start_time="4.248958333333333" />
+        <track_event event_ref="violin_11_meas3_voice1_ev6" start_time="4.498958333333333" />
+        <track_event event_ref="violin_22_meas3_voice1_ev6" start_time="4.498958333333333" />
+        <track_event event_ref="violoncello4_meas3_voice1_ev4" start_time="4.498958333333333" />
+        <track_event event_ref="violin_11_meas3_voice1_ev7" start_time="4.748958333333333" />
+        <track_event event_ref="violin_22_meas3_voice1_ev7" start_time="4.748958333333333" />
+
+        <track_event event_ref="violin_11_meas4_voice1_ev1" start_time="4.998958333333333" />
+        <track_event event_ref="violin_22_meas4_voice1_ev1" start_time="4.998958333333333" />
+        <track_event event_ref="viola3_meas4_voice1_ev1" start_time="4.998958333333333" />
+        <track_event event_ref="violoncello4_meas4_voice1_ev1" start_time="4.998958333333333" />
+        <track_event event_ref="violin_11_meas4_voice1_ev2" start_time="5.248958333333333" />
+        <track_event event_ref="violin_22_meas4_voice1_ev2" start_time="5.248958333333333" />
+        <track_event event_ref="violin_11_meas4_voice1_ev3" start_time="5.498958333333333" />
+        <track_event event_ref="violin_22_meas4_voice1_ev3" start_time="5.498958333333333" />
+        <track_event event_ref="viola3_meas4_voice1_ev2" start_time="5.498958333333333" />
+        <track_event event_ref="violoncello4_meas4_voice1_ev2" start_time="5.498958333333333" />
+        <track_event event_ref="violin_11_meas4_voice1_ev4" start_time="5.748958333333333" />
+        <track_event event_ref="violin_22_meas4_voice1_ev4" start_time="5.748958333333333" />
+        <track_event event_ref="violin_11_meas4_voice1_ev5" start_time="5.998958333333333" />
+        <track_event event_ref="violin_22_meas4_voice1_ev5" start_time="5.998958333333333" />
+        <track_event event_ref="viola3_meas4_voice1_ev3" start_time="5.998958333333333" />
+        <track_event event_ref="violoncello4_meas4_voice1_ev3" start_time="5.998958333333333" />
+        <track_event event_ref="violoncello4_meas4_voice1_ev4" start_time="6.498958333333333" />
+        <track_event event_ref="violin_11_meas4_voice1_ev6" start_time="6.748958333333333" />
+        <track_event event_ref="violin_22_meas4_voice1_ev6" start_time="6.748958333333333" />
+
+        <track_event event_ref="violin_11_meas5_voice1_ev1" start_time="6.998958333333333" />
+        <track_event event_ref="violin_22_meas5_voice1_ev1" start_time="6.998958333333333" />
+        <track_event event_ref="viola3_meas5_voice1_ev1" start_time="6.998958333333333" />
+        <track_event event_ref="violoncello4_meas5_voice1_ev1" start_time="6.998958333333333" />
+        <track_event event_ref="violin_11_meas5_voice1_ev2" start_time="7.3" />
+        <track_event event_ref="violin_22_meas5_voice1_ev2" start_time="7.3" />
+        <track_event event_ref="violin_11_meas5_voice1_ev3" start_time="7.498958333333333" />
+        <track_event event_ref="violin_22_meas5_voice1_ev3" start_time="7.498958333333333" />
+        <track_event event_ref="viola3_meas5_voice1_ev2" start_time="7.498958333333333" />
+        <track_event event_ref="violoncello4_meas5_voice1_ev2" start_time="7.498958333333333" />
+        <track_event event_ref="violin_11_meas5_voice1_ev4" start_time="7.998958333333333" />
+        <track_event event_ref="violin_22_meas5_voice1_ev4" start_time="7.998958333333333" />
+        <track_event event_ref="viola3_meas5_voice1_ev3" start_time="7.998958333333333" />
+        <track_event event_ref="violoncello4_meas5_voice1_ev3" start_time="7.998958333333333" />
+        <track_event event_ref="violin_11_meas5_voice1_ev5" start_time="8.248958333333334" />
+        <track_event event_ref="violin_22_meas5_voice1_ev5" start_time="8.248958333333334" />
+        <track_event event_ref="violoncello4_meas5_voice1_ev4" start_time="8.498958333333334" />
+        <track_event event_ref="violin_11_meas5_voice1_ev6" start_time="8.623958333333334" />
+        <track_event event_ref="violin_22_meas5_voice1_ev6" start_time="8.623958333333334" />
+        <track_event event_ref="violin_11_meas5_voice1_ev7" start_time="8.748958333333334" />
+        <track_event event_ref="violin_22_meas5_voice1_ev7" start_time="8.748958333333334" />
+
+        <track_event event_ref="violin_11_meas6_voice1_ev1" start_time="8.998958333333334" />
+        <track_event event_ref="violin_22_meas6_voice1_ev1" start_time="8.998958333333334" />
+        <track_event event_ref="viola3_meas6_voice1_ev1" start_time="8.998958333333334" />
+        <track_event event_ref="violoncello4_meas6_voice1_ev1" start_time="8.998958333333334" />
+        <track_event event_ref="violin_11_meas6_voice1_ev2" start_time="9.31" />
+        <track_event event_ref="violin_22_meas6_voice1_ev2" start_time="9.31" />
+        <track_event event_ref="violin_11_meas6_voice1_ev3" start_time="9.498958333333334" />
+        <track_event event_ref="violin_22_meas6_voice1_ev3" start_time="9.498958333333334" />
+        <track_event event_ref="viola3_meas6_voice1_ev2" start_time="9.498958333333334" />
+        <track_event event_ref="violoncello4_meas6_voice1_ev2" start_time="9.498958333333334" />
+        <track_event event_ref="violin_11_meas6_voice1_ev4" start_time="9.998958333333334" />
+        <track_event event_ref="violin_22_meas6_voice1_ev4" start_time="9.998958333333334" />
+        <track_event event_ref="viola3_meas6_voice1_ev3" start_time="9.998958333333334" />
+        <track_event event_ref="violoncello4_meas6_voice1_ev3" start_time="9.998958333333334" />
+        <track_event event_ref="violin_11_meas6_voice1_ev5" start_time="10.248958333333334" />
+        <track_event event_ref="violin_11_meas6_voice1_ev6" start_time="10.498958333333334" />
+        <track_event event_ref="violin_22_meas6_voice1_ev5" start_time="10.498958333333334" />
+        <track_event event_ref="violoncello4_meas6_voice1_ev4" start_time="10.498958333333334" />
+        <track_event event_ref="violin_11_meas6_voice1_ev7" start_time="10.748958333333334" />
+
+        <track_event event_ref="violin_11_meas7_voice1_ev1" start_time="10.998958333333334" />
+        <track_event event_ref="violin_22_meas7_voice1_ev1" start_time="10.998958333333334" />
+        <track_event event_ref="viola3_meas7_voice1_ev1" start_time="10.998958333333334" />
+        <track_event event_ref="violoncello4_meas7_voice1_ev1" start_time="10.998958333333334" />
+        <track_event event_ref="violin_11_meas7_voice1_ev2" start_time="11.3" />
+        <track_event event_ref="violin_22_meas7_voice1_ev2" start_time="11.42" />
+        <track_event event_ref="violin_11_meas7_voice1_ev3" start_time="11.498958333333334" />
+        <track_event event_ref="violin_22_meas7_voice1_ev3" start_time="11.498958333333334" />
+        <track_event event_ref="viola3_meas7_voice1_ev2" start_time="11.498958333333334" />
+        <track_event event_ref="violoncello4_meas7_voice1_ev2" start_time="11.498958333333334" />
+        <track_event event_ref="violin_11_meas7_voice1_ev4" start_time="11.998958333333334" />
+        <track_event event_ref="violin_22_meas7_voice1_ev4" start_time="11.998958333333334" />
+        <track_event event_ref="viola3_meas7_voice1_ev3" start_time="11.998958333333334" />
+        <track_event event_ref="violoncello4_meas7_voice1_ev3" start_time="11.998958333333334" />
+        <track_event event_ref="violin_11_meas7_voice1_ev5" start_time="12.248958333333334" />
+        <track_event event_ref="violin_22_meas7_voice1_ev5" start_time="12.248958333333334" />
+        <track_event event_ref="violin_11_meas7_voice1_ev6" start_time="12.498958333333334" />
+        <track_event event_ref="violin_22_meas7_voice1_ev6" start_time="12.498958333333334" />
+        <track_event event_ref="violoncello4_meas7_voice1_ev4" start_time="12.498958333333334" />
+        <track_event event_ref="violin_11_meas7_voice1_ev7" start_time="12.748958333333334" />
+        <track_event event_ref="violin_22_meas7_voice1_ev7" start_time="12.748958333333334" />
+
+        <track_event event_ref="violin_11_meas8_voice1_ev1" start_time="12.998958333333334" />
+        <track_event event_ref="violin_22_meas8_voice1_ev1" start_time="12.998958333333334" />
+        <track_event event_ref="viola3_meas8_voice1_ev1" start_time="12.998958333333334" />
+        <track_event event_ref="violoncello4_meas8_voice1_ev1" start_time="12.998958333333334" />
+        <track_event event_ref="violin_11_meas8_voice1_ev2" start_time="13.248958333333334" />
+        <track_event event_ref="violin_11_meas8_voice1_ev3" start_time="13.498958333333334" />
+        <track_event event_ref="violin_22_meas8_voice1_ev2" start_time="13.498958333333334" />
+        <track_event event_ref="viola3_meas8_voice1_ev2" start_time="13.498958333333334" />
+        <track_event event_ref="violoncello4_meas8_voice1_ev2" start_time="13.498958333333334" />
+        <track_event event_ref="violin_11_meas8_voice1_ev4" start_time="13.748958333333334" />
+        <track_event event_ref="violin_22_meas8_voice1_ev3" start_time="13.748958333333334" />
+        <track_event event_ref="violin_11_meas8_voice1_ev5" start_time="13.998958333333334" />
+        <track_event event_ref="violin_22_meas8_voice1_ev4" start_time="13.998958333333334" />
+        <track_event event_ref="viola3_meas8_voice1_ev3" start_time="13.998958333333334" />
+        <track_event event_ref="violoncello4_meas8_voice1_ev3" start_time="13.998958333333334" />
+        <track_event event_ref="violin_11_meas8_voice1_ev6" start_time="14.248958333333334" />
+        <track_event event_ref="violin_11_meas8_voice1_ev7" start_time="14.498958333333334" />
+        <track_event event_ref="violoncello4_meas8_voice1_ev4" start_time="14.498958333333334" />
+        <track_event event_ref="violin_11_meas8_voice1_ev8" start_time="14.748958333333334" />
+        <track_event event_ref="violin_22_meas8_voice1_ev5" start_time="14.748958333333334" />
+
+        <track_event event_ref="violin_11_meas9_voice1_ev1" start_time="14.998958333333334" />
+        <track_event event_ref="violin_22_meas9_voice1_ev1" start_time="14.998958333333334" />
+        <track_event event_ref="viola3_meas9_voice1_ev1" start_time="14.998958333333334" />
+        <track_event event_ref="violoncello4_meas9_voice1_ev1" start_time="14.998958333333334" />
+        <track_event event_ref="violin_11_meas9_voice1_ev2" start_time="15.32" />
+        <track_event event_ref="violin_22_meas9_voice1_ev2" start_time="15.32" />
+        <track_event event_ref="violin_11_meas9_voice1_ev3" start_time="15.498958333333334" />
+        <track_event event_ref="violin_22_meas9_voice1_ev3" start_time="15.498958333333334" />
+        <track_event event_ref="viola3_meas9_voice1_ev2" start_time="15.498958333333334" />
+        <track_event event_ref="violoncello4_meas9_voice1_ev2" start_time="15.498958333333334" />
+        <track_event event_ref="violin_11_meas9_voice1_ev4" start_time="16.09" />
+        <track_event event_ref="violin_22_meas9_voice1_ev4" start_time="16.09" />
+        <track_event event_ref="viola3_meas9_voice1_ev3" start_time="16.09" />
+        <track_event event_ref="violoncello4_meas9_voice1_ev3" start_time="16.09" />
+      </track_indexing>
+    </track>
+  </audio>
+</ieee1599>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ieee1599 SYSTEM "https://www.lim.di.unimi.it/IEEE/ieee1599.dtd">
+<ieee1599 version="1.0">
+    <general>
+        <description>
+            <main_title>sax1</main_title>
+            <author type="composer"></author>
+        </description>
+    </general>
+    <audio>
+        <track file_name="sax1.wav" file_format="audio_wav" encoding_format="audio_wav">
+            <track_indexing timing_type="seconds">
+                <track_event event_ref="e0" start_time="0.4902"/>
+                <track_event event_ref="e1" start_time="1.0553"/>
+                <track_event event_ref="e2" start_time="1.538"/>
+                <track_event event_ref="e3" start_time="5.645"/>
+                <track_event event_ref="e4" start_time="6.1995"/>
+                <track_event event_ref="e5" start_time="6.4374"/>
+                <track_event event_ref="e6" start_time="6.8694"/>
+                <track_event event_ref="e7" start_time="7.183"/>
+                <track_event event_ref="e8" start_time="8.1815"/>
+           </track_indexing>
+        </track>
+    </audio>
+</ieee1599>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ieee1599 SYSTEM "https://www.lim.di.unimi.it/IEEE/ieee1599.dtd">
+<ieee1599 version="1.0">
+    <general>
+        <description>
+            <main_title>pop1</main_title>
+            <author type="composer"></author>
+        </description>
+    </general>
+    <audio>
+        <track file_name="pop1.wav" file_format="audio_wav" encoding_format="audio_wav">
+            <track_indexing timing_type="seconds">
+                <track_event event_ref="e0" start_time="0.2052"/>
+                <track_event event_ref="e1" start_time="0.9253"/>
+                <track_event event_ref="e2" start_time="1.6746"/>
+                <track_event event_ref="e3" start_time="2.0665"/>
+                <track_event event_ref="e4" start_time="2.4238"/>
+                <track_event event_ref="e5" start_time="2.7765"/>
+                <track_event event_ref="e6" start_time="3.1508"/>
+                <track_event event_ref="e7" start_time="3.5562"/>
+                <track_event event_ref="e8" start_time="3.8682"/>
+                <track_event event_ref="e9" start_time="4.2649"/>
+                <track_event event_ref="e10" start_time="4.623"/>
+                <track_event event_ref="e11" start_time="4.9733"/>
+                <track_event event_ref="e12" start_time="5.3015"/>
+                <track_event event_ref="e13" start_time="6.0399"/>
+                <track_event event_ref="e14" start_time="6.7712"/>
+                <track_event event_ref="e15" start_time="7.5003"/>
+                <track_event event_ref="e16" start_time="7.8676"/>
+                <track_event event_ref="e17" start_time="8.251"/>
+                <track_event event_ref="e18" start_time="8.6066"/>
+                <track_event event_ref="e19" start_time="8.9778"/>
+                <track_event event_ref="e20" start_time="9.7246"/>
+                <track_event event_ref="e21" start_time="10.7074"/>
+                <track_event event_ref="e22" start_time="11.1597"/>
+                <track_event event_ref="e23" start_time="11.3131"/>
+                <track_event event_ref="e24" start_time="11.8699"/>
+                <track_event event_ref="e25" start_time="12.2163"/>
+                <track_event event_ref="e26" start_time="12.6218"/>
+           </track_indexing>
+        </track>
+    </audio>
+</ieee1599>

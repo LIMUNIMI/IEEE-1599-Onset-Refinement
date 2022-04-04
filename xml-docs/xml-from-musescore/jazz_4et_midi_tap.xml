@@ -1,0 +1,1821 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ieee1599 SYSTEM "http://www.lim.di.unimi.it/IEEE/ieee1599.dtd"[]>
+<ieee1599 version="1.0" creator="MuseScore Export Plugin 3.0">
+  <general>
+    <description>
+      <main_title>Take Five(trio)</main_title>
+      <author type="composer">Paul Desmond and Dave Brubeck</author>
+    </description>
+  </general>
+  <logic>
+    <spine>
+      <event id="clef_staff1_meas2_1440" timing="0" hpos="0" />
+      <event id="keysig_staff1_meas1" timing="0" hpos="0" />
+      <event id="clef_staff2_meas1_240" timing="0" hpos="0" />
+      <event id="keysig_staff2_meas1" timing="0" hpos="0" />
+      <event id="clef_staff3_meas1_0" timing="0" hpos="0" />
+      <event id="keysig_staff3_meas1" timing="0" hpos="0" />
+      <event id="clef_staff4_meas1_0" timing="0" hpos="0" />
+      <event id="keysig_staff4_meas1" timing="0" hpos="0" />
+      <event id="clef_staff5_meas1_0" timing="0" hpos="0" />
+      <event id="keysig_staff5_meas1" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="piano2_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="piano2_meas1_voice2_ev1" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="drumset4_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="drumset4_meas1_voice2_ev1" timing="0" hpos="0" />
+      <event id="piano2_meas1_voice1_ev2" timing="240" hpos="240" />
+      <event id="piano2_meas1_voice1_ev3" timing="240" hpos="240" />
+      <event id="piano2_meas1_voice2_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas1_voice1_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas1_voice2_ev2" timing="0" hpos="0" />
+      <event id="piano2_meas1_voice2_ev3" timing="240" hpos="240" />
+      <event id="drumset4_meas1_voice1_ev3" timing="0" hpos="0" />
+      <event id="piano2_meas1_voice1_ev4" timing="240" hpos="240" />
+      <event id="piano2_meas1_voice2_ev4" timing="0" hpos="0" />
+      <event id="drumset4_meas1_voice1_ev4" timing="0" hpos="0" />
+      <event id="piano2_meas1_voice1_ev5" timing="480" hpos="480" />
+      <event id="piano2_meas1_voice2_ev5" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas1_voice1_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas1_voice1_ev5" timing="0" hpos="0" />
+      <event id="drumset4_meas1_voice1_ev6" timing="240" hpos="240" />
+      <event id="piano2_meas1_voice1_ev6" timing="240" hpos="240" />
+      <event id="piano2_meas1_voice2_ev6" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas1_voice1_ev3" timing="0" hpos="0" />
+      <event id="drumset4_meas1_voice1_ev7" timing="0" hpos="0" />
+      <event id="piano2_meas1_voice1_ev7" timing="240" hpos="240" />
+      <event id="alto_saxophone1_meas2_voice1_ev1" timing="240" hpos="240" />
+      <event id="piano2_meas2_voice1_ev1" timing="0" hpos="0" />
+      <event id="piano2_meas2_voice2_ev1" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas2_voice1_ev1" timing="0" hpos="0" />
+      <event id="drumset4_meas2_voice1_ev1" timing="0" hpos="0" />
+      <event id="drumset4_meas2_voice2_ev1" timing="0" hpos="0" />
+      <event id="piano2_meas2_voice1_ev2" timing="240" hpos="240" />
+      <event id="piano2_meas2_voice1_ev3" timing="240" hpos="240" />
+      <event id="piano2_meas2_voice2_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas2_voice1_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas2_voice2_ev2" timing="0" hpos="0" />
+      <event id="piano2_meas2_voice2_ev3" timing="240" hpos="240" />
+      <event id="drumset4_meas2_voice1_ev3" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas2_voice1_ev2" timing="240" hpos="240" />
+      <event id="piano2_meas2_voice1_ev4" timing="0" hpos="0" />
+      <event id="piano2_meas2_voice2_ev4" timing="0" hpos="0" />
+      <event id="drumset4_meas2_voice1_ev4" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas2_voice1_ev3" timing="480" hpos="480" />
+      <event id="piano2_meas2_voice1_ev5" timing="0" hpos="0" />
+      <event id="piano2_meas2_voice2_ev5" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas2_voice1_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas2_voice1_ev5" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas2_voice1_ev4" timing="240" hpos="240" />
+      <event id="drumset4_meas2_voice1_ev6" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas2_voice1_ev5" timing="240" hpos="240" />
+      <event id="piano2_meas2_voice1_ev6" timing="0" hpos="0" />
+      <event id="piano2_meas2_voice2_ev6" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas2_voice1_ev3" timing="0" hpos="0" />
+      <event id="drumset4_meas2_voice1_ev7" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas2_voice1_ev6" timing="240" hpos="240" />
+      <event id="piano2_meas2_voice1_ev7" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas3_voice1_ev1" timing="240" hpos="240" />
+      <event id="piano2_meas3_voice1_ev1" timing="0" hpos="0" />
+      <event id="piano2_meas3_voice2_ev1" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas3_voice1_ev1" timing="0" hpos="0" />
+      <event id="drumset4_meas3_voice1_ev1" timing="0" hpos="0" />
+      <event id="drumset4_meas3_voice2_ev1" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas3_voice1_ev2" timing="240" hpos="240" />
+      <event id="piano2_meas3_voice1_ev2" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas3_voice1_ev3" timing="240" hpos="240" />
+      <event id="piano2_meas3_voice1_ev3" timing="0" hpos="0" />
+      <event id="piano2_meas3_voice2_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas3_voice1_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas3_voice2_ev2" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas3_voice1_ev4" timing="240" hpos="240" />
+      <event id="piano2_meas3_voice2_ev3" timing="0" hpos="0" />
+      <event id="drumset4_meas3_voice1_ev3" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas3_voice1_ev5" timing="240" hpos="240" />
+      <event id="piano2_meas3_voice1_ev4" timing="0" hpos="0" />
+      <event id="piano2_meas3_voice2_ev4" timing="0" hpos="0" />
+      <event id="drumset4_meas3_voice1_ev4" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas3_voice1_ev6" timing="480" hpos="480" />
+      <event id="piano2_meas3_voice1_ev5" timing="0" hpos="0" />
+      <event id="piano2_meas3_voice2_ev5" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas3_voice1_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas3_voice1_ev5" timing="0" hpos="0" />
+      <event id="drumset4_meas3_voice1_ev6" timing="240" hpos="240" />
+      <event id="alto_saxophone1_meas3_voice1_ev7" timing="240" hpos="240" />
+      <event id="piano2_meas3_voice1_ev6" timing="0" hpos="0" />
+      <event id="piano2_meas3_voice2_ev6" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas3_voice1_ev3" timing="0" hpos="0" />
+      <event id="drumset4_meas3_voice1_ev7" timing="0" hpos="0" />
+      <event id="piano2_meas3_voice1_ev7" timing="240" hpos="240" />
+      <event id="alto_saxophone1_meas4_voice1_ev1" timing="240" hpos="240" />
+      <event id="piano2_meas4_voice1_ev1" timing="0" hpos="0" />
+      <event id="piano2_meas4_voice2_ev1" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas4_voice1_ev1" timing="0" hpos="0" />
+      <event id="drumset4_meas4_voice1_ev1" timing="0" hpos="0" />
+      <event id="drumset4_meas4_voice2_ev1" timing="0" hpos="0" />
+      <event id="piano2_meas4_voice1_ev2" timing="240" hpos="240" />
+      <event id="piano2_meas4_voice1_ev3" timing="240" hpos="240" />
+      <event id="piano2_meas4_voice2_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas4_voice1_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas4_voice2_ev2" timing="0" hpos="0" />
+      <event id="piano2_meas4_voice2_ev3" timing="240" hpos="240" />
+      <event id="drumset4_meas4_voice1_ev3" timing="0" hpos="0" />
+      <event id="piano2_meas4_voice1_ev4" timing="240" hpos="240" />
+      <event id="piano2_meas4_voice2_ev4" timing="0" hpos="0" />
+      <event id="drumset4_meas4_voice1_ev4" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas4_voice1_ev2" timing="480" hpos="480" />
+      <event id="piano2_meas4_voice1_ev5" timing="0" hpos="0" />
+      <event id="piano2_meas4_voice2_ev5" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas4_voice1_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas4_voice1_ev5" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas4_voice1_ev3" timing="120" hpos="120" />
+      <event id="alto_saxophone1_meas4_voice1_ev4" timing="120" hpos="120" />
+      <event id="drumset4_meas4_voice1_ev6" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas4_voice1_ev5" timing="120" hpos="120" />
+      <event id="alto_saxophone1_meas4_voice1_ev6" timing="120" hpos="120" />
+      <event id="piano2_meas4_voice1_ev6" timing="0" hpos="0" />
+      <event id="piano2_meas4_voice2_ev6" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas4_voice1_ev3" timing="0" hpos="0" />
+      <event id="drumset4_meas4_voice1_ev7" timing="0" hpos="0" />
+      <event id="piano2_meas4_voice1_ev7" timing="240" hpos="240" />
+      <event id="alto_saxophone1_meas5_voice1_ev1" timing="240" hpos="240" />
+      <event id="piano2_meas5_voice1_ev1" timing="0" hpos="0" />
+      <event id="piano2_meas5_voice2_ev1" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas5_voice1_ev1" timing="0" hpos="0" />
+      <event id="drumset4_meas5_voice1_ev1" timing="0" hpos="0" />
+      <event id="drumset4_meas5_voice2_ev1" timing="0" hpos="0" />
+      <event id="piano2_meas5_voice1_ev2" timing="240" hpos="240" />
+      <event id="piano2_meas5_voice1_ev3" timing="240" hpos="240" />
+      <event id="piano2_meas5_voice2_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas5_voice1_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas5_voice2_ev2" timing="0" hpos="0" />
+      <event id="piano2_meas5_voice2_ev3" timing="240" hpos="240" />
+      <event id="drumset4_meas5_voice1_ev3" timing="0" hpos="0" />
+      <event id="piano2_meas5_voice1_ev4" timing="240" hpos="240" />
+      <event id="piano2_meas5_voice2_ev4" timing="0" hpos="0" />
+      <event id="drumset4_meas5_voice1_ev4" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas5_voice1_ev2" timing="480" hpos="480" />
+      <event id="piano2_meas5_voice1_ev5" timing="0" hpos="0" />
+      <event id="piano2_meas5_voice2_ev5" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas5_voice1_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas5_voice1_ev5" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas5_voice1_ev3" timing="120" hpos="120" />
+      <event id="alto_saxophone1_meas5_voice1_ev4" timing="120" hpos="120" />
+      <event id="drumset4_meas5_voice1_ev6" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas5_voice1_ev5" timing="120" hpos="120" />
+      <event id="alto_saxophone1_meas5_voice1_ev6" timing="120" hpos="120" />
+      <event id="piano2_meas5_voice1_ev6" timing="0" hpos="0" />
+      <event id="piano2_meas5_voice2_ev6" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas5_voice1_ev3" timing="0" hpos="0" />
+      <event id="drumset4_meas5_voice1_ev7" timing="0" hpos="0" />
+      <event id="piano2_meas5_voice1_ev7" timing="240" hpos="240" />
+      <event id="alto_saxophone1_meas6_voice1_ev1" timing="240" hpos="240" />
+      <event id="piano2_meas6_voice1_ev1" timing="0" hpos="0" />
+      <event id="piano2_meas6_voice2_ev1" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas6_voice1_ev1" timing="0" hpos="0" />
+      <event id="drumset4_meas6_voice1_ev1" timing="0" hpos="0" />
+      <event id="drumset4_meas6_voice2_ev1" timing="0" hpos="0" />
+      <event id="piano2_meas6_voice1_ev2" timing="240" hpos="240" />
+      <event id="piano2_meas6_voice1_ev3" timing="240" hpos="240" />
+      <event id="piano2_meas6_voice2_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas6_voice1_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas6_voice2_ev2" timing="0" hpos="0" />
+      <event id="piano2_meas6_voice2_ev3" timing="240" hpos="240" />
+      <event id="drumset4_meas6_voice1_ev3" timing="0" hpos="0" />
+      <event id="alto_saxophone1_meas6_voice1_ev2" timing="240" hpos="240" />
+      <event id="piano2_meas6_voice1_ev4" timing="0" hpos="0" />
+      <event id="piano2_meas6_voice2_ev4" timing="0" hpos="0" />
+      <event id="drumset4_meas6_voice1_ev4" timing="0" hpos="0" />
+      <event id="piano2_meas6_voice1_ev5" timing="480" hpos="480" />
+      <event id="piano2_meas6_voice2_ev5" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas6_voice1_ev2" timing="0" hpos="0" />
+      <event id="drumset4_meas6_voice1_ev5" timing="0" hpos="0" />
+      <event id="drumset4_meas6_voice1_ev6" timing="240" hpos="240" />
+      <event id="piano2_meas6_voice1_ev6" timing="240" hpos="240" />
+      <event id="piano2_meas6_voice2_ev6" timing="0" hpos="0" />
+      <event id="_bass_guitar3_meas6_voice1_ev3" timing="0" hpos="0" />
+      <event id="drumset4_meas6_voice1_ev7" timing="0" hpos="0" />
+      <event id="piano2_meas6_voice1_ev7" timing="240" hpos="240" />
+    </spine>
+    <los>
+      <staff_list>
+        <staff id="staff1">
+          <clef event_ref="clef_staff1_meas2_1440" shape="G" staff_step="2" />
+          <key_signature event_ref="keysig_staff1_meas1">
+            <flat_num number="3" />
+          </key_signature>
+        </staff>
+        <staff id="staff2">
+          <clef event_ref="clef_staff2_meas1_240" shape="G" staff_step="2" />
+          <key_signature event_ref="keysig_staff2_meas1">
+            <flat_num number="6" />
+          </key_signature>
+        </staff>
+        <staff id="staff3">
+          <clef event_ref="clef_staff3_meas1_0" shape="F" staff_step="6" />
+          <key_signature event_ref="keysig_staff3_meas1">
+            <flat_num number="6" />
+          </key_signature>
+        </staff>
+        <staff id="staff4">
+          <clef event_ref="clef_staff4_meas1_0" shape="F" staff_step="6" />
+          <key_signature event_ref="keysig_staff4_meas1">
+            <flat_num number="6" />
+          </key_signature>
+        </staff>
+        <staff id="staff5">
+          <clef event_ref="clef_staff5_meas1_0" shape="percussion" staff_step="0" />
+          <key_signature event_ref="keysig_staff5_meas1">
+            <flat_num number="6" />
+          </key_signature>
+        </staff>
+      </staff_list>
+      <part id="alto_saxophone1" transposition_pitch="E" transposition_accidental="flat">
+        <voice_list>
+          <voice_item id="alto_saxophone1_voice1" staff_ref="staff1" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="alto_saxophone1_voice1">
+            <rest event_ref="alto_saxophone1_meas1_voice1_ev1">
+              <duration num="5" den="4">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="alto_saxophone1_voice1">
+            <rest event_ref="alto_saxophone1_meas2_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+            <rest event_ref="alto_saxophone1_meas2_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="alto_saxophone1_meas2_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas2_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas2_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas2_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="alto_saxophone1_voice1">
+            <chord event_ref="alto_saxophone1_meas3_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas3_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas3_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="sharp" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas3_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+                <printed_accidentals>
+                  <natural />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas3_voice1_ev5">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas3_voice1_ev6">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas3_voice1_ev7">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="alto_saxophone1_voice1">
+            <chord event_ref="alto_saxophone1_meas4_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas4_voice1_ev2">
+              <duration num="1" den="16">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas4_voice1_ev3">
+              <duration num="1" den="16">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas4_voice1_ev4">
+              <duration num="1" den="16">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas4_voice1_ev5">
+              <duration num="1" den="16">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas4_voice1_ev6">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="alto_saxophone1_voice1">
+            <chord event_ref="alto_saxophone1_meas5_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas5_voice1_ev2">
+              <duration num="1" den="16">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas5_voice1_ev3">
+              <duration num="1" den="16">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas5_voice1_ev4">
+              <duration num="1" den="16">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas5_voice1_ev5">
+              <duration num="1" den="16">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="alto_saxophone1_meas5_voice1_ev6">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="alto_saxophone1_voice1">
+            <chord event_ref="alto_saxophone1_meas6_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="alto_saxophone1_meas6_voice1_ev2">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+            </rest>
+          </voice>
+        </measure>
+      </part>
+      <part id="piano2">
+        <voice_list>
+          <voice_item id="piano2_voice1" staff_ref="staff2" />
+          <voice_item id="piano2_voice2" staff_ref="staff3" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="piano2_voice1">
+            <rest event_ref="piano2_meas1_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas1_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas1_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas1_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas1_voice1_ev5">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas1_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas1_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+          </voice>
+          <voice voice_item_ref="piano2_voice2">
+            <chord event_ref="piano2_meas1_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas1_voice2_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas1_voice2_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas1_voice2_ev4">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas1_voice2_ev5">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas1_voice2_ev6">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="piano2_voice1">
+            <rest event_ref="piano2_meas2_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas2_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas2_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas2_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas2_voice1_ev5">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas2_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas2_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+          </voice>
+          <voice voice_item_ref="piano2_voice2">
+            <chord event_ref="piano2_meas2_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas2_voice2_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas2_voice2_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas2_voice2_ev4">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas2_voice2_ev5">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas2_voice2_ev6">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="piano2_voice1">
+            <rest event_ref="piano2_meas3_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas3_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas3_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas3_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas3_voice1_ev5">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas3_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas3_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+          </voice>
+          <voice voice_item_ref="piano2_voice2">
+            <chord event_ref="piano2_meas3_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas3_voice2_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas3_voice2_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas3_voice2_ev4">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas3_voice2_ev5">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas3_voice2_ev6">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="piano2_voice1">
+            <rest event_ref="piano2_meas4_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas4_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas4_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas4_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas4_voice1_ev5">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas4_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas4_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+          </voice>
+          <voice voice_item_ref="piano2_voice2">
+            <chord event_ref="piano2_meas4_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas4_voice2_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas4_voice2_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas4_voice2_ev4">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas4_voice2_ev5">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas4_voice2_ev6">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="piano2_voice1">
+            <rest event_ref="piano2_meas5_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas5_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas5_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas5_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas5_voice1_ev5">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas5_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas5_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+          </voice>
+          <voice voice_item_ref="piano2_voice2">
+            <chord event_ref="piano2_meas5_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas5_voice2_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas5_voice2_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas5_voice2_ev4">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas5_voice2_ev5">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas5_voice2_ev6">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="piano2_voice1">
+            <rest event_ref="piano2_meas6_voice1_ev1">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas6_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas6_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas6_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas6_voice1_ev5">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas6_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="flat" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas6_voice1_ev7">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+          </voice>
+          <voice voice_item_ref="piano2_voice2">
+            <chord event_ref="piano2_meas6_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas6_voice2_ev2">
+              <duration num="1" den="8">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas6_voice2_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas6_voice2_ev4">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="piano2_meas6_voice2_ev5">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <rest event_ref="piano2_meas6_voice2_ev6">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+      </part>
+      <part id="_bass_guitar3">
+        <voice_list>
+          <voice_item id="_bass_guitar3_voice1" staff_ref="staff4" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="_bass_guitar3_voice1">
+            <chord event_ref="_bass_guitar3_meas1_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="_bass_guitar3_meas1_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="2" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="_bass_guitar3_meas1_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="_bass_guitar3_voice1">
+            <chord event_ref="_bass_guitar3_meas2_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="_bass_guitar3_meas2_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="2" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="_bass_guitar3_meas2_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="_bass_guitar3_voice1">
+            <chord event_ref="_bass_guitar3_meas3_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="_bass_guitar3_meas3_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="2" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="_bass_guitar3_meas3_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="_bass_guitar3_voice1">
+            <chord event_ref="_bass_guitar3_meas4_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="_bass_guitar3_meas4_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="2" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="_bass_guitar3_meas4_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="_bass_guitar3_voice1">
+            <chord event_ref="_bass_guitar3_meas5_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="_bass_guitar3_meas5_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="2" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="_bass_guitar3_meas5_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="_bass_guitar3_voice1">
+            <chord event_ref="_bass_guitar3_meas6_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="_bass_guitar3_meas6_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="2" actual_accidental="flat" />
+              </notehead>
+            </chord>
+            <chord event_ref="_bass_guitar3_meas6_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="3" actual_accidental="flat" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+      </part>
+      <part id="drumset4">
+        <voice_list>
+          <voice_item id="drumset4_voice1" staff_ref="staff5" />
+          <voice_item id="drumset4_voice2" staff_ref="staff5" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="drumset4_voice1">
+            <chord event_ref="drumset4_meas1_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas1_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas1_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas1_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas1_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas1_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas1_voice1_ev7">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="drumset4_voice2">
+            <chord event_ref="drumset4_meas1_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <rest event_ref="drumset4_meas1_voice2_ev2">
+              <duration num="1" den="1">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="drumset4_voice1">
+            <chord event_ref="drumset4_meas2_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas2_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas2_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas2_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas2_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas2_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas2_voice1_ev7">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="drumset4_voice2">
+            <chord event_ref="drumset4_meas2_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <rest event_ref="drumset4_meas2_voice2_ev2">
+              <duration num="1" den="1">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="drumset4_voice1">
+            <chord event_ref="drumset4_meas3_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas3_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas3_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas3_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas3_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas3_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas3_voice1_ev7">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="drumset4_voice2">
+            <chord event_ref="drumset4_meas3_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <rest event_ref="drumset4_meas3_voice2_ev2">
+              <duration num="1" den="1">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="drumset4_voice1">
+            <chord event_ref="drumset4_meas4_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas4_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas4_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas4_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas4_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas4_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas4_voice1_ev7">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="drumset4_voice2">
+            <chord event_ref="drumset4_meas4_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <rest event_ref="drumset4_meas4_voice2_ev2">
+              <duration num="1" den="1">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="drumset4_voice1">
+            <chord event_ref="drumset4_meas5_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas5_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas5_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas5_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas5_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas5_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas5_voice1_ev7">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="drumset4_voice2">
+            <chord event_ref="drumset4_meas5_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <rest event_ref="drumset4_meas5_voice2_ev2">
+              <duration num="1" den="1">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="drumset4_voice1">
+            <chord event_ref="drumset4_meas6_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas6_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas6_voice1_ev3">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas6_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas6_voice1_ev5">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas6_voice1_ev6">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <chord event_ref="drumset4_meas6_voice1_ev7">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="drumset4_voice2">
+            <chord event_ref="drumset4_meas6_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="none" octave="-1" actual_accidental="none" />
+              </notehead>
+            </chord>
+            <rest event_ref="drumset4_meas6_voice2_ev2">
+              <duration num="1" den="1">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+      </part>
+    </los>
+  </logic>
+  <audio>
+    <track file_name="jazz_4et.mp3" file_format="audio_mp3" encoding_format="audio_mp3">
+      <track_indexing timing_type="seconds">
+        <track_event event_ref="clef_staff1_meas2_1440" start_time="0" />
+        <track_event event_ref="keysig_staff1_meas1" start_time="0" />
+        <track_event event_ref="clef_staff2_meas1_240" start_time="0" />
+        <track_event event_ref="keysig_staff2_meas1" start_time="0" />
+        <track_event event_ref="clef_staff3_meas1_0" start_time="0" />
+        <track_event event_ref="keysig_staff3_meas1" start_time="0" />
+        <track_event event_ref="clef_staff4_meas1_0" start_time="0" />
+        <track_event event_ref="keysig_staff4_meas1" start_time="0" />
+        <track_event event_ref="clef_staff5_meas1_0" start_time="0" />
+        <track_event event_ref="keysig_staff5_meas1" start_time="0" />
+        <track_event event_ref="alto_saxophone1_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="piano2_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="piano2_meas1_voice2_ev1" start_time="0" />
+        <track_event event_ref="_bass_guitar3_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="drumset4_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="drumset4_meas1_voice2_ev1" start_time="0" />
+        <track_event event_ref="piano2_meas1_voice1_ev2" start_time="0.18" />
+        <track_event event_ref="piano2_meas1_voice1_ev3" start_time="0.37" />
+        <track_event event_ref="piano2_meas1_voice2_ev2" start_time="0.37" />
+        <track_event event_ref="drumset4_meas1_voice1_ev2" start_time="0.37" />
+        <track_event event_ref="drumset4_meas1_voice2_ev2" start_time="0.37" />
+        <track_event event_ref="piano2_meas1_voice2_ev3" start_time="0.57" />
+        <track_event event_ref="drumset4_meas1_voice1_ev3" start_time="0.57" />
+        <track_event event_ref="piano2_meas1_voice1_ev4" start_time="0.77" />
+        <track_event event_ref="piano2_meas1_voice2_ev4" start_time="0.77" />
+        <track_event event_ref="drumset4_meas1_voice1_ev4" start_time="0.77" />
+        <track_event event_ref="piano2_meas1_voice1_ev5" start_time="1.12" />
+        <track_event event_ref="piano2_meas1_voice2_ev5" start_time="1.12" />
+        <track_event event_ref="_bass_guitar3_meas1_voice1_ev2" start_time="1.12" />
+        <track_event event_ref="drumset4_meas1_voice1_ev5" start_time="1.12" />
+        <track_event event_ref="drumset4_meas1_voice1_ev6" start_time="1.3" />
+        <track_event event_ref="piano2_meas1_voice1_ev6" start_time="1.48" />
+        <track_event event_ref="piano2_meas1_voice2_ev6" start_time="1.48" />
+        <track_event event_ref="_bass_guitar3_meas1_voice1_ev3" start_time="1.48" />
+        <track_event event_ref="drumset4_meas1_voice1_ev7" start_time="1.48" />
+        <track_event event_ref="piano2_meas1_voice1_ev7" start_time="1.64" />
+        <track_event event_ref="alto_saxophone1_meas2_voice1_ev1" start_time="1.8" />
+        <track_event event_ref="piano2_meas2_voice1_ev1" start_time="1.8" />
+        <track_event event_ref="piano2_meas2_voice2_ev1" start_time="1.8" />
+        <track_event event_ref="_bass_guitar3_meas2_voice1_ev1" start_time="1.8" />
+        <track_event event_ref="drumset4_meas2_voice1_ev1" start_time="1.8" />
+        <track_event event_ref="drumset4_meas2_voice2_ev1" start_time="1.8" />
+        <track_event event_ref="piano2_meas2_voice1_ev2" start_time="1.98" />
+        <track_event event_ref="piano2_meas2_voice1_ev3" start_time="2.16" />
+        <track_event event_ref="piano2_meas2_voice2_ev2" start_time="2.16" />
+        <track_event event_ref="drumset4_meas2_voice1_ev2" start_time="2.16" />
+        <track_event event_ref="drumset4_meas2_voice2_ev2" start_time="2.16" />
+        <track_event event_ref="piano2_meas2_voice2_ev3" start_time="2.33" />
+        <track_event event_ref="drumset4_meas2_voice1_ev3" start_time="2.33" />
+        <track_event event_ref="alto_saxophone1_meas2_voice1_ev2" start_time="2.49" />
+        <track_event event_ref="piano2_meas2_voice1_ev4" start_time="2.49" />
+        <track_event event_ref="piano2_meas2_voice2_ev4" start_time="2.49" />
+        <track_event event_ref="drumset4_meas2_voice1_ev4" start_time="2.49" />
+        <track_event event_ref="alto_saxophone1_meas2_voice1_ev3" start_time="2.85" />
+        <track_event event_ref="piano2_meas2_voice1_ev5" start_time="2.85" />
+        <track_event event_ref="piano2_meas2_voice2_ev5" start_time="2.85" />
+        <track_event event_ref="_bass_guitar3_meas2_voice1_ev2" start_time="2.85" />
+        <track_event event_ref="drumset4_meas2_voice1_ev5" start_time="2.85" />
+        <track_event event_ref="alto_saxophone1_meas2_voice1_ev4" start_time="3.01" />
+        <track_event event_ref="drumset4_meas2_voice1_ev6" start_time="3.01" />
+        <track_event event_ref="alto_saxophone1_meas2_voice1_ev5" start_time="3.17" />
+        <track_event event_ref="piano2_meas2_voice1_ev6" start_time="3.17" />
+        <track_event event_ref="piano2_meas2_voice2_ev6" start_time="3.17" />
+        <track_event event_ref="_bass_guitar3_meas2_voice1_ev3" start_time="3.17" />
+        <track_event event_ref="drumset4_meas2_voice1_ev7" start_time="3.17" />
+        <track_event event_ref="alto_saxophone1_meas2_voice1_ev6" start_time="3.36" />
+        <track_event event_ref="piano2_meas2_voice1_ev7" start_time="3.36" />
+        <track_event event_ref="alto_saxophone1_meas3_voice1_ev1" start_time="3.54" />
+        <track_event event_ref="piano2_meas3_voice1_ev1" start_time="3.54" />
+        <track_event event_ref="piano2_meas3_voice2_ev1" start_time="3.54" />
+        <track_event event_ref="_bass_guitar3_meas3_voice1_ev1" start_time="3.54" />
+        <track_event event_ref="drumset4_meas3_voice1_ev1" start_time="3.54" />
+        <track_event event_ref="drumset4_meas3_voice2_ev1" start_time="3.54" />
+        <track_event event_ref="alto_saxophone1_meas3_voice1_ev2" start_time="3.72" />
+        <track_event event_ref="piano2_meas3_voice1_ev2" start_time="3.72" />
+        <track_event event_ref="alto_saxophone1_meas3_voice1_ev3" start_time="3.89" />
+        <track_event event_ref="piano2_meas3_voice1_ev3" start_time="3.89" />
+        <track_event event_ref="piano2_meas3_voice2_ev2" start_time="3.89" />
+        <track_event event_ref="drumset4_meas3_voice1_ev2" start_time="3.89" />
+        <track_event event_ref="drumset4_meas3_voice2_ev2" start_time="3.89" />
+        <track_event event_ref="alto_saxophone1_meas3_voice1_ev4" start_time="4.06" />
+        <track_event event_ref="piano2_meas3_voice2_ev3" start_time="4.06" />
+        <track_event event_ref="drumset4_meas3_voice1_ev3" start_time="4.06" />
+        <track_event event_ref="alto_saxophone1_meas3_voice1_ev5" start_time="4.22" />
+        <track_event event_ref="piano2_meas3_voice1_ev4" start_time="4.22" />
+        <track_event event_ref="piano2_meas3_voice2_ev4" start_time="4.22" />
+        <track_event event_ref="drumset4_meas3_voice1_ev4" start_time="4.22" />
+        <track_event event_ref="alto_saxophone1_meas3_voice1_ev6" start_time="4.59" />
+        <track_event event_ref="piano2_meas3_voice1_ev5" start_time="4.59" />
+        <track_event event_ref="piano2_meas3_voice2_ev5" start_time="4.59" />
+        <track_event event_ref="_bass_guitar3_meas3_voice1_ev2" start_time="4.59" />
+        <track_event event_ref="drumset4_meas3_voice1_ev5" start_time="4.59" />
+        <track_event event_ref="drumset4_meas3_voice1_ev6" start_time="4.76" />
+        <track_event event_ref="alto_saxophone1_meas3_voice1_ev7" start_time="4.93" />
+        <track_event event_ref="piano2_meas3_voice1_ev6" start_time="4.93" />
+        <track_event event_ref="piano2_meas3_voice2_ev6" start_time="4.93" />
+        <track_event event_ref="_bass_guitar3_meas3_voice1_ev3" start_time="4.93" />
+        <track_event event_ref="drumset4_meas3_voice1_ev7" start_time="4.93" />
+        <track_event event_ref="piano2_meas3_voice1_ev7" start_time="5.1" />
+        <track_event event_ref="alto_saxophone1_meas4_voice1_ev1" start_time="5.27" />
+        <track_event event_ref="piano2_meas4_voice1_ev1" start_time="5.27" />
+        <track_event event_ref="piano2_meas4_voice2_ev1" start_time="5.27" />
+        <track_event event_ref="_bass_guitar3_meas4_voice1_ev1" start_time="5.27" />
+        <track_event event_ref="drumset4_meas4_voice1_ev1" start_time="5.27" />
+        <track_event event_ref="drumset4_meas4_voice2_ev1" start_time="5.27" />
+        <track_event event_ref="piano2_meas4_voice1_ev2" start_time="5.45" />
+        <track_event event_ref="piano2_meas4_voice1_ev3" start_time="5.63" />
+        <track_event event_ref="piano2_meas4_voice2_ev2" start_time="5.63" />
+        <track_event event_ref="drumset4_meas4_voice1_ev2" start_time="5.63" />
+        <track_event event_ref="drumset4_meas4_voice2_ev2" start_time="5.63" />
+        <track_event event_ref="piano2_meas4_voice2_ev3" start_time="5.8" />
+        <track_event event_ref="drumset4_meas4_voice1_ev3" start_time="5.8" />
+        <track_event event_ref="piano2_meas4_voice1_ev4" start_time="5.97" />
+        <track_event event_ref="piano2_meas4_voice2_ev4" start_time="5.97" />
+        <track_event event_ref="drumset4_meas4_voice1_ev4" start_time="5.97" />
+        <track_event event_ref="alto_saxophone1_meas4_voice1_ev2" start_time="6.32" />
+        <track_event event_ref="piano2_meas4_voice1_ev5" start_time="6.32" />
+        <track_event event_ref="piano2_meas4_voice2_ev5" start_time="6.32" />
+        <track_event event_ref="_bass_guitar3_meas4_voice1_ev2" start_time="6.32" />
+        <track_event event_ref="drumset4_meas4_voice1_ev5" start_time="6.32" />
+        <track_event event_ref="alto_saxophone1_meas4_voice1_ev3" start_time="6.4" />
+        <track_event event_ref="alto_saxophone1_meas4_voice1_ev4" start_time="6.48" />
+        <track_event event_ref="drumset4_meas4_voice1_ev6" start_time="6.48" />
+        <track_event event_ref="alto_saxophone1_meas4_voice1_ev5" start_time="6.56" />
+        <track_event event_ref="alto_saxophone1_meas4_voice1_ev6" start_time="6.64" />
+        <track_event event_ref="piano2_meas4_voice1_ev6" start_time="6.64" />
+        <track_event event_ref="piano2_meas4_voice2_ev6" start_time="6.64" />
+        <track_event event_ref="_bass_guitar3_meas4_voice1_ev3" start_time="6.64" />
+        <track_event event_ref="drumset4_meas4_voice1_ev7" start_time="6.64" />
+        <track_event event_ref="piano2_meas4_voice1_ev7" start_time="6.82" />
+        <track_event event_ref="alto_saxophone1_meas5_voice1_ev1" start_time="7.01" />
+        <track_event event_ref="piano2_meas5_voice1_ev1" start_time="7.01" />
+        <track_event event_ref="piano2_meas5_voice2_ev1" start_time="7.01" />
+        <track_event event_ref="_bass_guitar3_meas5_voice1_ev1" start_time="7.01" />
+        <track_event event_ref="drumset4_meas5_voice1_ev1" start_time="7.01" />
+        <track_event event_ref="drumset4_meas5_voice2_ev1" start_time="7.01" />
+        <track_event event_ref="piano2_meas5_voice1_ev2" start_time="7.18" />
+        <track_event event_ref="piano2_meas5_voice1_ev3" start_time="7.34" />
+        <track_event event_ref="piano2_meas5_voice2_ev2" start_time="7.34" />
+        <track_event event_ref="drumset4_meas5_voice1_ev2" start_time="7.34" />
+        <track_event event_ref="drumset4_meas5_voice2_ev2" start_time="7.34" />
+        <track_event event_ref="piano2_meas5_voice2_ev3" start_time="7.5" />
+        <track_event event_ref="drumset4_meas5_voice1_ev3" start_time="7.5" />
+        <track_event event_ref="piano2_meas5_voice1_ev4" start_time="7.67" />
+        <track_event event_ref="piano2_meas5_voice2_ev4" start_time="7.67" />
+        <track_event event_ref="drumset4_meas5_voice1_ev4" start_time="7.67" />
+        <track_event event_ref="alto_saxophone1_meas5_voice1_ev2" start_time="8.03" />
+        <track_event event_ref="piano2_meas5_voice1_ev5" start_time="8.03" />
+        <track_event event_ref="piano2_meas5_voice2_ev5" start_time="8.03" />
+        <track_event event_ref="_bass_guitar3_meas5_voice1_ev2" start_time="8.03" />
+        <track_event event_ref="drumset4_meas5_voice1_ev5" start_time="8.03" />
+        <track_event event_ref="alto_saxophone1_meas5_voice1_ev3" start_time="8.11" />
+        <track_event event_ref="alto_saxophone1_meas5_voice1_ev4" start_time="8.2" />
+        <track_event event_ref="drumset4_meas5_voice1_ev6" start_time="8.2" />
+        <track_event event_ref="alto_saxophone1_meas5_voice1_ev5" start_time="8.28" />
+        <track_event event_ref="alto_saxophone1_meas5_voice1_ev6" start_time="8.37" />
+        <track_event event_ref="piano2_meas5_voice1_ev6" start_time="8.37" />
+        <track_event event_ref="piano2_meas5_voice2_ev6" start_time="8.37" />
+        <track_event event_ref="_bass_guitar3_meas5_voice1_ev3" start_time="8.37" />
+        <track_event event_ref="drumset4_meas5_voice1_ev7" start_time="8.37" />
+        <track_event event_ref="piano2_meas5_voice1_ev7" start_time="8.54" />
+        <track_event event_ref="alto_saxophone1_meas6_voice1_ev1" start_time="8.71" />
+        <track_event event_ref="piano2_meas6_voice1_ev1" start_time="8.71" />
+        <track_event event_ref="piano2_meas6_voice2_ev1" start_time="8.71" />
+        <track_event event_ref="_bass_guitar3_meas6_voice1_ev1" start_time="8.71" />
+        <track_event event_ref="drumset4_meas6_voice1_ev1" start_time="8.71" />
+        <track_event event_ref="drumset4_meas6_voice2_ev1" start_time="8.71" />
+        <track_event event_ref="piano2_meas6_voice1_ev2" start_time="8.89" />
+        <track_event event_ref="piano2_meas6_voice1_ev3" start_time="9.07" />
+        <track_event event_ref="piano2_meas6_voice2_ev2" start_time="9.07" />
+        <track_event event_ref="drumset4_meas6_voice1_ev2" start_time="9.07" />
+        <track_event event_ref="drumset4_meas6_voice2_ev2" start_time="9.07" />
+        <track_event event_ref="piano2_meas6_voice2_ev3" start_time="9.24" />
+        <track_event event_ref="drumset4_meas6_voice1_ev3" start_time="9.24" />
+        <track_event event_ref="alto_saxophone1_meas6_voice1_ev2" start_time="9.4" />
+        <track_event event_ref="piano2_meas6_voice1_ev4" start_time="9.4" />
+        <track_event event_ref="piano2_meas6_voice2_ev4" start_time="9.4" />
+        <track_event event_ref="drumset4_meas6_voice1_ev4" start_time="9.4" />
+        <track_event event_ref="piano2_meas6_voice1_ev5" start_time="9.75" />
+        <track_event event_ref="piano2_meas6_voice2_ev5" start_time="9.75" />
+        <track_event event_ref="_bass_guitar3_meas6_voice1_ev2" start_time="9.75" />
+        <track_event event_ref="drumset4_meas6_voice1_ev5" start_time="9.75" />
+        <track_event event_ref="drumset4_meas6_voice1_ev6" start_time="9.92" />
+        <track_event event_ref="piano2_meas6_voice1_ev6" start_time="10.09" />
+        <track_event event_ref="piano2_meas6_voice2_ev6" start_time="10.09" />
+        <track_event event_ref="_bass_guitar3_meas6_voice1_ev3" start_time="10.09" />
+        <track_event event_ref="drumset4_meas6_voice1_ev7" start_time="10.09" />
+        <track_event event_ref="piano2_meas6_voice1_ev7" start_time="10.26" />
+      </track_indexing>
+    </track>
+  </audio>
+</ieee1599>

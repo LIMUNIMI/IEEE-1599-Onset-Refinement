@@ -1,0 +1,1859 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ieee1599 SYSTEM "http://www.lim.di.unimi.it/IEEE/ieee1599.dtd"[]>
+<ieee1599 version="1.0" creator="MuseScore Export Plugin 3.0">
+  <general>
+    <description>
+      <main_title>6 Lieder, Op.48</main_title>
+      <author type="composer">Ludwig van Beethoven</author>
+      <author type="poet">Christian FÃ¼rchtegott Gellert</author>
+    </description>
+  </general>
+  <logic>
+    <spine>
+      <event id="clef_staff1_meas1_960" timing="0" hpos="0" />
+      <event id="keysig_staff1_meas1" timing="0" hpos="0" />
+      <event id="clef_staff2_meas1_960" timing="0" hpos="0" />
+      <event id="keysig_staff2_meas1" timing="0" hpos="0" />
+      <event id="clef_staff3_meas1_0" timing="0" hpos="0" />
+      <event id="keysig_staff3_meas1" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas1_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas1_voice2_ev1" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas1_voice1_ev2" timing="960" hpos="960" />
+      <event id="pianoforte2_meas1_voice1_ev2" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas2_voice1_ev1" timing="960" hpos="960" />
+      <event id="pianoforte2_meas2_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas2_voice2_ev1" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas2_voice1_ev2" timing="960" hpos="960" />
+      <event id="pianoforte2_meas2_voice1_ev2" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas3_voice1_ev1" timing="960" hpos="960" />
+      <event id="pianoforte2_meas3_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas3_voice2_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas3_voice2_ev2" timing="960" hpos="960" />
+      <event id="singstimmeivoicei1_meas3_voice1_ev2" timing="480" hpos="480" />
+      <event id="pianoforte2_meas3_voice1_ev2" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas4_voice1_ev1" timing="480" hpos="480" />
+      <event id="pianoforte2_meas4_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas4_voice2_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas4_voice2_ev2" timing="480" hpos="480" />
+      <event id="pianoforte2_meas4_voice2_ev3" timing="480" hpos="480" />
+      <event id="singstimmeivoicei1_meas4_voice1_ev2" timing="480" hpos="480" />
+      <event id="pianoforte2_meas4_voice1_ev2" timing="0" hpos="0" />
+      <event id="pianoforte2_meas4_voice2_ev4" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas5_voice1_ev1" timing="480" hpos="480" />
+      <event id="pianoforte2_meas5_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas5_voice2_ev1" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas5_voice1_ev2" timing="960" hpos="960" />
+      <event id="pianoforte2_meas5_voice1_ev2" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas6_voice1_ev1" timing="960" hpos="960" />
+      <event id="pianoforte2_meas6_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas6_voice2_ev1" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas6_voice1_ev2" timing="960" hpos="960" />
+      <event id="pianoforte2_meas6_voice1_ev2" timing="0" hpos="0" />
+      <event id="pianoforte2_meas6_voice2_ev2" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas6_voice1_ev3" timing="480" hpos="480" />
+      <event id="pianoforte2_meas6_voice1_ev3" timing="0" hpos="0" />
+      <event id="pianoforte2_meas6_voice2_ev3" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas7_voice1_ev1" timing="480" hpos="480" />
+      <event id="pianoforte2_meas7_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas7_voice2_ev1" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas7_voice1_ev2" timing="480" hpos="480" />
+      <event id="pianoforte2_meas7_voice1_ev2" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas7_voice1_ev3" timing="480" hpos="480" />
+      <event id="pianoforte2_meas7_voice1_ev3" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas7_voice1_ev4" timing="480" hpos="480" />
+      <event id="pianoforte2_meas7_voice1_ev4" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas8_voice1_ev1" timing="480" hpos="480" />
+      <event id="pianoforte2_meas8_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas8_voice2_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas8_voice2_ev2" timing="480" hpos="480" />
+      <event id="pianoforte2_meas8_voice2_ev3" timing="480" hpos="480" />
+      <event id="singstimmeivoicei1_meas8_voice1_ev2" timing="480" hpos="480" />
+      <event id="pianoforte2_meas8_voice1_ev2" timing="0" hpos="0" />
+      <event id="pianoforte2_meas8_voice2_ev4" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas9_voice1_ev1" timing="480" hpos="480" />
+      <event id="pianoforte2_meas9_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas9_voice2_ev1" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas9_voice1_ev2" timing="720" hpos="720" />
+      <event id="pianoforte2_meas9_voice1_ev2" timing="0" hpos="0" />
+      <event id="pianoforte2_meas9_voice2_ev2" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas9_voice1_ev3" timing="240" hpos="240" />
+      <event id="pianoforte2_meas9_voice1_ev3" timing="0" hpos="0" />
+      <event id="pianoforte2_meas9_voice2_ev3" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas9_voice1_ev4" timing="720" hpos="720" />
+      <event id="pianoforte2_meas9_voice1_ev4" timing="0" hpos="0" />
+      <event id="pianoforte2_meas9_voice2_ev4" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas10_voice1_ev1" timing="240" hpos="240" />
+      <event id="pianoforte2_meas10_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas10_voice2_ev1" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas10_voice1_ev2" timing="480" hpos="480" />
+      <event id="pianoforte2_meas10_voice1_ev2" timing="0" hpos="0" />
+      <event id="pianoforte2_meas10_voice2_ev2" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas10_voice1_ev3" timing="480" hpos="480" />
+      <event id="pianoforte2_meas10_voice1_ev3" timing="0" hpos="0" />
+      <event id="pianoforte2_meas10_voice2_ev3" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas10_voice1_ev4" timing="480" hpos="480" />
+      <event id="pianoforte2_meas10_voice1_ev4" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas11_voice1_ev1" timing="480" hpos="480" />
+      <event id="pianoforte2_meas11_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas11_voice2_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas11_voice2_ev2" timing="960" hpos="960" />
+      <event id="singstimmeivoicei1_meas11_voice1_ev2" timing="480" hpos="480" />
+      <event id="pianoforte2_meas11_voice1_ev2" timing="0" hpos="0" />
+      <event id="pianoforte2_meas11_voice2_ev3" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas12_voice1_ev1" timing="480" hpos="480" />
+      <event id="pianoforte2_meas12_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas12_voice2_ev1" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas12_voice1_ev2" timing="1440" hpos="1440" />
+      <event id="pianoforte2_meas12_voice1_ev2" timing="0" hpos="0" />
+      <event id="pianoforte2_meas12_voice2_ev2" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas13_voice1_ev1" timing="480" hpos="480" />
+      <event id="pianoforte2_meas13_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas13_voice2_ev1" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas13_voice1_ev2" timing="960" hpos="960" />
+      <event id="pianoforte2_meas13_voice1_ev2" timing="0" hpos="0" />
+      <event id="pianoforte2_meas13_voice2_ev2" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas14_voice1_ev1" timing="960" hpos="960" />
+      <event id="pianoforte2_meas14_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas14_voice2_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas14_voice1_ev2" timing="480" hpos="480" />
+      <event id="singstimmeivoicei1_meas14_voice1_ev2" timing="480" hpos="480" />
+      <event id="pianoforte2_meas14_voice1_ev3" timing="0" hpos="0" />
+      <event id="pianoforte2_meas14_voice2_ev2" timing="480" hpos="480" />
+      <event id="singstimmeivoicei1_meas15_voice1_ev1" timing="480" hpos="480" />
+      <event id="pianoforte2_meas15_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas15_voice2_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas15_voice1_ev2" timing="480" hpos="480" />
+      <event id="pianoforte2_meas15_voice1_ev3" timing="480" hpos="480" />
+      <event id="pianoforte2_meas15_voice2_ev2" timing="480" hpos="480" />
+      <event id="singstimmeivoicei1_meas16_voice1_ev1" timing="480" hpos="480" />
+      <event id="pianoforte2_meas16_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas16_voice2_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas16_voice1_ev2" timing="480" hpos="480" />
+      <event id="pianoforte2_meas16_voice2_ev2" timing="0" hpos="0" />
+      <event id="pianoforte2_meas16_voice1_ev3" timing="480" hpos="480" />
+      <event id="pianoforte2_meas16_voice2_ev3" timing="0" hpos="0" />
+      <event id="pianoforte2_meas16_voice1_ev4" timing="480" hpos="480" />
+      <event id="pianoforte2_meas16_voice2_ev4" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas17_voice1_ev1" timing="480" hpos="480" />
+      <event id="pianoforte2_meas17_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas17_voice2_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas17_voice1_ev2" timing="480" hpos="480" />
+      <event id="pianoforte2_meas17_voice2_ev2" timing="0" hpos="0" />
+      <event id="pianoforte2_meas17_voice1_ev3" timing="480" hpos="480" />
+      <event id="pianoforte2_meas17_voice2_ev3" timing="0" hpos="0" />
+      <event id="pianoforte2_meas17_voice1_ev4" timing="480" hpos="480" />
+      <event id="pianoforte2_meas17_voice2_ev4" timing="0" hpos="0" />
+      <event id="singstimmeivoicei1_meas18_voice1_ev1" timing="480" hpos="480" />
+      <event id="pianoforte2_meas18_voice1_ev1" timing="0" hpos="0" />
+      <event id="pianoforte2_meas18_voice2_ev1" timing="0" hpos="0" />
+    </spine>
+    <los>
+      <staff_list>
+        <staff id="staff1">
+          <clef event_ref="clef_staff1_meas1_960" shape="G" staff_step="2" />
+          <key_signature event_ref="keysig_staff1_meas1">
+            <sharp_num number="0" />
+          </key_signature>
+        </staff>
+        <staff id="staff2">
+          <clef event_ref="clef_staff2_meas1_960" shape="G" staff_step="2" />
+          <key_signature event_ref="keysig_staff2_meas1">
+            <sharp_num number="0" />
+          </key_signature>
+        </staff>
+        <staff id="staff3">
+          <clef event_ref="clef_staff3_meas1_0" shape="F" staff_step="6" />
+          <key_signature event_ref="keysig_staff3_meas1">
+            <sharp_num number="0" />
+          </key_signature>
+        </staff>
+      </staff_list>
+      <part id="singstimmeivoicei1">
+        <voice_list>
+          <voice_item id="singstimmeivoicei1_voice1" staff_ref="staff1" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <rest event_ref="singstimmeivoicei1_meas1_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+            <chord event_ref="singstimmeivoicei1_meas1_voice1_ev2">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <chord event_ref="singstimmeivoicei1_meas2_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas2_voice1_ev2">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <chord event_ref="singstimmeivoicei1_meas3_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas3_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <chord event_ref="singstimmeivoicei1_meas4_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas4_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <chord event_ref="singstimmeivoicei1_meas5_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas5_voice1_ev2">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <chord event_ref="singstimmeivoicei1_meas6_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas6_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="singstimmeivoicei1_meas6_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="7">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <rest event_ref="singstimmeivoicei1_meas7_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="singstimmeivoicei1_meas7_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+                <printed_accidentals>
+                  <natural />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas7_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas7_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="8">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <chord event_ref="singstimmeivoicei1_meas8_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas8_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="9">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <chord event_ref="singstimmeivoicei1_meas9_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas9_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas9_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas9_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="10">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <chord event_ref="singstimmeivoicei1_meas10_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas10_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="singstimmeivoicei1_meas10_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="singstimmeivoicei1_meas10_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="11">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <chord event_ref="singstimmeivoicei1_meas11_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas11_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="12">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <chord event_ref="singstimmeivoicei1_meas12_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas12_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="13">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <chord event_ref="singstimmeivoicei1_meas13_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="singstimmeivoicei1_meas13_voice1_ev2">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="14">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <chord event_ref="singstimmeivoicei1_meas14_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="singstimmeivoicei1_meas14_voice1_ev2">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="15">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <rest event_ref="singstimmeivoicei1_meas15_voice1_ev1">
+              <duration num="1" den="1">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="16">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <rest event_ref="singstimmeivoicei1_meas16_voice1_ev1">
+              <duration num="1" den="1">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="17">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <rest event_ref="singstimmeivoicei1_meas17_voice1_ev1">
+              <duration num="1" den="1">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="18">
+          <voice voice_item_ref="singstimmeivoicei1_voice1">
+            <rest event_ref="singstimmeivoicei1_meas18_voice1_ev1">
+              <duration num="1" den="1">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+      </part>
+      <part id="pianoforte2">
+        <voice_list>
+          <voice_item id="pianoforte2_voice1" staff_ref="staff2" />
+          <voice_item id="pianoforte2_voice2" staff_ref="staff3" />
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <rest event_ref="pianoforte2_meas1_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+            <chord event_ref="pianoforte2_meas1_voice1_ev2">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas1_voice2_ev1">
+              <duration num="1" den="1">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas2_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas2_voice1_ev2">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas2_voice2_ev1">
+              <duration num="1" den="1">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas3_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas3_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas3_voice2_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas3_voice2_ev2">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas4_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas4_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas4_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas4_voice2_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas4_voice2_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas4_voice2_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="2" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas5_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas5_voice1_ev2">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas5_voice2_ev1">
+              <duration num="1" den="1">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="2" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="A" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas6_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas6_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="pianoforte2_meas6_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas6_voice2_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="2" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas6_voice2_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="pianoforte2_meas6_voice2_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="7">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <rest event_ref="pianoforte2_meas7_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="pianoforte2_meas7_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+                <printed_accidentals>
+                  <natural />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas7_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas7_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <rest event_ref="pianoforte2_meas7_voice2_ev1">
+              <duration num="1" den="1">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="8">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas8_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas8_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <rest event_ref="pianoforte2_meas8_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="pianoforte2_meas8_voice2_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="2" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas8_voice2_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas8_voice2_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="9">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas9_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas9_voice1_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas9_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas9_voice1_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas9_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="G" octave="3" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas9_voice2_ev2">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas9_voice2_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="sharp" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas9_voice2_ev4">
+              <duration num="1" den="8">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="sharp" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="10">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas10_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas10_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="pianoforte2_meas10_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="pianoforte2_meas10_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas10_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="sharp" />
+                <printed_accidentals>
+                  <sharp />
+                </printed_accidentals>
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas10_voice2_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="pianoforte2_meas10_voice2_ev3">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="11">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas11_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas11_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <rest event_ref="pianoforte2_meas11_voice2_ev1">
+              <duration num="1" den="2">
+              </duration>
+            </rest>
+            <chord event_ref="pianoforte2_meas11_voice2_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas11_voice2_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="12">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas12_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas12_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas12_voice2_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="B" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+                <printed_accidentals>
+                  <natural />
+                </printed_accidentals>
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas12_voice2_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="13">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas13_voice1_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas13_voice1_ev2">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas13_voice2_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="A" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas13_voice2_ev2">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="14">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas14_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas14_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas14_voice1_ev3">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas14_voice2_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="C" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas14_voice2_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="15">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas15_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas15_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="4" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas15_voice1_ev3">
+              <duration num="1" den="2">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas15_voice2_ev1">
+              <duration num="1" den="2">
+              </duration>
+              <augmentation_dots number="1" />
+              <notehead>
+                <pitch step="F" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas15_voice2_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="16">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas16_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas16_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="E" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas16_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="A" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas16_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="D" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas16_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="B" octave="2" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas16_voice2_ev2">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas16_voice2_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="F" octave="2" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="F" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <chord event_ref="pianoforte2_meas16_voice2_ev4">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="2" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+        <measure number="17">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas17_voice1_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="pianoforte2_meas17_voice1_ev2">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="pianoforte2_meas17_voice1_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="D" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="B" octave="5" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="pianoforte2_meas17_voice1_ev4">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas17_voice2_ev1">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="pianoforte2_meas17_voice2_ev2">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+            <chord event_ref="pianoforte2_meas17_voice2_ev3">
+              <duration num="1" den="4">
+              </duration>
+              <notehead>
+                <pitch step="G" octave="2" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="3" actual_accidental="natural" />
+              </notehead>
+            </chord>
+            <rest event_ref="pianoforte2_meas17_voice2_ev4">
+              <duration num="1" den="4">
+              </duration>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="18">
+          <voice voice_item_ref="pianoforte2_voice1">
+            <chord event_ref="pianoforte2_meas18_voice1_ev1">
+              <duration num="1" den="1">
+              </duration>
+              <notehead>
+                <pitch step="E" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="G" octave="5" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="6" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+          <voice voice_item_ref="pianoforte2_voice2">
+            <chord event_ref="pianoforte2_meas18_voice2_ev1">
+              <duration num="1" den="1">
+              </duration>
+              <notehead>
+                <pitch step="C" octave="3" actual_accidental="natural" />
+              </notehead>
+              <notehead>
+                <pitch step="C" octave="4" actual_accidental="natural" />
+              </notehead>
+            </chord>
+          </voice>
+        </measure>
+      </part>
+      <lyrics part_ref="singstimmeivoicei1" voice_ref="singstimmeivoicei1_voice1">
+        <syllable start_event_ref="singstimmeivoicei1_meas1_voice1_ev2" hyphen="no">Gott</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas2_voice1_ev1" hyphen="no">ist</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas2_voice1_ev2" hyphen="no">mein</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas3_voice1_ev1" hyphen="no">Lied!</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas3_voice1_ev2" hyphen="no">Er</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas4_voice1_ev1" hyphen="no">ist</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas4_voice1_ev2" hyphen="no">der</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas5_voice1_ev1" hyphen="no">Gott</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas5_voice1_ev2" hyphen="no">der</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas6_voice1_ev1" hyphen="yes">StÃ¤r</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas6_voice1_ev2" hyphen="no">ke;</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas7_voice1_ev2" hyphen="no">hehr</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas7_voice1_ev3" hyphen="no">ist</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas7_voice1_ev4" hyphen="no">sein</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas8_voice1_ev1" hyphen="no">Nam'</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas8_voice1_ev2" hyphen="no">und</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas9_voice1_ev1" hyphen="no">gross</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas9_voice1_ev2" hyphen="no">sindÂ </syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas9_voice1_ev3" hyphen="yes">sei</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas9_voice1_ev4" hyphen="no">ne</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas10_voice1_ev1" hyphen="yes">Wer</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas10_voice1_ev2" hyphen="no">ke,</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas10_voice1_ev4" hyphen="no">und</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas11_voice1_ev1" hyphen="yes">al</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas11_voice1_ev2" hyphen="no">le</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas12_voice1_ev1" hyphen="yes">Him</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas12_voice1_ev2" hyphen="no">mel</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas13_voice1_ev1" hyphen="no">sein</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas13_voice1_ev2" hyphen="yes">Ge</syllable>
+        <syllable start_event_ref="singstimmeivoicei1_meas14_voice1_ev1" hyphen="no">biet.</syllable>
+      </lyrics>
+    </los>
+  </logic>
+  <notational>
+    <graphic_instance_group description="musescore">
+      <graphic_instance file_name="scores\Beethoven_Ludwig_van_-_6_Lieder_Op.48_No.5_-_Gottes_Macht_und_Vorsehung-1.png" file_format="image_png" encoding_format="image_png" position_in_group="1" measurement_unit="pixels">
+        <graphic_event event_ref="singstimmeivoicei1_meas1_voice1_ev1" upper_left_x="788" upper_left_y="752" lower_right_x="850" lower_right_y="798" />
+        <graphic_event event_ref="singstimmeivoicei1_meas1_voice1_ev2" upper_left_x="908" upper_left_y="748" lower_right_x="964" lower_right_y="864" />
+        <graphic_event event_ref="singstimmeivoicei1_meas2_voice1_ev1" upper_left_x="1078" upper_left_y="764" lower_right_x="1128" lower_right_y="866" />
+        <graphic_event event_ref="singstimmeivoicei1_meas2_voice1_ev2" upper_left_x="1230" upper_left_y="716" lower_right_x="1284" lower_right_y="826" />
+        <graphic_event event_ref="singstimmeivoicei1_meas3_voice1_ev1" upper_left_x="1446" upper_left_y="704" lower_right_x="1506" lower_right_y="816" />
+        <graphic_event event_ref="singstimmeivoicei1_meas3_voice1_ev2" upper_left_x="1636" upper_left_y="766" lower_right_x="1690" lower_right_y="866" />
+        <graphic_event event_ref="singstimmeivoicei1_meas4_voice1_ev1" upper_left_x="1754" upper_left_y="746" lower_right_x="1830" lower_right_y="862" />
+        <graphic_event event_ref="singstimmeivoicei1_meas4_voice1_ev2" upper_left_x="2022" upper_left_y="738" lower_right_x="2074" lower_right_y="850" />
+        <graphic_event event_ref="singstimmeivoicei1_meas5_voice1_ev1" upper_left_x="2180" upper_left_y="724" lower_right_x="2236" lower_right_y="840" />
+        <graphic_event event_ref="singstimmeivoicei1_meas5_voice1_ev2" upper_left_x="2296" upper_left_y="686" lower_right_x="2370" lower_right_y="824" />
+        <graphic_event event_ref="singstimmeivoicei1_meas6_voice1_ev1" upper_left_x="2516" upper_left_y="694" lower_right_x="2570" lower_right_y="820" />
+        <graphic_event event_ref="singstimmeivoicei1_meas6_voice1_ev2" upper_left_x="2660" upper_left_y="718" lower_right_x="2708" lower_right_y="826" />
+        <graphic_event event_ref="singstimmeivoicei1_meas6_voice1_ev3" upper_left_x="2736" upper_left_y="734" lower_right_x="2774" lower_right_y="824" />
+        <graphic_event event_ref="singstimmeivoicei1_meas7_voice1_ev1" upper_left_x="322" upper_left_y="1798" lower_right_x="380" lower_right_y="1888" />
+        <graphic_event event_ref="singstimmeivoicei1_meas7_voice1_ev2" upper_left_x="414" upper_left_y="1754" lower_right_x="490" lower_right_y="1890" />
+        <graphic_event event_ref="singstimmeivoicei1_meas7_voice1_ev3" upper_left_x="540" upper_left_y="1804" lower_right_x="594" lower_right_y="1912" />
+        <graphic_event event_ref="singstimmeivoicei1_meas7_voice1_ev4" upper_left_x="656" upper_left_y="1832" lower_right_x="702" lower_right_y="1932" />
+        <graphic_event event_ref="singstimmeivoicei1_meas8_voice1_ev1" upper_left_x="836" upper_left_y="1782" lower_right_x="906" lower_right_y="1894" />
+        <graphic_event event_ref="singstimmeivoicei1_meas8_voice1_ev2" upper_left_x="1088" upper_left_y="1788" lower_right_x="1142" lower_right_y="1904" />
+        <graphic_event event_ref="singstimmeivoicei1_meas9_voice1_ev1" upper_left_x="1226" upper_left_y="1802" lower_right_x="1282" lower_right_y="1914" />
+        <graphic_event event_ref="singstimmeivoicei1_meas9_voice1_ev2" upper_left_x="1374" upper_left_y="1802" lower_right_x="1424" lower_right_y="1918" />
+        <graphic_event event_ref="singstimmeivoicei1_meas9_voice1_ev3" upper_left_x="1464" upper_left_y="1804" lower_right_x="1524" lower_right_y="1914" />
+        <graphic_event event_ref="singstimmeivoicei1_meas9_voice1_ev4" upper_left_x="1614" upper_left_y="1808" lower_right_x="1666" lower_right_y="1912" />
+        <graphic_event event_ref="singstimmeivoicei1_meas10_voice1_ev1" upper_left_x="1750" upper_left_y="1808" lower_right_x="1794" lower_right_y="1910" />
+        <graphic_event event_ref="singstimmeivoicei1_meas10_voice1_ev2" upper_left_x="1846" upper_left_y="1818" lower_right_x="1888" lower_right_y="1922" />
+        <graphic_event event_ref="singstimmeivoicei1_meas10_voice1_ev3" upper_left_x="1934" upper_left_y="1806" lower_right_x="1982" lower_right_y="1886" />
+        <graphic_event event_ref="singstimmeivoicei1_meas10_voice1_ev4" upper_left_x="2036" upper_left_y="1818" lower_right_x="2090" lower_right_y="1920" />
+        <graphic_event event_ref="singstimmeivoicei1_meas11_voice1_ev1" upper_left_x="2174" upper_left_y="1774" lower_right_x="2236" lower_right_y="1888" />
+        <graphic_event event_ref="singstimmeivoicei1_meas11_voice1_ev2" upper_left_x="2374" upper_left_y="1776" lower_right_x="2428" lower_right_y="1892" />
+        <graphic_event event_ref="singstimmeivoicei1_meas12_voice1_ev1" upper_left_x="2498" upper_left_y="1776" lower_right_x="2566" lower_right_y="1888" />
+        <graphic_event event_ref="singstimmeivoicei1_meas12_voice1_ev2" upper_left_x="2714" upper_left_y="1788" lower_right_x="2762" lower_right_y="1906" />
+        <graphic_event event_ref="singstimmeivoicei1_meas13_voice1_ev1" upper_left_x="328" upper_left_y="2862" lower_right_x="392" lower_right_y="2972" />
+        <graphic_event event_ref="singstimmeivoicei1_meas13_voice1_ev2" upper_left_x="520" upper_left_y="2834" lower_right_x="578" lower_right_y="2946" />
+        <graphic_event event_ref="singstimmeivoicei1_meas14_voice1_ev1" upper_left_x="760" upper_left_y="2872" lower_right_x="814" lower_right_y="2978" />
+        <graphic_event event_ref="singstimmeivoicei1_meas14_voice1_ev2" upper_left_x="960" upper_left_y="2880" lower_right_x="1026" lower_right_y="2916" />
+        <graphic_event event_ref="singstimmeivoicei1_meas15_voice1_ev1" upper_left_x="1356" upper_left_y="2874" lower_right_x="1408" lower_right_y="2912" />
+        <graphic_event event_ref="singstimmeivoicei1_meas16_voice1_ev1" upper_left_x="1792" upper_left_y="2872" lower_right_x="1854" lower_right_y="2904" />
+        <graphic_event event_ref="singstimmeivoicei1_meas17_voice1_ev1" upper_left_x="2248" upper_left_y="2874" lower_right_x="2308" lower_right_y="2904" />
+        <graphic_event event_ref="singstimmeivoicei1_meas18_voice1_ev1" upper_left_x="2622" upper_left_y="2874" lower_right_x="2682" lower_right_y="2908" />
+        <graphic_event event_ref="pianoforte2_meas1_voice1_ev1" upper_left_x="788" upper_left_y="1070" lower_right_x="848" lower_right_y="1106" />
+        <graphic_event event_ref="pianoforte2_meas1_voice1_ev2" upper_left_x="910" upper_left_y="996" lower_right_x="972" lower_right_y="1194" />
+        <graphic_event event_ref="pianoforte2_meas2_voice1_ev1" upper_left_x="1076" upper_left_y="1012" lower_right_x="1138" lower_right_y="1210" />
+        <graphic_event event_ref="pianoforte2_meas2_voice1_ev2" upper_left_x="1226" upper_left_y="1026" lower_right_x="1282" lower_right_y="1142" />
+        <graphic_event event_ref="pianoforte2_meas3_voice1_ev1" upper_left_x="1440" upper_left_y="1018" lower_right_x="1502" lower_right_y="1216" />
+        <graphic_event event_ref="pianoforte2_meas3_voice1_ev2" upper_left_x="1630" upper_left_y="1012" lower_right_x="1692" lower_right_y="1210" />
+        <graphic_event event_ref="pianoforte2_meas4_voice1_ev1" upper_left_x="1760" upper_left_y="1006" lower_right_x="1822" lower_right_y="1204" />
+        <graphic_event event_ref="pianoforte2_meas4_voice1_ev2" upper_left_x="2024" upper_left_y="992" lower_right_x="2086" lower_right_y="1190" />
+        <graphic_event event_ref="pianoforte2_meas5_voice1_ev1" upper_left_x="2180" upper_left_y="978" lower_right_x="2242" lower_right_y="1176" />
+        <graphic_event event_ref="pianoforte2_meas5_voice1_ev2" upper_left_x="2297" upper_left_y="1012" lower_right_x="2370" lower_right_y="1210" />
+        <graphic_event event_ref="pianoforte2_meas6_voice1_ev1" upper_left_x="2516" upper_left_y="1002" lower_right_x="2578" lower_right_y="1200" />
+        <graphic_event event_ref="pianoforte2_meas6_voice1_ev2" upper_left_x="2654" upper_left_y="1028" lower_right_x="2710" lower_right_y="1144" />
+        <graphic_event event_ref="pianoforte2_meas6_voice1_ev3" upper_left_x="2728" upper_left_y="1036" lower_right_x="2784" lower_right_y="1152" />
+        <graphic_event event_ref="pianoforte2_meas7_voice1_ev1" upper_left_x="322" upper_left_y="2099" lower_right_x="378" lower_right_y="2213" />
+        <graphic_event event_ref="pianoforte2_meas7_voice1_ev2" upper_left_x="420" upper_left_y="2064" lower_right_x="486" lower_right_y="2195" />
+        <graphic_event event_ref="pianoforte2_meas7_voice1_ev3" upper_left_x="538" upper_left_y="2086" lower_right_x="604" lower_right_y="2217" />
+        <graphic_event event_ref="pianoforte2_meas7_voice1_ev4" upper_left_x="638" upper_left_y="2108" lower_right_x="704" lower_right_y="2239" />
+        <graphic_event event_ref="pianoforte2_meas8_voice1_ev1" upper_left_x="838" upper_left_y="2092" lower_right_x="900" lower_right_y="2290" />
+        <graphic_event event_ref="pianoforte2_meas8_voice1_ev2" upper_left_x="1084" upper_left_y="2086" lower_right_x="1146" lower_right_y="2284" />
+        <graphic_event event_ref="pianoforte2_meas9_voice1_ev1" upper_left_x="1226" upper_left_y="2111" lower_right_x="1288" lower_right_y="2268" />
+        <graphic_event event_ref="pianoforte2_meas9_voice1_ev2" upper_left_x="1384" upper_left_y="2038" lower_right_x="1446" lower_right_y="2236" />
+        <graphic_event event_ref="pianoforte2_meas9_voice1_ev3" upper_left_x="1462" upper_left_y="2042" lower_right_x="1524" lower_right_y="2240" />
+        <graphic_event event_ref="pianoforte2_meas9_voice1_ev4" upper_left_x="1622" upper_left_y="2048" lower_right_x="1684" lower_right_y="2246" />
+        <graphic_event event_ref="pianoforte2_meas10_voice1_ev1" upper_left_x="1740" upper_left_y="2044" lower_right_x="1802" lower_right_y="2242" />
+        <graphic_event event_ref="pianoforte2_meas10_voice1_ev2" upper_left_x="1834" upper_left_y="2046" lower_right_x="1896" lower_right_y="2244" />
+        <graphic_event event_ref="pianoforte2_meas10_voice1_ev3" upper_left_x="1936" upper_left_y="2114" lower_right_x="1984" lower_right_y="2194" />
+        <graphic_event event_ref="pianoforte2_meas10_voice1_ev4" upper_left_x="2034" upper_left_y="2126" lower_right_x="2086" lower_right_y="2230" />
+        <graphic_event event_ref="pianoforte2_meas11_voice1_ev1" upper_left_x="2174" upper_left_y="2068" lower_right_x="2236" lower_right_y="2266" />
+        <graphic_event event_ref="pianoforte2_meas11_voice1_ev2" upper_left_x="2362" upper_left_y="2078" lower_right_x="2424" lower_right_y="2276" />
+        <graphic_event event_ref="pianoforte2_meas12_voice1_ev1" upper_left_x="2496" upper_left_y="2070" lower_right_x="2558" lower_right_y="2268" />
+        <graphic_event event_ref="pianoforte2_meas12_voice1_ev2" upper_left_x="2698" upper_left_y="2080" lower_right_x="2760" lower_right_y="2278" />
+        <graphic_event event_ref="pianoforte2_meas13_voice1_ev1" upper_left_x="338" upper_left_y="3095" lower_right_x="400" lower_right_y="3279" />
+        <graphic_event event_ref="pianoforte2_meas13_voice1_ev2" upper_left_x="524" upper_left_y="3131" lower_right_x="596" lower_right_y="3315" />
+        <graphic_event event_ref="pianoforte2_meas14_voice1_ev1" upper_left_x="762" upper_left_y="3109" lower_right_x="824" lower_right_y="3308" />
+        <graphic_event event_ref="pianoforte2_meas14_voice1_ev2" upper_left_x="862" upper_left_y="3107" lower_right_x="924" lower_right_y="3308" />
+        <graphic_event event_ref="pianoforte2_meas14_voice1_ev3" upper_left_x="956" upper_left_y="3123" lower_right_x="1018" lower_right_y="3307" />
+        <graphic_event event_ref="pianoforte2_meas15_voice1_ev1" upper_left_x="1192" upper_left_y="3117" lower_right_x="1254" lower_right_y="3301" />
+        <graphic_event event_ref="pianoforte2_meas15_voice1_ev2" upper_left_x="1290" upper_left_y="3131" lower_right_x="1352" lower_right_y="3315" />
+        <graphic_event event_ref="pianoforte2_meas15_voice1_ev3" upper_left_x="1382" upper_left_y="3081" lower_right_x="1444" lower_right_y="3265" />
+        <graphic_event event_ref="pianoforte2_meas16_voice1_ev1" upper_left_x="1618" upper_left_y="3081" lower_right_x="1680" lower_right_y="3265" />
+        <graphic_event event_ref="pianoforte2_meas16_voice1_ev2" upper_left_x="1728" upper_left_y="3099" lower_right_x="1790" lower_right_y="3283" />
+        <graphic_event event_ref="pianoforte2_meas16_voice1_ev3" upper_left_x="1842" upper_left_y="3085" lower_right_x="1910" lower_right_y="3269" />
+        <graphic_event event_ref="pianoforte2_meas16_voice1_ev4" upper_left_x="1948" upper_left_y="3093" lower_right_x="2010" lower_right_y="3277" />
+        <graphic_event event_ref="pianoforte2_meas17_voice1_ev1" upper_left_x="2098" upper_left_y="3111" lower_right_x="2160" lower_right_y="3295" />
+        <graphic_event event_ref="pianoforte2_meas17_voice1_ev2" upper_left_x="2192" upper_left_y="3154" lower_right_x="2240" lower_right_y="3234" />
+        <graphic_event event_ref="pianoforte2_meas17_voice1_ev3" upper_left_x="2284" upper_left_y="3117" lower_right_x="2346" lower_right_y="3301" />
+        <graphic_event event_ref="pianoforte2_meas17_voice1_ev4" upper_left_x="2376" upper_left_y="3158" lower_right_x="2424" lower_right_y="3238" />
+        <graphic_event event_ref="pianoforte2_meas18_voice1_ev1" upper_left_x="2528" upper_left_y="3166" lower_right_x="2582" lower_right_y="3270" />
+        <graphic_event event_ref="pianoforte2_meas1_voice2_ev1" upper_left_x="778" upper_left_y="1360" lower_right_x="852" lower_right_y="1490" />
+        <graphic_event event_ref="pianoforte2_meas2_voice2_ev1" upper_left_x="1066" upper_left_y="1310" lower_right_x="1140" lower_right_y="1440" />
+        <graphic_event event_ref="pianoforte2_meas3_voice2_ev1" upper_left_x="1438" upper_left_y="1254" lower_right_x="1500" lower_right_y="1452" />
+        <graphic_event event_ref="pianoforte2_meas3_voice2_ev2" upper_left_x="1558" upper_left_y="1260" lower_right_x="1620" lower_right_y="1458" />
+        <graphic_event event_ref="pianoforte2_meas4_voice2_ev1" upper_left_x="1754" upper_left_y="1274" lower_right_x="1816" lower_right_y="1472" />
+        <graphic_event event_ref="pianoforte2_meas4_voice2_ev2" upper_left_x="1844" upper_left_y="1280" lower_right_x="1906" lower_right_y="1478" />
+        <graphic_event event_ref="pianoforte2_meas4_voice2_ev3" upper_left_x="1932" upper_left_y="1294" lower_right_x="1994" lower_right_y="1492" />
+        <graphic_event event_ref="pianoforte2_meas4_voice2_ev4" upper_left_x="2024" upper_left_y="1304" lower_right_x="2086" lower_right_y="1502" />
+        <graphic_event event_ref="pianoforte2_meas5_voice2_ev1" upper_left_x="2174" upper_left_y="1386" lower_right_x="2248" lower_right_y="1516" />
+        <graphic_event event_ref="pianoforte2_meas6_voice2_ev1" upper_left_x="2524" upper_left_y="1330" lower_right_x="2586" lower_right_y="1528" />
+        <graphic_event event_ref="pianoforte2_meas6_voice2_ev2" upper_left_x="2654" upper_left_y="1260" lower_right_x="2716" lower_right_y="1458" />
+        <graphic_event event_ref="pianoforte2_meas6_voice2_ev3" upper_left_x="2730" upper_left_y="1308" lower_right_x="2786" lower_right_y="1424" />
+        <graphic_event event_ref="pianoforte2_meas7_voice2_ev1" upper_left_x="494" upper_left_y="2394" lower_right_x="560" lower_right_y="2430" />
+        <graphic_event event_ref="pianoforte2_meas8_voice2_ev1" upper_left_x="824" upper_left_y="2369" lower_right_x="880" lower_right_y="2483" />
+        <graphic_event event_ref="pianoforte2_meas8_voice2_ev2" upper_left_x="914" upper_left_y="2426" lower_right_x="980" lower_right_y="2557" />
+        <graphic_event event_ref="pianoforte2_meas8_voice2_ev3" upper_left_x="998" upper_left_y="2366" lower_right_x="1064" lower_right_y="2497" />
+        <graphic_event event_ref="pianoforte2_meas8_voice2_ev4" upper_left_x="1080" upper_left_y="2382" lower_right_x="1146" lower_right_y="2513" />
+        <graphic_event event_ref="pianoforte2_meas9_voice2_ev1" upper_left_x="1201" upper_left_y="2384" lower_right_x="1294" lower_right_y="2520" />
+        <graphic_event event_ref="pianoforte2_meas9_voice2_ev2" upper_left_x="1358" upper_left_y="2350" lower_right_x="1424" lower_right_y="2481" />
+        <graphic_event event_ref="pianoforte2_meas9_voice2_ev3" upper_left_x="1458" upper_left_y="2350" lower_right_x="1524" lower_right_y="2481" />
+        <graphic_event event_ref="pianoforte2_meas9_voice2_ev4" upper_left_x="1600" upper_left_y="2348" lower_right_x="1666" lower_right_y="2479" />
+        <graphic_event event_ref="pianoforte2_meas10_voice2_ev1" upper_left_x="1718" upper_left_y="2326" lower_right_x="1794" lower_right_y="2486" />
+        <graphic_event event_ref="pianoforte2_meas10_voice2_ev2" upper_left_x="1838" upper_left_y="2314" lower_right_x="1898" lower_right_y="2470" />
+        <graphic_event event_ref="pianoforte2_meas10_voice2_ev3" upper_left_x="1936" upper_left_y="2402" lower_right_x="2002" lower_right_y="2438" />
+        <graphic_event event_ref="pianoforte2_meas11_voice2_ev1" upper_left_x="2166" upper_left_y="2404" lower_right_x="2232" lower_right_y="2440" />
+        <graphic_event event_ref="pianoforte2_meas11_voice2_ev2" upper_left_x="2292" upper_left_y="2346" lower_right_x="2354" lower_right_y="2544" />
+        <graphic_event event_ref="pianoforte2_meas11_voice2_ev3" upper_left_x="2368" upper_left_y="2346" lower_right_x="2430" lower_right_y="2544" />
+        <graphic_event event_ref="pianoforte2_meas12_voice2_ev1" upper_left_x="2478" upper_left_y="2344" lower_right_x="2562" lower_right_y="2542" />
+        <graphic_event event_ref="pianoforte2_meas12_voice2_ev2" upper_left_x="2704" upper_left_y="2336" lower_right_x="2766" lower_right_y="2534" />
+        <graphic_event event_ref="pianoforte2_meas13_voice2_ev1" upper_left_x="328" upper_left_y="3379" lower_right_x="390" lower_right_y="3563" />
+        <graphic_event event_ref="pianoforte2_meas13_voice2_ev2" upper_left_x="512" upper_left_y="3371" lower_right_x="574" lower_right_y="3555" />
+        <graphic_event event_ref="pianoforte2_meas14_voice2_ev1" upper_left_x="762" upper_left_y="3413" lower_right_x="830" lower_right_y="3597" />
+        <graphic_event event_ref="pianoforte2_meas14_voice2_ev2" upper_left_x="1060" upper_left_y="3391" lower_right_x="1122" lower_right_y="3575" />
+        <graphic_event event_ref="pianoforte2_meas15_voice2_ev1" upper_left_x="1198" upper_left_y="3381" lower_right_x="1266" lower_right_y="3565" />
+        <graphic_event event_ref="pianoforte2_meas15_voice2_ev2" upper_left_x="1474" upper_left_y="3403" lower_right_x="1536" lower_right_y="3587" />
+        <graphic_event event_ref="pianoforte2_meas16_voice2_ev1" upper_left_x="1614" upper_left_y="3425" lower_right_x="1676" lower_right_y="3609" />
+        <graphic_event event_ref="pianoforte2_meas16_voice2_ev2" upper_left_x="1728" upper_left_y="3417" lower_right_x="1790" lower_right_y="3616" />
+        <graphic_event event_ref="pianoforte2_meas16_voice2_ev3" upper_left_x="1834" upper_left_y="3461" lower_right_x="1896" lower_right_y="3660" />
+        <graphic_event event_ref="pianoforte2_meas16_voice2_ev4" upper_left_x="1946" upper_left_y="3449" lower_right_x="2008" lower_right_y="3648" />
+        <graphic_event event_ref="pianoforte2_meas17_voice2_ev1" upper_left_x="2094" upper_left_y="3413" lower_right_x="2156" lower_right_y="3612" />
+        <graphic_event event_ref="pianoforte2_meas17_voice2_ev2" upper_left_x="2190" upper_left_y="3436" lower_right_x="2238" lower_right_y="3516" />
+        <graphic_event event_ref="pianoforte2_meas17_voice2_ev3" upper_left_x="2282" upper_left_y="3436" lower_right_x="2354" lower_right_y="3652" />
+        <graphic_event event_ref="pianoforte2_meas17_voice2_ev4" upper_left_x="2380" upper_left_y="3436" lower_right_x="2428" lower_right_y="3516" />
+        <graphic_event event_ref="pianoforte2_meas18_voice2_ev1" upper_left_x="2518" upper_left_y="3472" lower_right_x="2586" lower_right_y="3606" />
+      </graphic_instance>
+    </graphic_instance_group>
+  </notational>
+  <audio>
+    <track file_name="piano1.mp3" file_format="audio_mp3" encoding_format="audio_mp3">
+      <track_indexing timing_type="seconds">
+        <track_event event_ref="clef_staff1_meas1_960" start_time="0" />
+        <track_event event_ref="keysig_staff1_meas1" start_time="0" />
+        <track_event event_ref="clef_staff2_meas1_960" start_time="0" />
+        <track_event event_ref="keysig_staff2_meas1" start_time="0" />
+        <track_event event_ref="clef_staff3_meas1_0" start_time="0" />
+        <track_event event_ref="keysig_staff3_meas1" start_time="0" />
+        <track_event event_ref="singstimmeivoicei1_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="pianoforte2_meas1_voice1_ev1" start_time="0" />
+        <track_event event_ref="pianoforte2_meas1_voice2_ev1" start_time="0" />
+        <track_event event_ref="singstimmeivoicei1_meas1_voice1_ev2" start_time="0.95" />
+        <track_event event_ref="pianoforte2_meas1_voice1_ev2" start_time="0.95" />
+        <track_event event_ref="singstimmeivoicei1_meas2_voice1_ev1" start_time="1.83" />
+        <track_event event_ref="pianoforte2_meas2_voice1_ev1" start_time="1.83" />
+        <track_event event_ref="pianoforte2_meas2_voice2_ev1" start_time="1.83" />
+        <track_event event_ref="singstimmeivoicei1_meas2_voice1_ev2" start_time="2.71" />
+        <track_event event_ref="pianoforte2_meas2_voice1_ev2" start_time="2.71" />
+        <track_event event_ref="singstimmeivoicei1_meas3_voice1_ev1" start_time="3.53" />
+        <track_event event_ref="pianoforte2_meas3_voice1_ev1" start_time="3.53" />
+        <track_event event_ref="pianoforte2_meas3_voice2_ev1" start_time="3.53" />
+        <track_event event_ref="pianoforte2_meas3_voice2_ev2" start_time="4.37" />
+        <track_event event_ref="singstimmeivoicei1_meas3_voice1_ev2" start_time="4.8" />
+        <track_event event_ref="pianoforte2_meas3_voice1_ev2" start_time="4.8" />
+        <track_event event_ref="singstimmeivoicei1_meas4_voice1_ev1" start_time="5.23" />
+        <track_event event_ref="pianoforte2_meas4_voice1_ev1" start_time="5.23" />
+        <track_event event_ref="pianoforte2_meas4_voice2_ev1" start_time="5.23" />
+        <track_event event_ref="pianoforte2_meas4_voice2_ev2" start_time="5.65" />
+        <track_event event_ref="pianoforte2_meas4_voice2_ev3" start_time="6.07" />
+        <track_event event_ref="singstimmeivoicei1_meas4_voice1_ev2" start_time="6.5" />
+        <track_event event_ref="pianoforte2_meas4_voice1_ev2" start_time="6.5" />
+        <track_event event_ref="pianoforte2_meas4_voice2_ev4" start_time="6.5" />
+        <track_event event_ref="singstimmeivoicei1_meas5_voice1_ev1" start_time="6.92" />
+        <track_event event_ref="pianoforte2_meas5_voice1_ev1" start_time="6.92" />
+        <track_event event_ref="pianoforte2_meas5_voice2_ev1" start_time="6.92" />
+        <track_event event_ref="singstimmeivoicei1_meas5_voice1_ev2" start_time="7.78" />
+        <track_event event_ref="pianoforte2_meas5_voice1_ev2" start_time="7.78" />
+        <track_event event_ref="singstimmeivoicei1_meas6_voice1_ev1" start_time="8.65" />
+        <track_event event_ref="pianoforte2_meas6_voice1_ev1" start_time="8.65" />
+        <track_event event_ref="pianoforte2_meas6_voice2_ev1" start_time="8.65" />
+        <track_event event_ref="singstimmeivoicei1_meas6_voice1_ev2" start_time="9.51" />
+        <track_event event_ref="pianoforte2_meas6_voice1_ev2" start_time="9.51" />
+        <track_event event_ref="pianoforte2_meas6_voice2_ev2" start_time="9.51" />
+        <track_event event_ref="singstimmeivoicei1_meas6_voice1_ev3" start_time="9.94" />
+        <track_event event_ref="pianoforte2_meas6_voice1_ev3" start_time="9.94" />
+        <track_event event_ref="pianoforte2_meas6_voice2_ev3" start_time="9.94" />
+        <track_event event_ref="singstimmeivoicei1_meas7_voice1_ev1" start_time="10.37" />
+        <track_event event_ref="pianoforte2_meas7_voice1_ev1" start_time="10.37" />
+        <track_event event_ref="pianoforte2_meas7_voice2_ev1" start_time="10.37" />
+        <track_event event_ref="singstimmeivoicei1_meas7_voice1_ev2" start_time="10.78" />
+        <track_event event_ref="pianoforte2_meas7_voice1_ev2" start_time="10.78" />
+        <track_event event_ref="singstimmeivoicei1_meas7_voice1_ev3" start_time="11.21" />
+        <track_event event_ref="pianoforte2_meas7_voice1_ev3" start_time="11.21" />
+        <track_event event_ref="singstimmeivoicei1_meas7_voice1_ev4" start_time="11.63" />
+        <track_event event_ref="pianoforte2_meas7_voice1_ev4" start_time="11.63" />
+        <track_event event_ref="singstimmeivoicei1_meas8_voice1_ev1" start_time="12.07" />
+        <track_event event_ref="pianoforte2_meas8_voice1_ev1" start_time="12.07" />
+        <track_event event_ref="pianoforte2_meas8_voice2_ev1" start_time="12.07" />
+        <track_event event_ref="pianoforte2_meas8_voice2_ev2" start_time="12.47" />
+        <track_event event_ref="pianoforte2_meas8_voice2_ev3" start_time="12.93" />
+        <track_event event_ref="singstimmeivoicei1_meas8_voice1_ev2" start_time="13.35" />
+        <track_event event_ref="pianoforte2_meas8_voice1_ev2" start_time="13.35" />
+        <track_event event_ref="pianoforte2_meas8_voice2_ev4" start_time="13.35" />
+        <track_event event_ref="singstimmeivoicei1_meas9_voice1_ev1" start_time="13.77" />
+        <track_event event_ref="pianoforte2_meas9_voice1_ev1" start_time="13.77" />
+        <track_event event_ref="pianoforte2_meas9_voice2_ev1" start_time="13.77" />
+        <track_event event_ref="singstimmeivoicei1_meas9_voice1_ev2" start_time="14.42" />
+        <track_event event_ref="pianoforte2_meas9_voice1_ev2" start_time="14.42" />
+        <track_event event_ref="pianoforte2_meas9_voice2_ev2" start_time="14.42" />
+        <track_event event_ref="singstimmeivoicei1_meas9_voice1_ev3" start_time="14.63" />
+        <track_event event_ref="pianoforte2_meas9_voice1_ev3" start_time="14.63" />
+        <track_event event_ref="pianoforte2_meas9_voice2_ev3" start_time="14.63" />
+        <track_event event_ref="singstimmeivoicei1_meas9_voice1_ev4" start_time="15.28" />
+        <track_event event_ref="pianoforte2_meas9_voice1_ev4" start_time="15.28" />
+        <track_event event_ref="pianoforte2_meas9_voice2_ev4" start_time="15.28" />
+        <track_event event_ref="singstimmeivoicei1_meas10_voice1_ev1" start_time="15.48" />
+        <track_event event_ref="pianoforte2_meas10_voice1_ev1" start_time="15.48" />
+        <track_event event_ref="pianoforte2_meas10_voice2_ev1" start_time="15.48" />
+        <track_event event_ref="singstimmeivoicei1_meas10_voice1_ev2" start_time="15.9" />
+        <track_event event_ref="pianoforte2_meas10_voice1_ev2" start_time="15.9" />
+        <track_event event_ref="pianoforte2_meas10_voice2_ev2" start_time="15.9" />
+        <track_event event_ref="singstimmeivoicei1_meas10_voice1_ev3" start_time="16.34" />
+        <track_event event_ref="pianoforte2_meas10_voice1_ev3" start_time="16.34" />
+        <track_event event_ref="pianoforte2_meas10_voice2_ev3" start_time="16.34" />
+        <track_event event_ref="singstimmeivoicei1_meas10_voice1_ev4" start_time="16.76" />
+        <track_event event_ref="pianoforte2_meas10_voice1_ev4" start_time="16.76" />
+        <track_event event_ref="singstimmeivoicei1_meas11_voice1_ev1" start_time="17.18" />
+        <track_event event_ref="pianoforte2_meas11_voice1_ev1" start_time="17.18" />
+        <track_event event_ref="pianoforte2_meas11_voice2_ev1" start_time="17.18" />
+        <track_event event_ref="pianoforte2_meas11_voice2_ev2" start_time="18.06" />
+        <track_event event_ref="singstimmeivoicei1_meas11_voice1_ev2" start_time="18.5" />
+        <track_event event_ref="pianoforte2_meas11_voice1_ev2" start_time="18.5" />
+        <track_event event_ref="pianoforte2_meas11_voice2_ev3" start_time="18.5" />
+        <track_event event_ref="singstimmeivoicei1_meas12_voice1_ev1" start_time="18.94" />
+        <track_event event_ref="pianoforte2_meas12_voice1_ev1" start_time="18.94" />
+        <track_event event_ref="pianoforte2_meas12_voice2_ev1" start_time="18.94" />
+        <track_event event_ref="singstimmeivoicei1_meas12_voice1_ev2" start_time="20.23" />
+        <track_event event_ref="pianoforte2_meas12_voice1_ev2" start_time="20.23" />
+        <track_event event_ref="pianoforte2_meas12_voice2_ev2" start_time="20.23" />
+        <track_event event_ref="singstimmeivoicei1_meas13_voice1_ev1" start_time="20.65" />
+        <track_event event_ref="pianoforte2_meas13_voice1_ev1" start_time="20.65" />
+        <track_event event_ref="pianoforte2_meas13_voice2_ev1" start_time="20.65" />
+        <track_event event_ref="singstimmeivoicei1_meas13_voice1_ev2" start_time="21.49" />
+        <track_event event_ref="pianoforte2_meas13_voice1_ev2" start_time="21.49" />
+        <track_event event_ref="pianoforte2_meas13_voice2_ev2" start_time="21.49" />
+        <track_event event_ref="singstimmeivoicei1_meas14_voice1_ev1" start_time="22.36" />
+        <track_event event_ref="pianoforte2_meas14_voice1_ev1" start_time="22.36" />
+        <track_event event_ref="pianoforte2_meas14_voice2_ev1" start_time="22.36" />
+        <track_event event_ref="pianoforte2_meas14_voice1_ev2" start_time="22.79" />
+        <track_event event_ref="singstimmeivoicei1_meas14_voice1_ev2" start_time="23.21" />
+        <track_event event_ref="pianoforte2_meas14_voice1_ev3" start_time="23.21" />
+        <track_event event_ref="pianoforte2_meas14_voice2_ev2" start_time="23.65" />
+        <track_event event_ref="singstimmeivoicei1_meas15_voice1_ev1" start_time="24.06" />
+        <track_event event_ref="pianoforte2_meas15_voice1_ev1" start_time="24.06" />
+        <track_event event_ref="pianoforte2_meas15_voice2_ev1" start_time="24.06" />
+        <track_event event_ref="pianoforte2_meas15_voice1_ev2" start_time="24.5" />
+        <track_event event_ref="pianoforte2_meas15_voice1_ev3" start_time="24.92" />
+        <track_event event_ref="pianoforte2_meas15_voice2_ev2" start_time="25.33" />
+        <track_event event_ref="singstimmeivoicei1_meas16_voice1_ev1" start_time="25.76" />
+        <track_event event_ref="pianoforte2_meas16_voice1_ev1" start_time="25.76" />
+        <track_event event_ref="pianoforte2_meas16_voice2_ev1" start_time="25.76" />
+        <track_event event_ref="pianoforte2_meas16_voice1_ev2" start_time="26.2" />
+        <track_event event_ref="pianoforte2_meas16_voice2_ev2" start_time="26.2" />
+        <track_event event_ref="pianoforte2_meas16_voice1_ev3" start_time="26.62" />
+        <track_event event_ref="pianoforte2_meas16_voice2_ev3" start_time="26.62" />
+        <track_event event_ref="pianoforte2_meas16_voice1_ev4" start_time="27.06" />
+        <track_event event_ref="pianoforte2_meas16_voice2_ev4" start_time="27.06" />
+        <track_event event_ref="singstimmeivoicei1_meas17_voice1_ev1" start_time="27.48" />
+        <track_event event_ref="pianoforte2_meas17_voice1_ev1" start_time="27.48" />
+        <track_event event_ref="pianoforte2_meas17_voice2_ev1" start_time="27.48" />
+        <track_event event_ref="pianoforte2_meas17_voice1_ev2" start_time="27.9" />
+        <track_event event_ref="pianoforte2_meas17_voice2_ev2" start_time="27.9" />
+        <track_event event_ref="pianoforte2_meas17_voice1_ev3" start_time="28.36" />
+        <track_event event_ref="pianoforte2_meas17_voice2_ev3" start_time="28.36" />
+        <track_event event_ref="pianoforte2_meas17_voice1_ev4" start_time="28.78" />
+        <track_event event_ref="pianoforte2_meas17_voice2_ev4" start_time="28.78" />
+        <track_event event_ref="singstimmeivoicei1_meas18_voice1_ev1" start_time="29.21" />
+        <track_event event_ref="pianoforte2_meas18_voice1_ev1" start_time="29.21" />
+        <track_event event_ref="pianoforte2_meas18_voice2_ev1" start_time="29.21" />
+      </track_indexing>
+    </track>
+  </audio>
+</ieee1599>
