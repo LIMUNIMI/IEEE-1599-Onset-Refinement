@@ -1,0 +1,3 @@
+- input IEEE 1599 document has to be placed at the first level of \xml-docs folder
+- input audio track has to be placed at the first level of \audio folder
+- output synchronized IEEE 1599 document will be be placed in \xml-docs-output folder
