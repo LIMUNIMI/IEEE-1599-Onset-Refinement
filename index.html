@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="author" content="Alessandro Minoli">
-    <title>Musical Onset Detection</title>
+    <title>IEEE 1599 Audio Synchronization</title>
 
     <!-- Stylesheets -->
     <link href="style/style.css" rel="stylesheet" type="text/css" />
@@ -14,19 +14,15 @@
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 
-    <!-- Scripts -->
-    <script src="nayuki-fft/fft.js"></script>
-    <script src="window-function/apply.js"></script>
-    <script src="window-function/hamming.js"></script>
-    <script src="moving-median/median.js"></script>
+    <!-- Plotly.js -->
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <!-- IEEE1599 Framework -->
     <script src="ieee1599-framework/utils.js"></script>
     <script src="ieee1599-framework/IEEE1599.js"></script>
 
 </head>
 <body>
-
-
     <div class="main_container"> 
         <!-- header start -->
         <div class="header_pages">
@@ -40,60 +36,146 @@
 
             <p><span class="huge_title">Un applicativo web di Onset detection per la <br>sincronizzazione audio di documenti IEEE 1599</span></p>
             
-            <p>Gli script "ieee1599-framework/IEEE1599.js" e "ieee1599-framework/utils.js" non sono stati caricati su Github ma vengono inclusi in index.html ed è indispensabile averli per poter eseguire il codice.</p>
+            <p><span class="big_title">Input : </span></p>
 
-            <p><span class="big_title">Input: </span></p>
-
-            <form action="javascript:void(0);" id="input_form">
-                
-                <p style="margin-bottom:25px;">
-                    <label for="track_path" style="margin-bottom:10px; display:block;">Seleziona path per la traccia audio da analizzare :</label>
-                    <input type="file" id="track_path" name="track_path" accept="audio/*" required>
-                </p>
-
-                <p style="margin-bottom:25px;">
-                    <label for="signal_type" style="margin-bottom:10px; display:block;">Seleziona il tipo della traccia audio da analizzare :</label>
-                    <input type="radio" id="cm" name="signal_type" value="cm" checked>
-                    <label for="cm">complex mixture</label><br>
-                    <input type="radio" id="np" name="signal_type" value="np">
-                    <label for="np">non-pitched percussive (drums, ...)</label><br>
-                    <input type="radio" id="pp" name="signal_type" value="pp">
-                    <label for="pp">pitched percussive (piano, guitar ...)</label><br>
-                    <input type="radio" id="pn" name="signal_type" value="pn">
-                    <label for="pn">pitched non-percussive (violin ...)</label>
-                </p>
-
-                <p name="xml_path" style="margin-bottom:25px;">
-                    <label for="xml_path" style="margin-bottom:10px; display:block;">Seleziona path per il documento XML IEEE 1599 da modificare :</label>
-                    <input type="file" id="xml_path" name="xml_path" accept=".xml" required>
-                </p>
-
-                <p name="track_file_name_xml" style="margin-bottom:25px;">
-                    <label for="track_file_name_xml" style="margin-bottom:10px; display:block;">Inserisci l'attributo file_name della traccia di cui ci occuparsi sul documento XML IEEE 1599 :</label>
-                    <input type="text" id="track_file_name_xml" name="track_file_name_xml" required>
-                </p>
-                
-                <input type="submit" value="VAI">
-                <input type="reset">
-
-            </form>
-
-            <p><span class="big_title">Output: </span></p>
-
-            <p id="log">Nella console del browser appariranno tutte le info sull'esecuzione del codice.</p>
-
-            <img id="spinner" src="style/images/loader.gif" style="display:none; margin-left:auto; margin-right:auto;">
-
-            <!--<div id="result"></div>-->
-
-            <p id="slider_p" style="display:none;">
-                Regola la soglia tramite lo slider, attualmente delta = <span id="slider_value"></span><br>
-                <input type="range" min="0" max="200" value="0" id="slider"><br>
-                <button type="button" id="slider_submit">OK!</button>
+            <p class="mb25">
+                <label for="mode" class="mb10" style="display:block;"><b>Modalità d'uso :</b></label>
+                <input type="radio" id="use" name="mode" value="use" checked>
+                <label for="use">sincronizza un documento IEEE 1599</label><br>
+                <input type="radio" id="test" name="mode" value="test">
+                <label for="test">replica i test discussi nell'elaborato</label>
             </p>
 
+            <form action="javascript:void(0);" id="use_mode_input">
+
+                 <p class="mb25">
+                    <label for="xml_file_name" class="mb10" style="display:block;"><b>Seleziona il documento IEEE 1599 da sincronizzare :</b></label>
+                    <input type="file" id="xml_file_name" name="xml_file_name" accept=".xml" required>
+                </p>
+                <p id="xml_file_name_error" class="mb25" style="color:red;"></p>
+
+                <p class="mb25">
+                    <label for="track_file_name" class="mb10" style="display:block;"><b>Seleziona la traccia audio da analizzare :</b></label>
+                    <input type="file" id="track_file_name" name="track_file_name" accept="audio/*" required>
+                </p>
+
+                <p class="mb25">
+                    <label for="track_type" class="mb10" style="display:block;"><b>Seleziona il tipo di traccia audio :</b> </label>
+                    <input type="radio" id="p" name="track_type" value="p" checked>
+                    <label for="p">con attacchi delle note marcati (es. strumenti a tastiera, percussioni)</label><br>
+                    <input type="radio" id="np" name="track_type" value="np">
+                    <label for="np">con attacchi delle note soft, poco definiti (es. archi, fiati)</label>
+                </p>
+
+                <p id="p_track_file_name_attribute_on_xml" class="mb25" style="display:none;">
+                    <label for="track_file_name_attribute_on_xml" class="mb10" style="display:block;"><b>Seleziona l'attributo file_name della traccia da sincronizzare sul documento :</b></label>
+                    <select id="track_file_name_attribute_on_xml" name="track_file_name_attribute_on_xml"></select>
+                </p>
+                <input type="submit" id="use_mode_submit" value="VAI">
+                <input type="reset">
+            </form>
+
+            <form action="javascript:void(0);" id="test_mode_input" style="display:none;">
+                <!-- test mode -->
+                <label for="input"><b>Seleziona un input da analizzare :</b></label>
+                    <p>
+                        <p class="ml10">Documenti di test</p>
+                        <input type="radio" id="piano1" name="input" value="piano1" checked>
+                        <label for="piano1">piano1 (PP)</label><br>
+
+                        <input type="radio" id="piano2" name="input" value="piano2">
+                        <label for="piano2">piano2 (PP)</label><br>
+
+                        <input type="radio" id="violin1" name="input" value="violin1">
+                        <label for="violin1">violin1 (PNP)</label><br>
+
+                        <input type="radio" id="violin2" name="input" value="violin2">
+                        <label for="violin2">violin2 (PNP)</label><br>
+
+                        <input type="radio" id="sax" name="input" value="sax">
+                        <label for="sax">sax (PNP)</label><br>
+
+                         <input type="radio" id="string_4et" name="input" value="string_4et">
+                        <label for="string_4et">string_quartet (CM, PNP)</label><br>
+
+                        <input type="radio" id="trumpet_4et" name="input" value="trumpet_4et">
+                        <label for="trumpet_4et">trumpet_quartet (CM, PNP)</label><br>
+
+                        <input type="radio" id="jazz_4tet" name="input" value="jazz_4et">
+                        <label for="jazz_4et">jazz_quartet (CM, PP)</label><br>
+
+                       <p class="ml10">Dataset Onset_Leveau</p>
+                        <input type="radio" id="leveau_cello1" name="input" value="leveau_cello1">
+                        <label for="leveau_cello1">cello1</label><br>
+
+                        <input type="radio" id="leveau_clarinet1" name="input" value="leveau_clarinet1">
+                        <label for="leveau_clarinet1">clarinet1</label><br>
+
+                        <input type="radio" id="leveau_classic2" name="input" value="leveau_classic2">
+                        <label for="leveau_classic2">classic2</label><br>
+
+                        <input type="radio" id="leveau_classic3" name="input" value="leveau_classic3">
+                        <label for="leveau_classic3">classic3</label><br>
+
+                        <input type="radio" id="leveau_distguit1" name="input" value="leveau_distguit1">
+                        <label for="leveau_distguit1">distguit1</label><br>
+
+                        <input type="radio" id="leveau_guitar2" name="input" value="leveau_guitar2">
+                        <label for="leveau_guitar2">guitar2</label><br>
+
+                        <input type="radio" id="leveau_guitar3" name="input" value="leveau_guitar3">
+                        <label for="leveau_guitar3">guitar3</label><br>
+
+                        <input type="radio" id="leveau_jazz2" name="input" value="leveau_jazz2">
+                        <label for="leveau_jazz2">jazz2</label><br>
+
+                        <input type="radio" id="leveau_jazz3" name="input" value="leveau_jazz3">
+                        <label for="leveau_jazz3">jazz3</label><br>
+
+                        <input type="radio" id="leveau_piano1" name="input" value="leveau_piano1">
+                        <label for="leveau_piano1">piano1</label><br>
+
+                        <input type="radio" id="leveau_pop1" name="input" value="leveau_pop1">
+                        <label for="leveau_pop1">pop1</label><br>
+
+                        <input type="radio" id="leveau_rock1" name="input" value="leveau_rock1">
+                        <label for="leveau_rock1">rock1</label><br>
+
+                        <input type="radio" id="leveau_sax1" name="input" value="leveau_sax1">
+                        <label for="leveau_sax1">sax1</label><br>
+
+                        <input type="radio" id="leveau_synthbass1" name="input" value="leveau_synthbass1">
+                        <label for="leveau_synthbass1">synthbass1</label><br>
+
+                        <input type="radio" id="leveau_techno2" name="input" value="leveau_techno2">
+                        <label for="leveau_techno2">techno2</label><br>
+
+                        <input type="radio" id="leveau_trumpet1" name="input" value="leveau_trumpet1">
+                        <label for="leveau_trumpet1">trumpet1</label><br>
+
+                        <input type="radio" id="leveau_violin2" name="input" value="leveau_violin2">
+                        <label for="leveau_violin2">violin2</label>  
+                    </p>
+
+                <input type="submit" value="VAI">
+                <input type="reset">
+                    
+            </form>
+
+            
+            <p><span class="big_title">Output: </span></p>
+
+            <p id="log">Nella console del browser appariranno delle info sullo stato di esecuzione della sincronizzazione.</p>
+
+            <span id="spinner" class="spinner"></span>
+
+            <div id="result"></div>
             <div id="df_threshold"></div>
             <div id="df_peaks"></div>
+            
+            <p id="evaluation_stats"></p>
+            <div id="evaluation"></div>
+
 
         </div>
         <!-- contents end --> 
@@ -101,14 +183,12 @@
         <!-- footer start -->
         <div class="footer">
             <div>
-                <p>Alessandro Minoli, <a href="mailto:alessandro.minoli@studenti.unimi.it">alessandro.minoli@studenti.unimi.it</a></p>
+                <p>2022 - Alessandro Minoli, <a href="mailto:alessandro.minoli@studenti.unimi.it">alessandro.minoli@studenti.unimi.it</a></p>
             </div>
         </div>  
         <!-- footer end -->  
     </div>
     
-    <script src="onset-detection-correction/globals.js"></script>
-    <script src="onset-detection-correction/utils.js"></script>
-	<script src="main.js" type="module"></script>  
+    <script src="main.js" type="module"></script>
 
 </body>
